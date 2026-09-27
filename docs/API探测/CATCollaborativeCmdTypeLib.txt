@@ -1,0 +1,9 @@
+# D:\Programs\CATIA\win_b64\code\bin\CATCollaborativeCmdTypeLib.tlb
+# 库名: CATCollaborativeCmd
+# 说明: CATIA V5 CATCollaborativeCmdInterfaces Object Library
+# 属性: (IID('{1DF4C971-8D35-11D4-8386-000629D03C44}'), 0, 1, 0, 0, 8)
+
+== #0 ENUM: foo_CATCollaborativeCmdInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_CATCollaborativeCmdInterfaces
+        foo_CATCollaborativeCmdInterfaces = 0

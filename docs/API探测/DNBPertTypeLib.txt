@@ -1,0 +1,46 @@
+# D:\Programs\CATIA\win_b64\code\bin\DNBPertTypeLib.tlb
+# 库名: DNBPert
+# 说明: CATIA V5 DNBGraphEditor Object Library
+# 属性: (IID('{EB4E9CFF-0CC4-11D5-AD27-00B0D078AB86}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: PertNode
+    iid={CE3E2806-F85E-11D4-AD1C-00B0D078AB86}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        SetLocation(xx, yy)
+    [1610940417] FUNC        GetLocation(xx, yy)
+    [1610940418] FUNC        SetIcon(iFileName)
+
+== #1 ALIAS: DNBIAPertNode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #2 ENUM: foo_DNBGraphEditor
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_DNBGraphEditor
+        foo_DNBGraphEditor = 0
+
+== #3 MODULE: IID_DNBGraphEditor
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=1  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_PertNode

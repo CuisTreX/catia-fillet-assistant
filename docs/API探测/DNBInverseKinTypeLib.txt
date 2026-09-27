@@ -1,0 +1,9 @@
+# D:\Programs\CATIA\win_b64\code\bin\DNBInverseKinTypeLib.tlb
+# 库名: DNBInverseKin
+# 说明: CATIA V5 DNBInverseKinInterfaces Object Library
+# 属性: (IID('{904AA186-6172-4825-A28E-DBA315C406F3}'), 0, 1, 0, 0, 8)
+
+== #0 ENUM: foo_DNBInverseKinInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_DNBInverseKinInterfaces
+        foo_DNBInverseKinInterfaces = 0

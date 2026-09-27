@@ -1,0 +1,301 @@
+# D:\Programs\CATIA\win_b64\code\bin\DNBDeviceTypeLib.tlb
+# 库名: DNBDevice
+# 说明: CATIA V5 DNBDeviceInterfaces Object Library
+# 属性: (IID('{FD1E8709-66BC-44A2-9ADF-0E2A42021926}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: V5Device
+    iid={D71B6872-E3EC-4B0E-A57D-84CFCCAA1AFA}  funcs=37  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetInstanceSupport(iMechanism)
+    [1610940417] FUNC        SetInstanceSupport(iMechanism, iMobile)
+    [1610940418] FUNC        GetHomePositionsCount(iMechanism)
+    [1610940419] FUNC        GetHomePositions(iMechanism, oHomePosList)
+    [1610940420] FUNC        SetHomePosition(iMechanism, iName, idbTrans)
+    [1610940421] FUNC        RemoveHomePosition(iMechanism, iName)
+    [1610940422] FUNC        SetCmdLimitExpressions(iMechanism, iIndex, iLowerLimitExpr, iUpperLimitExpr)
+    [1610940423] FUNC        GetCmdLimitExpressionsLower(iMechanism, iIndex, oLowerLimitExpr)
+    [1610940424] FUNC        GetCmdLimitExpressionsUpper(iMechanism, iIndex, oUpperLimitExpr)
+    [1610940425] FUNC        SetLimitMargin(iMechanism, iIndex, iMarginValue)
+    [1610940426] FUNC        GetLimitMargin(iMechanism, iIndex)
+    [1610940427] FUNC        GetLimitMarginMode(iMechanism)
+    [1610940428] FUNC        SetLimitMarginMode(iMechanism, iAbsolute)
+    [1610940429] FUNC        GetRelatedMechanisms(oList)
+    [1610940430] FUNC        GetRelatedMechanismsCount()
+
+== #1 DISPATCH: HomePosition
+    iid={62DC719B-6583-4EAC-87AF-5C85DDC6D2C9}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetAssociatedToolTip(oTipList)
+    [1610940417] FUNC        SetAssociatedToolTip(iTipList)
+    [1610940418] FUNC        GetDOFValues(oValues)
+    [1610940419] FUNC        SetDOFValues(iValues)
+
+== #2 DISPATCH: DeviceJointRelations
+    iid={20BC9BF5-7C80-47A7-93D6-C69DC1C81EF6}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetJointRelationExpression(joint, expr)
+    [1610940417] FUNC        SetJointRelationExpression(joint, expr)
+    [1610940418] FUNC        SetUserVariableExpr(user_expr)
+
+== #3 DISPATCH: DOFState
+    iid={7A1F6CB0-F041-48EA-A264-C8050FE389A0}  funcs=23  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetDeviceDOFValues(oValues)
+
+== #4 DISPATCH: BasicDevice
+    iid={447F4CEA-F0D7-418C-9079-B93D7F01C445}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetHomePositions(oHomePosList)
+    [1610940417] FUNC        SetHomePosition(iName, idbTrans)
+    [1610940418] FUNC        GetDOFValues(oValues)
+
+== #5 DISPATCH: D5Device
+    iid={0CFAF64B-34C2-4B71-A9D3-D6FEA5B8B8CC}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetHomePositions(oHomePosList)
+    [1610940417] FUNC        SetHomePosition(iName, idbTrans)
+    [1610940418] FUNC        GetDOFValues(oValues)
+    [1611005952] FUNC        GetLinkedDeviceFile()
+
+== #6 DISPATCH: DevAnalysisSettingAtt
+    iid={4C2E9C73-0DDA-49D8-B51B-594806742314}  funcs=59  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    TravelLimit()
+    [1611005952] PROP_PUT    TravelLimit()
+    [1611005954] FUNC        GetTravelLimitInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetTravelLimitLock(iLocked)
+    [1611005956] PROP_GET    VelocityLimit()
+    [1611005956] PROP_PUT    VelocityLimit()
+    [1611005958] FUNC        GetVelocityLimitInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetVelocityLimitLock(iLocked)
+    [1611005960] PROP_GET    AccelLimit()
+    [1611005960] PROP_PUT    AccelLimit()
+    [1611005962] FUNC        GetAccelLimitInfo(ioAdminLevel, ioLocked)
+    [1611005963] FUNC        SetAccelLimitLock(iLocked)
+    [1611005964] PROP_GET    CautionZone()
+    [1611005964] PROP_PUT    CautionZone()
+    [1611005966] FUNC        GetCautionZoneInfo(ioAdminLevel, ioLocked)
+    [1611005967] FUNC        SetCautionZoneLock(iLocked)
+    [1611005968] PROP_GET    TravelColor()
+    [1611005968] PROP_PUT    TravelColor()
+    [1611005970] FUNC        GetTravelColorInfo(ioAdminLevel, ioLocked)
+    [1611005971] FUNC        SetTravelColorLock(iLocked)
+    [1611005972] PROP_GET    VelocityColor()
+    [1611005972] PROP_PUT    VelocityColor()
+    [1611005974] FUNC        GetVelocityColorInfo(ioAdminLevel, ioLocked)
+    [1611005975] FUNC        SetVelocityColorLock(iLocked)
+    [1611005976] PROP_GET    AccelColor()
+    [1611005976] PROP_PUT    AccelColor()
+    [1611005978] FUNC        GetAccelColorInfo(ioAdminLevel, ioLocked)
+    [1611005979] FUNC        SetAccelColorLock(iLocked)
+    [1611005980] PROP_GET    CautionColor()
+    [1611005980] PROP_PUT    CautionColor()
+    [1611005982] FUNC        GetCautionColorInfo(ioAdminLevel, ioLocked)
+    [1611005983] FUNC        SetCautionColorLock(iLocked)
+
+== #7 ENUM: DNBAnalysisLevel
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=4  impltypes=0
+    [var 1073741824] DNBAnalysisLevelOff
+    [var 1073741825] DNBAnalysisLevelHighlight
+    [var 1073741826] DNBAnalysisLevelVerbose
+    [var 1073741827] DNBAnalysisLevelInterrupt
+        DNBAnalysisLevelOff = 0
+        DNBAnalysisLevelHighlight = 1
+        DNBAnalysisLevelVerbose = 2
+        DNBAnalysisLevelInterrupt = 3
+
+== #8 ALIAS: DNBIABasicDevice
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #9 ALIAS: DNBIAD5Device
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #10 ALIAS: DNBIADeviceDOFState
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #11 ALIAS: DNBIADevAnalysisSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #12 ALIAS: DNBIADeviceJointRelations
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #13 ALIAS: DNBIAHomePosition
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #14 ALIAS: DNBIAV5Device
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #15 ENUM: foo_DNBDeviceInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_DNBDeviceInterfaces
+        foo_DNBDeviceInterfaces = 0
+
+== #16 MODULE: IID_DNBDeviceInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=7  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_V5Device
+    [var 1073741826] IID_HomePosition
+    [var 1073741827] IID_DeviceJointRelations
+    [var 1073741828] IID_DOFState
+    [var 1073741829] IID_BasicDevice
+    [var 1073741830] IID_D5Device
+    [var 1073741831] IID_DevAnalysisSettingAtt

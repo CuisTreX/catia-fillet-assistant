@@ -1,0 +1,236 @@
+{
+  "timestamp": "2026-09-25T21:09:21",
+  "catia_version": "?",
+  "scans": [
+    {
+      "query": "Topology.CGMEdge,all",
+      "mode": "empty",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.0
+    },
+    {
+      "query": "Topology.CGMEdge,sel",
+      "mode": "empty",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.0
+    },
+    {
+      "query": "Topology.CGMFace,all",
+      "mode": "empty",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.0
+    },
+    {
+      "query": "Topology.CGMVertex,all",
+      "mode": "empty",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.0
+    },
+    {
+      "query": "Topology.CGMEdge",
+      "mode": "empty",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.0
+    },
+    {
+      "query": "CGMEdge,all",
+      "mode": "empty",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.0
+    },
+    {
+      "query": "CGMEdge,sel",
+      "mode": "empty",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.0
+    },
+    {
+      "query": "CATPrtSearch.CGMEdge,all",
+      "mode": "empty",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.0
+    },
+    {
+      "query": "Topology.Edge,all",
+      "mode": "empty",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.0
+    },
+    {
+      "query": "Name=*,all",
+      "mode": "empty",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.0
+    },
+    {
+      "query": "Topology.CGMEdge,all",
+      "mode": "body",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "Topology.CGMEdge,sel",
+      "mode": "body",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "Topology.CGMFace,all",
+      "mode": "body",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "Topology.CGMVertex,all",
+      "mode": "body",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "Topology.CGMEdge",
+      "mode": "body",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "CGMEdge,all",
+      "mode": "body",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "CGMEdge,sel",
+      "mode": "body",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "CATPrtSearch.CGMEdge,all",
+      "mode": "body",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "Topology.Edge,all",
+      "mode": "body",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "Name=*,all",
+      "mode": "body",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "Topology.CGMEdge,all",
+      "mode": "pad",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.03
+    },
+    {
+      "query": "Topology.CGMEdge,sel",
+      "mode": "pad",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "Topology.CGMFace,all",
+      "mode": "pad",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "Topology.CGMVertex,all",
+      "mode": "pad",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "Topology.CGMEdge",
+      "mode": "pad",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "CGMEdge,all",
+      "mode": "pad",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "CGMEdge,sel",
+      "mode": "pad",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "CATPrtSearch.CGMEdge,all",
+      "mode": "pad",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "Topology.Edge,all",
+      "mode": "pad",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    },
+    {
+      "query": "Name=*,all",
+      "mode": "pad",
+      "ok": false,
+      "error": "ArgumentError: argument 1: TypeError: expected LP_BSTR instance instead of str",
+      "elapsed": 0.01
+    }
+  ],
+  "rescan_after_fillet": [],
+  "base_volume": 0.00024000000000000006,
+  "base_shapes": [
+    "凸台.1"
+  ],
+  "working_queries": [],
+  "fillet": {
+    "reference_source": "BRep 标签兜底",
+    "label_refs": [
+      "FEdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sk",
+      "FEdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sk"
+    ],
+    "ok": false,
+    "error": "AttributeError: Part",
+    "volume": 0.00024000000000000006,
+    "shapes": [
+      "凸台.1",
+      "倒圆角.1"
+    ]
+  }
+}

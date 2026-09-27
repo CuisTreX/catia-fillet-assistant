@@ -1,0 +1,9 @@
+# D:\Programs\CATIA\win_b64\code\bin\DNBPSYResourceTypeLib.tlb
+# 库名: DNBPSYResource
+# 说明: CATIA V5 DNBPSYResourceInterfaces Object Library
+# 属性: (IID('{47901C14-4E14-456C-B2AF-D9A469B61342}'), 0, 1, 0, 0, 8)
+
+== #0 ENUM: foo_DNBPSYResourceInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_DNBPSYResourceInterfaces
+        foo_DNBPSYResourceInterfaces = 0

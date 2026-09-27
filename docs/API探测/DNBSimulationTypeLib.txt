@@ -1,0 +1,470 @@
+# D:\Programs\CATIA\win_b64\code\bin\DNBSimulationTypeLib.tlb
+# 库名: DNBSimulation
+# 说明: CATIA V5 DNBSimulationInterfaces Object Library
+# 属性: (IID('{D0387336-CB2F-401A-9310-5BD1456B9441}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: SimulationInitState
+    iid={C2C0C8C8-75D7-440A-8966-11B7D87E6093}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        SaveInitialState(iAttrMask)
+    [1610940417] FUNC        RestoreInitialState(iAttrMask)
+    [1610940418] FUNC        SaveInitialStateList(iProductLists, iAttrMask)
+    [1610940419] FUNC        RestoreInitialStateList(iProductLists, iAttrMask)
+
+== #1 ENUM: DNBSimInitStateAttr
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=15  impltypes=0
+    [var 1073741824] DNBVisInitStateAttr
+    [var 1073741825] DNBPosInitStateAttr
+    [var 1073741826] DNBColInitStateAttr
+    [var 1073741827] DNBOpacInitStateAttr
+    [var 1073741828] DNBVisPosInitStateAttr
+    [var 1073741829] DNBVisColInitStateAttr
+    [var 1073741830] DNBVisOpacInitStateAttr
+    [var 1073741831] DNBVisPosColInitStateAttr
+    [var 1073741832] DNBVisPosOpacInitStateAttr
+    [var 1073741833] DNBVisColOpacInitStateAttr
+    [var 1073741834] DNBPosColInitStateAttr
+    [var 1073741835] DNBPosOpacInitStateAttr
+    [var 1073741836] DNBPosColOpacInitStateAttr
+    [var 1073741837] DNBColOpacInitStateAttr
+    [var 1073741838] DNBAllInitStateAttr
+        DNBVisInitStateAttr = 0
+        DNBPosInitStateAttr = 1
+        DNBColInitStateAttr = 2
+        DNBOpacInitStateAttr = 3
+        DNBVisPosInitStateAttr = 4
+        DNBVisColInitStateAttr = 5
+        DNBVisOpacInitStateAttr = 6
+        DNBVisPosColInitStateAttr = 7
+        DNBVisPosOpacInitStateAttr = 8
+        DNBVisColOpacInitStateAttr = 9
+        DNBPosColInitStateAttr = 10
+        DNBPosOpacInitStateAttr = 11
+        DNBPosColOpacInitStateAttr = 12
+        DNBColOpacInitStateAttr = 13
+        DNBAllInitStateAttr = 14
+
+== #2 DISPATCH: SimulationSettingAtt
+    iid={A2F32E87-8D85-46FA-9E48-76BC0EFD29C0}  funcs=139  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    AthStateMgt()
+    [1611005952] PROP_PUT    AthStateMgt()
+    [1611005954] FUNC        GetAthStateMgtInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetAthStateMgtLock(iLocked)
+    [1611005956] PROP_GET    AthEndCondition()
+    [1611005956] PROP_PUT    AthEndCondition()
+    [1611005958] FUNC        GetAthEndConditionInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetAthEndConditionLock(iLocked)
+    [1611005960] PROP_GET    AthTextMsg()
+    [1611005960] PROP_PUT    AthTextMsg()
+    [1611005962] FUNC        GetAthTextMsgInfo(ioAdminLevel, ioLocked)
+    [1611005963] FUNC        SetAthTextMsgLock(iLocked)
+    [1611005964] PROP_GET    AthViewpoint()
+    [1611005964] PROP_PUT    AthViewpoint()
+    [1611005966] FUNC        GetAthViewpointInfo(ioAdminLevel, ioLocked)
+    [1611005967] FUNC        SetAthViewpointLock(iLocked)
+    [1611005968] PROP_GET    AthHyperlink()
+    [1611005968] PROP_PUT    AthHyperlink()
+    [1611005970] FUNC        GetAthHyperlinkInfo(ioAdminLevel, ioLocked)
+    [1611005971] FUNC        SetAthHyperlinkLock(iLocked)
+    [1611005972] PROP_GET    AthAnnotation()
+    [1611005972] PROP_PUT    AthAnnotation()
+    [1611005974] FUNC        GetAthAnnotationInfo(ioAdminLevel, ioLocked)
+    [1611005975] FUNC        SetAthAnnotationLock(iLocked)
+    [1611005976] PROP_GET    AthDisableSim()
+    [1611005976] PROP_PUT    AthDisableSim()
+    [1611005978] FUNC        GetAthDisableSimInfo(ioAdminLevel, ioLocked)
+    [1611005979] FUNC        SetAthDisableSimLock(iLocked)
+    [1611005980] PROP_GET    AthSelAgentDlg()
+    [1611005980] PROP_PUT    AthSelAgentDlg()
+    [1611005982] FUNC        GetAthSelAgentDlgInfo(ioAdminLevel, ioLocked)
+    [1611005983] FUNC        SetAthSelAgentDlgLock(iLocked)
+    [1611005984] PROP_GET    RunStateMgt()
+    [1611005984] PROP_PUT    RunStateMgt()
+    [1611005986] FUNC        GetRunStateMgtInfo(ioAdminLevel, ioLocked)
+    [1611005987] FUNC        SetRunStateMgtLock(iLocked)
+    [1611005988] PROP_GET    RunEndCondition()
+    [1611005988] PROP_PUT    RunEndCondition()
+    [1611005990] FUNC        GetRunEndConditionInfo(ioAdminLevel, ioLocked)
+    [1611005991] FUNC        SetRunEndConditionLock(iLocked)
+    [1611005992] PROP_GET    RunTextMsg()
+    [1611005992] PROP_PUT    RunTextMsg()
+    [1611005994] FUNC        GetRunTextMsgInfo(ioAdminLevel, ioLocked)
+    [1611005995] FUNC        SetRunTextMsgLock(iLocked)
+    [1611005996] PROP_GET    RunViewpoint()
+    [1611005996] PROP_PUT    RunViewpoint()
+    [1611005998] FUNC        GetRunViewpointInfo(ioAdminLevel, ioLocked)
+    [1611005999] FUNC        SetRunViewpointLock(iLocked)
+    [1611006000] PROP_GET    RunHyperlink()
+    [1611006000] PROP_PUT    RunHyperlink()
+    [1611006002] FUNC        GetRunHyperlinkInfo(ioAdminLevel, ioLocked)
+    [1611006003] FUNC        SetRunHyperlinkLock(iLocked)
+    [1611006004] PROP_GET    RunAnnotation()
+    [1611006004] PROP_PUT    RunAnnotation()
+    [1611006006] FUNC        GetRunAnnotationInfo(ioAdminLevel, ioLocked)
+    [1611006007] FUNC        SetRunAnnotationLock(iLocked)
+    [1611006008] PROP_GET    RunPause()
+    [1611006008] PROP_PUT    RunPause()
+    [1611006010] FUNC        GetRunPauseInfo(ioAdminLevel, ioLocked)
+    [1611006011] FUNC        SetRunPauseLock(iLocked)
+    [1611006012] PROP_GET    RunStepSize()
+    [1611006012] PROP_PUT    RunStepSize()
+    [1611006014] FUNC        GetRunStepSizeInfo(ioAdminLevel, ioLocked)
+    [1611006015] FUNC        SetRunStepSizeLock(iLocked)
+    [1611006016] PROP_GET    PSDynClashMode()
+    [1611006016] PROP_PUT    PSDynClashMode()
+    [1611006018] FUNC        GetPSDynClashModeInfo(ioAdminLevel, ioLocked)
+    [1611006019] FUNC        SetPSDynClashModeLock(iLocked)
+    [1611006020] PROP_GET    PSCycleTime()
+    [1611006020] PROP_PUT    PSCycleTime()
+    [1611006022] FUNC        GetPSCycleTimeInfo(ioAdminLevel, ioLocked)
+    [1611006023] FUNC        SetPSCycleTimeLock(iLocked)
+    [1611006024] PROP_GET    PVStateMgt()
+    [1611006024] PROP_PUT    PVStateMgt()
+    [1611006026] FUNC        GetPVStateMgtInfo(ioAdminLevel, ioLocked)
+    [1611006027] FUNC        SetPVStateMgtLock(iLocked)
+    [1611006028] PROP_GET    PVEndCondition()
+    [1611006028] PROP_PUT    PVEndCondition()
+    [1611006030] FUNC        GetPVEndConditionInfo(ioAdminLevel, ioLocked)
+    [1611006031] FUNC        SetPVEndConditionLock(iLocked)
+    [1611006032] PROP_GET    ASNavigationMode()
+    [1611006032] PROP_PUT    ASNavigationMode()
+    [1611006034] FUNC        GetASNavigationModeInfo(ioAdminLevel, ioLocked)
+    [1611006035] FUNC        SetASNavigationModeLock(iLocked)
+    [1611006036] PROP_GET    ASStepSize()
+    [1611006036] PROP_PUT    ASStepSize()
+    [1611006038] FUNC        GetASStepSizeInfo(ioAdminLevel, ioLocked)
+    [1611006039] FUNC        SetASStepSizeLock(iLocked)
+    [1611006040] PROP_GET    RunTextBehavior()
+    [1611006040] PROP_PUT    RunTextBehavior()
+    [1611006042] FUNC        GetRunTextBehaviorInfo(ioAdminLevel, ioLocked)
+    [1611006043] FUNC        SetRunTextBehaviorLock(iLocked)
+    [1611006044] PROP_GET    RunHlnkBehavior()
+    [1611006044] PROP_PUT    RunHlnkBehavior()
+    [1611006046] FUNC        GetRunHlnkBehaviorInfo(ioAdminLevel, ioLocked)
+    [1611006047] FUNC        SetRunHlnkBehaviorLock(iLocked)
+    [1611006048] PROP_GET    RunAnnotBehavior()
+    [1611006048] PROP_PUT    RunAnnotBehavior()
+    [1611006050] FUNC        GetRunAnnotBehaviorInfo(ioAdminLevel, ioLocked)
+    [1611006051] FUNC        SetRunAnnotBehaviorLock(iLocked)
+    [1611006052] PROP_GET    RunVisBehavior()
+    [1611006052] PROP_PUT    RunVisBehavior()
+    [1611006054] FUNC        GetRunVisBehaviorInfo(ioAdminLevel, ioLocked)
+    [1611006055] FUNC        SetRunVisBehaviorLock(iLocked)
+    [1611006056] PROP_GET    PSGraphicUpdate()
+    [1611006056] PROP_PUT    PSGraphicUpdate()
+    [1611006058] FUNC        GetPSGraphicUpdateInfo(ioAdminLevel, ioLocked)
+    [1611006059] FUNC        SetPSGraphicUpdateLock(iLocked)
+    [1611006060] PROP_GET    PSGraphicSimStep()
+    [1611006060] PROP_PUT    PSGraphicSimStep()
+    [1611006062] FUNC        GetPSGraphicSimStepInfo(ioAdminLevel, ioLocked)
+    [1611006063] FUNC        SetPSGraphicSimStepLock(iLocked)
+
+== #3 ENUM: DNBVisualizationMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] DNBVisualizationModeHighlight
+    [var 1073741825] DNBVisualizationModeCurves
+        DNBVisualizationModeHighlight = 0
+        DNBVisualizationModeCurves = 1
+
+== #4 ENUM: DNBSimNavigationMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] DNBSimNavigationModeStep
+    [var 1073741825] DNBSimNavigationModeAnimate
+        DNBSimNavigationModeStep = 0
+        DNBSimNavigationModeAnimate = 1
+
+== #5 ENUM: DNBActBehaviorType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] DNBBehaviorProcess
+    [var 1073741825] DNBBehaviorParent
+        DNBBehaviorProcess = 0
+        DNBBehaviorParent = 1
+
+== #6 ENUM: DNBHlnkBehaviorType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] DNBBehaviorContinue
+    [var 1073741825] DNBBehaviorPause
+        DNBBehaviorContinue = 0
+        DNBBehaviorPause = 1
+
+== #7 ENUM: DNBSimGraphUpdateMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] DNBSimGraphUpdateDisabled
+    [var 1073741825] DNBSimGraphUpdateEnabled
+        DNBSimGraphUpdateDisabled = 0
+        DNBSimGraphUpdateEnabled = 1
+
+== #8 DISPATCH: SimTraceSettingAtt
+    iid={BB247551-7CF0-44F9-9CCC-6ED7083C356B}  funcs=79  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    TracePointVisu()
+    [1611005952] PROP_PUT    TracePointVisu()
+    [1611005954] FUNC        GetTracePointVisuInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetTracePointVisuLock(iLocked)
+    [1611005956] PROP_GET    TracePointColor()
+    [1611005956] PROP_PUT    TracePointColor()
+    [1611005958] FUNC        GetTracePointColorInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetTracePointColorLock(iLocked)
+    [1611005960] PROP_GET    TracePointSymbol()
+    [1611005960] PROP_PUT    TracePointSymbol()
+    [1611005962] FUNC        GetTracePointSymbolInfo(ioAdminLevel, ioLocked)
+    [1611005963] FUNC        SetTracePointSymbolLock(iLocked)
+    [1611005964] PROP_GET    TraceLineVisu()
+    [1611005964] PROP_PUT    TraceLineVisu()
+    [1611005966] FUNC        GetTraceLineVisuInfo(ioAdminLevel, ioLocked)
+    [1611005967] FUNC        SetTraceLineVisuLock(iLocked)
+    [1611005968] PROP_GET    TraceLineColor()
+    [1611005968] PROP_PUT    TraceLineColor()
+    [1611005970] FUNC        GetTraceLineColorInfo(ioAdminLevel, ioLocked)
+    [1611005971] FUNC        SetTraceLineColorLock(iLocked)
+    [1611005972] PROP_GET    TraceLineType()
+    [1611005972] PROP_PUT    TraceLineType()
+    [1611005974] FUNC        GetTraceLineTypeInfo(ioAdminLevel, ioLocked)
+    [1611005975] FUNC        SetTraceLineTypeLock(iLocked)
+    [1611005976] PROP_GET    TraceLineThick()
+    [1611005976] PROP_PUT    TraceLineThick()
+    [1611005978] FUNC        GetTraceLineThickInfo(ioAdminLevel, ioLocked)
+    [1611005979] FUNC        SetTraceLineThickLock(iLocked)
+    [1611005980] PROP_GET    TraceAxisVisu()
+    [1611005980] PROP_PUT    TraceAxisVisu()
+    [1611005982] FUNC        GetTraceAxisVisuInfo(ioAdminLevel, ioLocked)
+    [1611005983] FUNC        SetTraceAxisVisuLock(iLocked)
+    [1611005984] PROP_GET    TraceAxisColor()
+    [1611005984] PROP_PUT    TraceAxisColor()
+    [1611005986] FUNC        GetTraceAxisColorInfo(ioAdminLevel, ioLocked)
+    [1611005987] FUNC        SetTraceAxisColorLock(iLocked)
+    [1611005988] PROP_GET    TraceAxisType()
+    [1611005988] PROP_PUT    TraceAxisType()
+    [1611005990] FUNC        GetTraceAxisTypeInfo(ioAdminLevel, ioLocked)
+    [1611005991] FUNC        SetTraceAxisTypeLock(iLocked)
+    [1611005992] PROP_GET    TraceAxisThick()
+    [1611005992] PROP_PUT    TraceAxisThick()
+    [1611005994] FUNC        GetTraceAxisThickInfo(ioAdminLevel, ioLocked)
+    [1611005995] FUNC        SetTraceAxisThickLock(iLocked)
+    [1611005996] PROP_GET    TraceDeletePath()
+    [1611005996] PROP_PUT    TraceDeletePath()
+    [1611005998] FUNC        GetTraceDeletePathInfo(ioAdminLevel, ioLocked)
+    [1611005999] FUNC        SetTraceDeletePathLock(iLocked)
+    [1611006000] PROP_GET    TraceLegend()
+    [1611006000] PROP_PUT    TraceLegend()
+    [1611006002] FUNC        GetTraceLegendInfo(ioAdminLevel, ioLocked)
+    [1611006003] FUNC        SetTraceLegendLock(iLocked)
+
+== #9 DISPATCH: AnalysisSettingAtt
+    iid={FC728903-CBA6-4EBB-8E0C-0DC2C853E04F}  funcs=107  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    BeepMode()
+    [1611005952] PROP_PUT    BeepMode()
+    [1611005954] FUNC        GetBeepModeInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetBeepModeLock(iLocked)
+    [1611005956] PROP_GET    AskAnlMode()
+    [1611005956] PROP_PUT    AskAnlMode()
+    [1611005958] FUNC        GetAskAnlModeInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetAskAnlModeLock(iLocked)
+    [1611005960] PROP_GET    EnableAnlMode()
+    [1611005960] PROP_PUT    EnableAnlMode()
+    [1611005962] FUNC        GetEnableAnlModeInfo(ioAdminLevel, ioLocked)
+    [1611005963] FUNC        SetEnableAnlModeLock(iLocked)
+    [1611005964] PROP_GET    AnalysisLevel()
+    [1611005964] PROP_PUT    AnalysisLevel()
+    [1611005966] FUNC        GetAnalysisLevelInfo(ioAdminLevel, ioLocked)
+    [1611005967] FUNC        SetAnalysisLevelLock(iLocked)
+    [1611005968] PROP_GET    VisualizationMode()
+    [1611005968] PROP_PUT    VisualizationMode()
+    [1611005970] FUNC        GetVisualizationModeInfo(ioAdminLevel, ioLocked)
+    [1611005971] FUNC        SetVisualizationModeLock(iLocked)
+    [1611005972] PROP_GET    VoxelStaticAnl()
+    [1611005972] PROP_PUT    VoxelStaticAnl()
+    [1611005974] FUNC        GetVoxelStaticAnlInfo(ioAdminLevel, ioLocked)
+    [1611005975] FUNC        SetVoxelStaticAnlLock(iLocked)
+    [1611005976] PROP_GET    AnlIntDist()
+    [1611005976] PROP_PUT    AnlIntDist()
+    [1611005978] FUNC        GetAnlIntDistInfo(ioAdminLevel, ioLocked)
+    [1611005979] FUNC        SetAnlIntDistLock(iLocked)
+    [1611005980] PROP_GET    AnlTravelLimit()
+    [1611005980] PROP_PUT    AnlTravelLimit()
+    [1611005982] FUNC        GetAnlTravelLimitInfo(ioAdminLevel, ioLocked)
+    [1611005983] FUNC        SetAnlTravelLimitLock(iLocked)
+    [1611005984] PROP_GET    AnlVelocityLimit()
+    [1611005984] PROP_PUT    AnlVelocityLimit()
+    [1611005986] FUNC        GetAnlVelocityLimitInfo(ioAdminLevel, ioLocked)
+    [1611005987] FUNC        SetAnlVelocityLimitLock(iLocked)
+    [1611005988] PROP_GET    AnlAccelLimit()
+    [1611005988] PROP_PUT    AnlAccelLimit()
+    [1611005990] FUNC        GetAnlAccelLimitInfo(ioAdminLevel, ioLocked)
+    [1611005991] FUNC        SetAnlAccelLimitLock(iLocked)
+    [1611005992] PROP_GET    AnlCautionZone()
+    [1611005992] PROP_PUT    AnlCautionZone()
+    [1611005994] FUNC        GetAnlCautionZoneInfo(ioAdminLevel, ioLocked)
+    [1611005995] FUNC        SetAnlCautionZoneLock(iLocked)
+    [1611005996] PROP_GET    AnlLinSpeedLimit()
+    [1611005996] PROP_PUT    AnlLinSpeedLimit()
+    [1611005998] FUNC        GetAnlLinSpeedLimitInfo(ioAdminLevel, ioLocked)
+    [1611005999] FUNC        SetAnlLinSpeedLimitLock(iLocked)
+    [1611006000] PROP_GET    AnlRotSpeedLimit()
+    [1611006000] PROP_PUT    AnlRotSpeedLimit()
+    [1611006002] FUNC        GetAnlRotSpeedLimitInfo(ioAdminLevel, ioLocked)
+    [1611006003] FUNC        SetAnlRotSpeedLimitLock(iLocked)
+    [1611006004] PROP_GET    AnlLinAccelLimit()
+    [1611006004] PROP_PUT    AnlLinAccelLimit()
+    [1611006006] FUNC        GetAnlLinAccelLimitInfo(ioAdminLevel, ioLocked)
+    [1611006007] FUNC        SetAnlLinAccelLimitLock(iLocked)
+    [1611006008] PROP_GET    AnlRotAccelLimit()
+    [1611006008] PROP_PUT    AnlRotAccelLimit()
+    [1611006010] FUNC        GetAnlRotAccelLimitInfo(ioAdminLevel, ioLocked)
+    [1611006011] FUNC        SetAnlRotAccelLimitLock(iLocked)
+    [1611006012] PROP_GET    AnlIOAnalysis()
+    [1611006012] PROP_PUT    AnlIOAnalysis()
+    [1611006014] FUNC        GetAnlIOAnalysisInfo(ioAdminLevel, ioLocked)
+    [1611006015] FUNC        SetAnlIOAnalysisLock(iLocked)
+    [1611006016] PROP_GET    DisplayAnlStatus()
+    [1611006016] PROP_PUT    DisplayAnlStatus()
+    [1611006018] FUNC        GetDisplayAnlStatusInfo(ioAdminLevel, ioLocked)
+    [1611006019] FUNC        SetDisplayAnlStatusLock(iLocked)
+    [1611006020] PROP_GET    AnlIntf()
+    [1611006020] PROP_PUT    AnlIntf()
+    [1611006022] FUNC        GetAnlIntfInfo(ioAdminLevel, ioLocked)
+    [1611006023] FUNC        SetAnlIntfLock(iLocked)
+    [1611006024] PROP_GET    AnlMeasure()
+    [1611006024] PROP_PUT    AnlMeasure()
+    [1611006026] FUNC        GetAnlMeasureInfo(ioAdminLevel, ioLocked)
+    [1611006027] FUNC        SetAnlMeasureLock(iLocked)
+    [1611006028] PROP_GET    SyncAnlSpecs()
+    [1611006028] PROP_PUT    SyncAnlSpecs()
+    [1611006030] FUNC        GetSyncAnlSpecsInfo(ioAdminLevel, ioLocked)
+    [1611006031] FUNC        SetSyncAnlSpecsLock(iLocked)
+
+== #10 ENUM: DNBAnalysisLevel
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=4  impltypes=0
+    [var 1073741824] DNBAnalysisLevelOff
+    [var 1073741825] DNBAnalysisLevelHighlight
+    [var 1073741826] DNBAnalysisLevelVerbose
+    [var 1073741827] DNBAnalysisLevelInterrupt
+        DNBAnalysisLevelOff = 0
+        DNBAnalysisLevelHighlight = 1
+        DNBAnalysisLevelVerbose = 2
+        DNBAnalysisLevelInterrupt = 3
+
+== #11 ALIAS: DNBIAAnalysisSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #12 ALIAS: DNBIASimTraceSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #13 ALIAS: DNBIASimulationInitState
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #14 ALIAS: DNBIASimulationSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #15 MODULE: IID_DNBSimulationInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=4  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_SimulationInitState
+    [var 1073741826] IID_SimulationSettingAtt
+    [var 1073741827] IID_SimTraceSettingAtt
+    [var 1073741828] IID_AnalysisSettingAtt

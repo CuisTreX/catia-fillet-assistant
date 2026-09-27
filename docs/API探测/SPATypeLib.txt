@@ -1,0 +1,917 @@
+# D:\Programs\CATIA\win_b64\code\bin\SPATypeLib.tlb
+# 库名: SPATypeLib
+# 说明: CATIA V5 SpaceAnalysisInterfaces Object Library
+# 属性: (IID('{9143C8CC-1474-11D4-9461-006094EB3826}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: Section
+    iid={9771A6E4-45F0-11D4-9468-006094EB3826}  funcs=42  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetPosition(oComponents)
+    [1610940417] FUNC        SetPosition(iComponents)
+    [1610940418] PROP_GET    Height()
+    [1610940418] PROP_PUT    Height()
+    [1610940420] PROP_GET    Width()
+    [1610940420] PROP_PUT    Width()
+    [1610940422] PROP_GET    Thickness()
+    [1610940422] PROP_PUT    Thickness()
+    [1610940424] PROP_GET    CutMode()
+    [1610940424] PROP_PUT    CutMode()
+    [1610940426] PROP_GET    Type()
+    [1610940426] PROP_PUT    Type()
+    [1610940428] PROP_GET    Group()
+    [1610940428] PROP_PUT    Group()
+    [1610940430] FUNC        IsEmpty()
+    [1610940431] FUNC        Export()
+    [1610940432] PROP_GET    AnnotatedViews()
+    [1610940433] PROP_GET    Marker3Ds()
+    [1610940434] PROP_GET    Behavior()
+    [1610940434] PROP_PUT    Behavior()
+
+== #1 ENUM: CatSectionType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] catSectionTypePlane
+    [var 1073741825] catSectionTypeSlice
+    [var 1073741826] catSectionTypeBox
+        catSectionTypePlane = 0
+        catSectionTypeSlice = 1
+        catSectionTypeBox = 2
+
+== #2 ENUM: CatSectionBehavior
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] catSectionBehaviorManual
+    [var 1073741825] catSectionBehaviorAutomatic
+    [var 1073741826] catSectionBehaviorFreeze
+        catSectionBehaviorManual = 0
+        catSectionBehaviorAutomatic = 1
+        catSectionBehaviorFreeze = 2
+
+== #3 DISPATCH: Measurable
+    iid={E9EF5BC9-3689-44C3-BE19-B0ED0E6BFA28}  funcs=41  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    GeometryName()
+    [1610940417] PROP_GET    Volume()
+    [1610940418] PROP_GET    Area()
+    [1610940419] FUNC        GetCOG(oCoordinates)
+    [1610940420] PROP_GET    Perimeter()
+    [1610940421] FUNC        GetPlane(oComponents)
+    [1610940422] PROP_GET    Radius()
+    [1610940423] FUNC        GetCenter(oCoordinates)
+    [1610940424] FUNC        GetDirection(oDirection)
+    [1610940425] FUNC        GetAxis(oAxisVector)
+    [1610940426] PROP_GET    Angle()
+    [1610940427] PROP_GET    Length()
+    [1610940428] FUNC        GetPointsOnCurve(oCoordinates)
+    [1610940429] FUNC        GetPointsOnAxis(oCoordinates)
+    [1610940430] FUNC        GetPoint(oCoordinates)
+    [1610940431] FUNC        GetAxisSystem(oComponents)
+    [1610940432] FUNC        GetMinimumDistance(iMeasuredItem)
+    [1610940433] FUNC        GetMinimumDistancePoints(iMeasuredItem, oCoordinates)
+    [1610940434] FUNC        GetAngleBetween(iMeasuredItem)
+
+== #4 ENUM: CatMeasurableName
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=13  impltypes=0
+    [var 1073741824] CatMeasurableUnknown
+    [var 1073741825] CatMeasurable
+    [var 1073741826] CatMeasurableVolume
+    [var 1073741827] CatMeasurableSurface
+    [var 1073741828] CatMeasurableCylinder
+    [var 1073741829] CatMeasurableSphere
+    [var 1073741830] CatMeasurableCone
+    [var 1073741831] CatMeasurablePlane
+    [var 1073741832] CatMeasurableCurve
+    [var 1073741833] CatMeasurableCircle
+    [var 1073741834] CatMeasurableLine
+    [var 1073741835] CatMeasurablePoint
+    [var 1073741836] CatMeasurableAxisSystem
+        CatMeasurableUnknown = 0
+        CatMeasurable = 1
+        CatMeasurableVolume = 2
+        CatMeasurableSurface = 3
+        CatMeasurableCylinder = 4
+        CatMeasurableSphere = 5
+        CatMeasurableCone = 6
+        CatMeasurablePlane = 7
+        CatMeasurableCurve = 8
+        CatMeasurableCircle = 9
+        CatMeasurableLine = 10
+        CatMeasurablePoint = 11
+        CatMeasurableAxisSystem = 12
+
+== #5 DISPATCH: Inertia
+    iid={326A5962-1477-11D4-9461-006094EB3826}  funcs=30  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Object()
+    [1610940417] PROP_GET    Density()
+    [1610940417] PROP_PUT    Density()
+    [1610940419] PROP_GET    Mass()
+    [1610940420] FUNC        GetCOGPosition(oCoordinates)
+    [1610940421] FUNC        GetInertiaMatrix(oMatrix)
+    [1610940422] FUNC        GetPrincipalAxes(oComponents)
+    [1610940423] FUNC        GetPrincipalMoments(oValues)
+
+== #6 DISPATCH: Distance
+    iid={48973FF6-45F0-11D4-9468-006094EB3826}  funcs=45  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    ComputationType()
+    [1610940416] PROP_PUT    ComputationType()
+    [1610940418] PROP_GET    MeasureType()
+    [1610940418] PROP_PUT    MeasureType()
+    [1610940420] PROP_GET    MinimumDistance()
+    [1610940420] PROP_PUT    MinimumDistance()
+    [1610940422] PROP_GET    MaximumDistance()
+    [1610940422] PROP_PUT    MaximumDistance()
+    [1610940424] PROP_GET    Accuracy()
+    [1610940424] PROP_PUT    Accuracy()
+    [1610940426] PROP_GET    FirstGroup()
+    [1610940426] PROP_PUT    FirstGroup()
+    [1610940428] PROP_GET    SecondGroup()
+    [1610940428] PROP_PUT    SecondGroup()
+    [1610940430] FUNC        Compute()
+    [1610940431] PROP_GET    IsDefined()
+    [1610940432] PROP_GET    FirstProduct()
+    [1610940433] FUNC        GetFirstPointCoordinates(oCoordinates)
+    [1610940434] PROP_GET    SecondProduct()
+    [1610940435] FUNC        GetSecondPointCoordinates(oCoordinates)
+    [1610940436] PROP_GET    Value()
+    [1610940437] PROP_GET    AnnotatedViews()
+    [1610940438] PROP_GET    Marker3Ds()
+
+== #7 ENUM: CatDistanceComputationType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] catDistanceComputationTypeInsideOne
+    [var 1073741825] catDistanceComputationTypeAgainstAll
+    [var 1073741826] catDistanceComputationTypeBetweenTwo
+        catDistanceComputationTypeInsideOne = 0
+        catDistanceComputationTypeAgainstAll = 1
+        catDistanceComputationTypeBetweenTwo = 2
+
+== #8 ENUM: CatDistanceMeasureType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=5  impltypes=0
+    [var 1073741824] catDistanceMeasureTypeMinimum
+    [var 1073741825] catDistanceMeasureTypeAlongX
+    [var 1073741826] catDistanceMeasureTypeAlongY
+    [var 1073741827] catDistanceMeasureTypeAlongZ
+    [var 1073741828] catDistanceMeasureTypeBand
+        catDistanceMeasureTypeMinimum = 0
+        catDistanceMeasureTypeAlongX = 1
+        catDistanceMeasureTypeAlongY = 2
+        catDistanceMeasureTypeAlongZ = 3
+        catDistanceMeasureTypeBand = 4
+
+== #9 DISPATCH: Conflict
+    iid={1738AE54-45F0-11D4-9468-006094EB3826}  funcs=35  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    FirstProduct()
+    [1610940417] FUNC        GetFirstPointCoordinates(oCoordinates)
+    [1610940418] PROP_GET    SecondProduct()
+    [1610940419] FUNC        GetSecondPointCoordinates(oCoordinates)
+    [1610940420] PROP_GET    Type()
+    [1610940421] PROP_GET    Value()
+    [1610940422] PROP_GET    Status()
+    [1610940422] PROP_PUT    Status()
+    [1610940424] PROP_GET    ComparisonInfo()
+    [1610940425] PROP_GET    KeepInDB()
+    [1610940425] PROP_PUT    KeepInDB()
+    [1610940427] PROP_GET    Comment()
+    [1610940427] PROP_PUT    Comment()
+
+== #10 ENUM: CatConflictType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] catConflictTypeClash
+    [var 1073741825] catConflictTypeContact
+    [var 1073741826] catConflictTypeClearance
+        catConflictTypeClash = 0
+        catConflictTypeContact = 1
+        catConflictTypeClearance = 2
+
+== #11 ENUM: CatConflictStatus
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=4  impltypes=0
+    [var 1073741824] catConflictStatusNotInspected
+    [var 1073741825] catConflictStatusRelevant
+    [var 1073741826] catConflictStatusIrrelevant
+    [var 1073741827] catConflictStatusSolved
+        catConflictStatusNotInspected = 0
+        catConflictStatusRelevant = 1
+        catConflictStatusIrrelevant = 2
+        catConflictStatusSolved = 3
+
+== #12 ENUM: CatConflictComparison
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] catConflictComparisonNew
+    [var 1073741825] catConflictComparisonOld
+    [var 1073741826] catConflictComparisonNo
+        catConflictComparisonNew = 0
+        catConflictComparisonOld = 1
+        catConflictComparisonNo = 2
+
+== #13 DISPATCH: ClashResult
+    iid={0A015216-7047-463F-8FB9-CC0F354410AD}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Conflicts()
+    [1610940417] FUNC        Export(iType, iPath)
+
+== #14 DISPATCH: Conflicts
+    iid={FB64BBDC-45F0-11D4-9468-006094EB3826}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        SendToDB()
+    [1610940417] FUNC        Item(iIndex)
+
+== #15 ENUM: CatClashExportType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] CatClashExportTypeXMLResultOnly
+        CatClashExportTypeXMLResultOnly = 0
+
+== #16 DISPATCH: Clash
+    iid={E1F32364-45F0-11D4-9468-006094EB3826}  funcs=37  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    ComputationType()
+    [1610940416] PROP_PUT    ComputationType()
+    [1610940418] PROP_GET    InterferenceType()
+    [1610940418] PROP_PUT    InterferenceType()
+    [1610940420] PROP_GET    Clearance()
+    [1610940420] PROP_PUT    Clearance()
+    [1610940422] PROP_GET    FirstGroup()
+    [1610940422] PROP_PUT    FirstGroup()
+    [1610940424] PROP_GET    SecondGroup()
+    [1610940424] PROP_PUT    SecondGroup()
+    [1610940426] FUNC        Compute()
+    [1610940427] PROP_GET    Conflicts()
+    [1610940428] PROP_GET    AnnotatedViews()
+    [1610940429] PROP_GET    Marker3Ds()
+    [1610940430] FUNC        Export(iType, iPath)
+
+== #17 ENUM: CatClashComputationType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=4  impltypes=0
+    [var 1073741824] catClashComputationTypeBetweenAll
+    [var 1073741825] catClashComputationTypeInsideOne
+    [var 1073741826] catClashComputationTypeAgainstAll
+    [var 1073741827] catClashComputationTypeBetweenTwo
+        catClashComputationTypeBetweenAll = 0
+        catClashComputationTypeInsideOne = 1
+        catClashComputationTypeAgainstAll = 2
+        catClashComputationTypeBetweenTwo = 3
+
+== #18 ENUM: CatClashInterferenceType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=4  impltypes=0
+    [var 1073741824] catClashInterferenceTypeContact
+    [var 1073741825] catClashInterferenceTypeClearance
+    [var 1073741826] catClashInterferenceAuthorizedPenetration
+    [var 1073741827] catClashInterferenceCaseRule
+        catClashInterferenceTypeContact = 0
+        catClashInterferenceTypeClearance = 1
+        catClashInterferenceAuthorizedPenetration = 2
+        catClashInterferenceCaseRule = 3
+
+== #19 DISPATCH: Sections
+    iid={52BD836A-45F0-11D4-9468-006094EB3826}  funcs=27  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Add()
+    [1610940417] FUNC        AddFromSel()
+    [1610940418] FUNC        Item(iIndex)
+    [1610940419] FUNC        Remove(iIndex)
+
+== #20 DISPATCH: Inertias
+    iid={F98879E6-21A3-11D4-9463-006094EB3826}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Add(iObject)
+    [1610940417] FUNC        Item(iIndex)
+    [1610940418] FUNC        Remove(iIndex)
+
+== #21 DISPATCH: Distances
+    iid={3142DD4C-45F0-11D4-9468-006094EB3826}  funcs=27  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Add()
+    [1610940417] FUNC        AddFromSel()
+    [1610940418] FUNC        Item(iIndex)
+    [1610940419] FUNC        Remove(iIndex)
+
+== #22 DISPATCH: Clashes
+    iid={BCB729D8-45F0-11D4-9468-006094EB3826}  funcs=27  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Add()
+    [1610940417] FUNC        AddFromSel()
+    [1610940418] FUNC        Item(iIndex)
+    [1610940419] FUNC        Remove(iIndex)
+
+== #23 DISPATCH: ClashResults
+    iid={34B4E600-62AB-4BEA-A9F5-4019BF60F37E}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        AddFromXML(iPath, iType)
+    [1610940417] FUNC        Item(iIndex)
+    [1610940418] FUNC        Remove(iIndex)
+
+== #24 ENUM: CatClashImportType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] CatClashImportTypeClashOnly
+    [var 1073741825] CatClashImportTypeStructureAndClash
+        CatClashImportTypeClashOnly = 0
+        CatClashImportTypeStructureAndClash = 1
+
+== #25 DISPATCH: SectioningSettingAtt
+    iid={B781879B-AA12-4D75-8BE3-3CD643240996}  funcs=111  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] FUNC        GetPlaneColor(oR, oG, oB)
+    [1611005953] FUNC        SetPlaneColor(iR, iG, iB)
+    [1611005954] FUNC        GetPlaneColorInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetPlaneColorLock(iLocked)
+    [1611005956] PROP_GET    PlaneNormal()
+    [1611005956] PROP_PUT    PlaneNormal()
+    [1611005958] FUNC        GetPlaneNormalInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetPlaneNormalLock(iLocked)
+    [1611005960] PROP_GET    PlaneOrigin()
+    [1611005960] PROP_PUT    PlaneOrigin()
+    [1611005962] FUNC        GetPlaneOriginInfo(ioAdminLevel, ioLocked)
+    [1611005963] FUNC        SetPlaneOriginLock(iLocked)
+    [1611005964] PROP_GET    ClippingMode()
+    [1611005964] PROP_PUT    ClippingMode()
+    [1611005966] FUNC        GetClippingModeInfo(ioAdminLevel, ioLocked)
+    [1611005967] FUNC        SetClippingModeLock(iLocked)
+    [1611005968] PROP_GET    HidePlane()
+    [1611005968] PROP_PUT    HidePlane()
+    [1611005970] FUNC        GetHidePlaneInfo(ioAdminLevel, ioLocked)
+    [1611005971] FUNC        SetHidePlaneLock(iLocked)
+    [1611005972] PROP_GET    HideResult()
+    [1611005972] PROP_PUT    HideResult()
+    [1611005974] FUNC        GetHideResultInfo(ioAdminLevel, ioLocked)
+    [1611005975] FUNC        SetHideResultLock(iLocked)
+    [1611005976] PROP_GET    UpdateResult()
+    [1611005976] PROP_PUT    UpdateResult()
+    [1611005978] FUNC        GetUpdateResultInfo(ioAdminLevel, ioLocked)
+    [1611005979] FUNC        SetUpdateResultLock(iLocked)
+    [1611005980] PROP_GET    DisplayCutInWireframe()
+    [1611005980] PROP_PUT    DisplayCutInWireframe()
+    [1611005982] FUNC        GetDisplayCutInWireframeInfo(ioAdminLevel, ioLocked)
+    [1611005983] FUNC        SetDisplayCutInWireframeLock(iLocked)
+    [1611005984] PROP_GET    GridPositionMode()
+    [1611005984] PROP_PUT    GridPositionMode()
+    [1611005986] FUNC        GetGridPositionModeInfo(ioAdminLevel, ioLocked)
+    [1611005987] FUNC        SetGridPositionModeLock(iLocked)
+    [1611005988] PROP_GET    GridStyle()
+    [1611005988] PROP_PUT    GridStyle()
+    [1611005990] FUNC        GetGridStyleInfo(ioAdminLevel, ioLocked)
+    [1611005991] FUNC        SetGridStyleLock(iLocked)
+    [1611005992] PROP_GET    GridAutoFiltering()
+    [1611005992] PROP_PUT    GridAutoFiltering()
+    [1611005994] FUNC        GetGridAutoFilteringInfo(ioAdminLevel, ioLocked)
+    [1611005995] FUNC        SetGridAutoFilteringLock(iLocked)
+    [1611005996] PROP_GET    GridWidthStep()
+    [1611005996] PROP_PUT    GridWidthStep()
+    [1611005998] FUNC        GetGridWidthStepInfo(ioAdminLevel, ioLocked)
+    [1611005999] FUNC        SetGridWidthStepLock(iLocked)
+    [1611006000] PROP_GET    GridHeightStep()
+    [1611006000] PROP_PUT    GridHeightStep()
+    [1611006002] FUNC        GetGridHeightStepInfo(ioAdminLevel, ioLocked)
+    [1611006003] FUNC        SetGridHeightStepLock(iLocked)
+    [1611006004] PROP_GET    GridAutoResize()
+    [1611006004] PROP_PUT    GridAutoResize()
+    [1611006006] FUNC        GetGridAutoResizeInfo(ioAdminLevel, ioLocked)
+    [1611006007] FUNC        SetGridAutoResizeLock(iLocked)
+    [1611006008] PROP_GET    ViewerAutoOpen()
+    [1611006008] PROP_PUT    ViewerAutoOpen()
+    [1611006010] FUNC        GetViewerAutoOpenInfo(ioAdminLevel, ioLocked)
+    [1611006011] FUNC        SetViewerAutoOpenLock(iLocked)
+    [1611006012] PROP_GET    ViewerLock2D()
+    [1611006012] PROP_PUT    ViewerLock2D()
+    [1611006014] FUNC        GetViewerLock2DInfo(ioAdminLevel, ioLocked)
+    [1611006015] FUNC        SetViewerLock2DLock(iLocked)
+    [1611006016] PROP_GET    ViewerAutoReframe()
+    [1611006016] PROP_PUT    ViewerAutoReframe()
+    [1611006018] FUNC        GetViewerAutoReframeInfo(ioAdminLevel, ioLocked)
+    [1611006019] FUNC        SetViewerAutoReframeLock(iLocked)
+    [1611006020] PROP_GET    SectionFill()
+    [1611006020] PROP_PUT    SectionFill()
+    [1611006022] FUNC        GetSectionFillInfo(ioAdminLevel, ioLocked)
+    [1611006023] FUNC        SetSectionFillLock(iLocked)
+    [1611006024] PROP_GET    WindowOpenMode()
+    [1611006024] PROP_PUT    WindowOpenMode()
+    [1611006026] FUNC        GetWindowOpenModeInfo(ioAdminLevel, ioLocked)
+    [1611006027] FUNC        SetWindowOpenModeLock(iLocked)
+    [1611006028] PROP_GET    WindowDefaultWidth()
+    [1611006028] PROP_PUT    WindowDefaultWidth()
+    [1611006030] FUNC        GetWindowDefaultWidthInfo(ioAdminLevel, ioLocked)
+    [1611006031] FUNC        SetWindowDefaultWidthLock(iLocked)
+    [1611006032] PROP_GET    WindowDefaultHeight()
+    [1611006032] PROP_PUT    WindowDefaultHeight()
+    [1611006034] FUNC        GetWindowDefaultHeightInfo(ioAdminLevel, ioLocked)
+    [1611006035] FUNC        SetWindowDefaultHeightLock(iLocked)
+
+== #26 ENUM: CatSectionPlaneNormal
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] catSectionNormal_X
+    [var 1073741825] catSectionNormal_Y
+    [var 1073741826] catSectionNormal_Z
+        catSectionNormal_X = 0
+        catSectionNormal_Y = 1
+        catSectionNormal_Z = 2
+
+== #27 ENUM: CatSectionPlaneOrigin
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catSectionOrigin_0
+    [var 1073741825] catSectionOrigin_Selection
+        catSectionOrigin_0 = 0
+        catSectionOrigin_Selection = 1
+
+== #28 ENUM: CatSectionClippingMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catSection_Software
+    [var 1073741825] catSection_OpenGL
+        catSection_Software = 0
+        catSection_OpenGL = 1
+
+== #29 ENUM: CatGridPositionMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catGridPositionMode_Absolute
+    [var 1073741825] catGridPositionMode_Relative
+        catGridPositionMode_Absolute = 0
+        catGridPositionMode_Relative = 1
+
+== #30 ENUM: CatSectionGridStyle
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catSectionGridStyle_Lines
+    [var 1073741825] catSectionGridStyle_Crosses
+        catSectionGridStyle_Lines = 0
+        catSectionGridStyle_Crosses = 1
+
+== #31 ENUM: CatSecWindowOpenMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catSecWindow_DefaultSize
+    [var 1073741825] catSecWindow_TileVertically
+        catSecWindow_DefaultSize = 0
+        catSecWindow_TileVertically = 1
+
+== #32 DISPATCH: MeasureSettingAtt
+    iid={C6E988BA-58EF-426A-9422-A46C363DFECE}  funcs=55  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    PartUpdateStatus()
+    [1611005952] PROP_PUT    PartUpdateStatus()
+    [1611005954] FUNC        GetPartUpdateStatusInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetPartUpdateStatusLock(iLocked)
+    [1611005956] PROP_GET    ProductUpdateStatus()
+    [1611005956] PROP_PUT    ProductUpdateStatus()
+    [1611005958] FUNC        GetProductUpdateStatusInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetProductUpdateStatusLock(iLocked)
+    [1611005960] PROP_GET    TildeDisplay()
+    [1611005960] PROP_PUT    TildeDisplay()
+    [1611005962] FUNC        GetTildeDisplayInfo(ioAdminLevel, ioLocked)
+    [1611005963] FUNC        SetTildeDisplayLock(iLocked)
+    [1611005964] FUNC        GetLabelColor(oR, oG, oB)
+    [1611005965] FUNC        SetLabelColor(iR, iG, iB)
+    [1611005966] FUNC        GetLabelColorInfo(ioAdminLevel, ioLocked)
+    [1611005967] FUNC        SetLabelColorLock(iLocked)
+    [1611005968] PROP_GET    LineWidth()
+    [1611005968] PROP_PUT    LineWidth()
+    [1611005970] FUNC        GetLineWidthInfo(ioAdminLevel, ioLocked)
+    [1611005971] FUNC        SetLineWidthLock(iLocked)
+    [1611005972] FUNC        GetTextColor(oR, oG, oB)
+    [1611005973] FUNC        SetTextColor(iR, iG, iB)
+    [1611005974] FUNC        GetTextColorInfo(ioAdminLevel, ioLocked)
+    [1611005975] FUNC        SetTextColorLock(iLocked)
+    [1611005976] PROP_GET    BoxDisplay()
+    [1611005976] PROP_PUT    BoxDisplay()
+    [1611005978] FUNC        GetBoxDisplayInfo(ioAdminLevel, ioLocked)
+    [1611005979] FUNC        SetBoxDisplayLock(iLocked)
+
+== #33 DISPATCH: SPAWorkbench
+    iid={851B4544-21A2-11D4-9463-006094EB3826}  funcs=27  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1611005952] FUNC        GetMeasurable(iMeasuredItem)
+    [1611005953] PROP_GET    Inertias()
+    [1611005954] PROP_GET    Clashes()
+    [1611005955] PROP_GET    Sections()
+    [1611005956] PROP_GET    Distances()
+
+== #34 ALIAS: CATIAClash
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #35 ALIAS: CATIAClashResult
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #36 ALIAS: CATIAClashResults
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #37 ALIAS: CATIAClashes
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #38 ALIAS: CATIAConflict
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #39 ALIAS: CATIAConflicts
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #40 ALIAS: CATIADistance
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #41 ALIAS: CATIADistances
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #42 ALIAS: CATIAInertia
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #43 ALIAS: CATIAInertias
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #44 ALIAS: CATIAMeasurable
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #45 ALIAS: CATIAMeasureSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #46 ALIAS: CATIASPAWorkbench
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #47 ALIAS: CATIASection
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #48 ALIAS: CATIASectioningSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #49 ALIAS: CATIASections
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #50 MODULE: IID_SpaceAnalysisInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=16  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_Section
+    [var 1073741826] IID_Measurable
+    [var 1073741827] IID_Inertia
+    [var 1073741828] IID_Distance
+    [var 1073741829] IID_Conflict
+    [var 1073741830] IID_ClashResult
+    [var 1073741831] IID_Clash
+    [var 1073741832] IID_Sections
+    [var 1073741833] IID_Inertias
+    [var 1073741834] IID_Distances
+    [var 1073741835] IID_Conflicts
+    [var 1073741836] IID_Clashes
+    [var 1073741837] IID_ClashResults
+    [var 1073741838] IID_SectioningSettingAtt
+    [var 1073741839] IID_MeasureSettingAtt
+    [var 1073741840] IID_SPAWorkbench

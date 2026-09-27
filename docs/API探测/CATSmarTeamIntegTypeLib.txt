@@ -1,0 +1,237 @@
+# D:\Programs\CATIA\win_b64\code\bin\CATSmarTeamIntegTypeLib.tlb
+# 库名: CATSmarTeamInteg
+# 说明: CATIA V5 CATSmarTeamIntegInterfaces Object Library
+# 属性: (IID('{37EB6106-2CBA-4A69-B0F7-185EDF69CFC7}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: StiVB
+    iid={B7F6D5DE-8FFF-42F2-8F13-E5DB13CB9B02}  funcs=63  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        CopyFile(ClassName, ObjectID)
+    [1610940417] FUNC        FindDocument(iFileName, iUUID, iSTClassBehavior, iSTFileType, ClassID)
+    [1610940418] FUNC        GetClassName(DocumentSelected)
+    [1610940419] FUNC        GetObjectID(DocumentSelected)
+    [1610940420] FUNC        GetRevisionObjectID(DocumentSelected, RevisionSelected)
+    [1610940421] FUNC        LoadPropertiesFromDB(DocumentSelected)
+    [1610940422] FUNC        NewRelease(DocumentSelected, DialogueBox)
+    [1610940423] FUNC        OpenInReadOnly(ClassName, ObjectID)
+    [1610940424] FUNC        OpenInReadOnlyRevision(ClassName, DocumentID, DocumentRevision)
+    [1610940425] FUNC        ReleaseDocument(DocumentSelected, DialogueBox)
+    [1610940426] FUNC        ReplaceWithSelectedRevision(DocumentSelected, RevisionWanted)
+    [1610940427] FUNC        GlobalRefresh(DocumentSelected)
+    [1610940428] FUNC        SaveAs(Document)
+    [1610940429] FUNC        SavePropertiesInDB(Document)
+    [1610940430] FUNC        InsertComponent(iProduct, ClassName, ObjectID, DialogueBox)
+    [1610940431] FUNC        OpenFrom3DLive(iDBItem, iDataToOpen)
+    [1610940432] FUNC        SaveInstances(iDBItem)
+    [1610940433] FUNC        GenerateXMLReport(iCATIADoc, XMLFilePath)
+    [1610940434] FUNC        GenerateXMLReportWithInstances(iCATIADoc, XMLFilePath)
+    [1610940435] FUNC        CompareASCIIFiles(ASCIIfilePath1, ASCIIfilePath2, outTXTfilePath)
+    [1610940436] FUNC        PerfoStart()
+    [1610940437] FUNC        PerfoStop()
+    [1610940438] FUNC        PerfoDisplayResults(iPathToFile)
+    [1610940439] FUNC        PerfoDisplayAllResults(iPathToFile)
+    [1610940440] FUNC        BulkLoading(PathToFiles)
+    [1610940441] FUNC        GetWork()
+    [1610940442] FUNC        WasPointVisited(PointName)
+    [1610940443] FUNC        MarkPointAsVisited(PointName)
+    [1610940444] FUNC        ClearListOfVisitedPoints()
+    [1610940445] FUNC        ProcessCOOTFlyList()
+    [1610940446] FUNC        SynchronizeFileWithDB(ClassID, ObjectID)
+    [1610940447] FUNC        IsDocUnloadable(idoc, oAnswer, oIsModified)
+    [1610940448] FUNC        CAIOpen(FilePath)
+    [1610940449] FUNC        FastCopyDocument(iClassName, iObjectID)
+    [1610940450] FUNC        DumpDocDescriptors(iFilePath)
+    [1610940451] FUNC        GetNLSMessage(iCatalogName, iMessageKey, iDefaultMessage)
+    [1610940452] FUNC        IsEnvironmentCheckedOnOpen()
+    [1610940453] FUNC        Connect4JBSrv(iUSID, iReplicaID)
+    [1610940454] FUNC        RunCoexistenceBatch(iXMLinputPath, iXMLoutputPath)
+    [1610940455] FUNC        GetCurrentSmSessionName()
+    [1610940456] FUNC        SetDesignCompareFlag(idoc, Flag)
+
+== #1 DISPATCH: StiDBItem
+    iid={AF864A8A-249E-4D51-943D-8F05E49D5FB6}  funcs=27  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetDocument()
+    [1610940417] FUNC        GetDocumentFullPath()
+    [1610940418] FUNC        GetChildren()
+    [1610940419] FUNC        IsCFOType()
+    [1610940420] FUNC        IsRoot()
+
+== #2 DISPATCH: StiDBChildren
+    iid={66D3DDBC-3B6E-48FA-8F88-FFA6F68FEDDC}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Count()
+    [1610940417] FUNC        Item(iIndex)
+    [1610940418] FUNC        LinkType(iIndex)
+
+== #3 DISPATCH: StiExtensions
+    iid={22E02B56-9533-46C9-8B33-465AC1591263}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        BeginModifyTransaction()
+    [1610940417] FUNC        EndModifyTransaction()
+    [1610940418] FUNC        ModifyReferencedFile(iFatherPath, iChildOldPath, iChildNewPath)
+
+== #4 DISPATCH: StiEngine
+    iid={D4F34E67-DCBF-49A6-8D2B-93B3A38F0B27}  funcs=44  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    IntegrationType()
+    [1610940417] PROP_GET    UseGraphicalUI()
+    [1610940417] PROP_PUT    UseGraphicalUI()
+    [1610940419] FUNC        Connect(iUserLogin, iUserPassword)
+    [1610940420] FUNC        Disconnect()
+    [1610940421] FUNC        IsConnected()
+    [1610940422] FUNC        GetStiDBItemFromCATBSTR(iFullPath)
+    [1610940423] FUNC        GetStiDBItemFromAnyObject(iAnyObject)
+    [1610940424] FUNC        GetSMARTEAMObjectID(iStiDBItem)
+    [1610940425] FUNC        GetSMARTEAMClassID(iStiDBItem)
+    [1610940426] FUNC        Save(iStiDBItem)
+    [1610940427] FUNC        LifeCycleCheckIn(iStiDBItem)
+    [1610940428] FUNC        LifeCycleRelease(iStiDBItem)
+    [1610940429] FUNC        LifeCycleCheckOut(iStiDBItem)
+    [1610940430] FUNC        LifeCycleNewRelease(iStiDBItem)
+    [1610940431] FUNC        LifeCycleUndoCheckOut(iStiDBItem)
+    [1610940432] FUNC        BuildDocDBItemFromSmarTeamID(iObjectID, iclassId)
+    [1610940433] FUNC        BuildFileDBItemFromSmarTeamID(iObjectID, iclassId)
+    [1610940434] FUNC        LifeCycleCheckOutPropagated(iStiDBItem)
+    [1610940435] FUNC        LifeCycleNewReleasePropagated(iStiDBItem)
+    [1610940436] FUNC        RefreshInfo()
+    [1610940437] FUNC        GetTeamPDMURL(iStiDBItem)
+
+== #5 ALIAS: CATIAStiDBChildren
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #6 ALIAS: CATIAStiDBItem
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #7 ALIAS: CATIAStiEngine
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #8 ALIAS: CATIAStiExtensions
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #9 ALIAS: CATIAStiVB
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #10 ENUM: foo_CATSmarTeamIntegInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_CATSmarTeamIntegInterfaces
+        foo_CATSmarTeamIntegInterfaces = 0
+
+== #11 MODULE: IID_CATSmarTeamIntegInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=5  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_StiVB
+    [var 1073741826] IID_StiExtensions
+    [var 1073741827] IID_StiEngine
+    [var 1073741828] IID_StiDBItem
+    [var 1073741829] IID_StiDBChildren

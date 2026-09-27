@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-09-25T22:21:28",
+  "steps": [
+    {
+      "name": "preselect",
+      "count": 2,
+      "items": [
+        "Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;4)));None:();Cf11:());Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;3)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.1_ResultOUT;Z0;G3563)",
+        "Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;3)));None:();Cf11:());Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;2)));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.1_ResultOUT;Z0;G3563)"
+      ]
+    },
+    {
+      "name": "start_command",
+      "command": "Edge Fillet"
+    },
+    {
+      "name": "dialog",
+      "found": true,
+      "title": "倒圆角定义",
+      "entries": [],
+      "radius": null
+    },
+    {
+      "name": "cancel",
+      "closed": true
+    },
+    {
+      "name": "model_unchanged",
+      "shapes": [
+        "凸台.1"
+      ],
+      "volume": 0.00024000000000000006,
+      "ok": true
+    }
+  ],
+  "verdict": "FAIL-2"
+}

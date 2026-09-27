@@ -1,0 +1,87 @@
+# D:\Programs\CATIA\win_b64\code\bin\AECRTypeLib.tlb
+# 库名: AECRTypeLib
+# 说明: CATIA V5 AECReviewInterfaces Object Library
+# 属性: (IID('{85CC1867-B083-0000-0280-020CC2000000}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: PlantObject
+    iid={85CC00F6-2AD3-0000-0280-020CC2000000}  funcs=34  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    TypeName()
+    [1610940417] PROP_GET    PropertiesCount()
+    [1610940418] FUNC        GetPropertyName(iPropertyIndex)
+    [1610940419] FUNC        GetPropertyValue(iPropertyIndex)
+    [1610940420] FUNC        GetProperty(iPropertyName)
+    [1610940421] FUNC        IsSubType(iType)
+    [1610940422] PROP_GET    PlantParentsCount()
+    [1610940423] FUNC        GetPlantParent(iParentIndex)
+    [1610940424] PROP_GET    PlantChildrenCount()
+    [1610940425] FUNC        GetPlantChild(iChildIndex)
+    [1610940426] PROP_GET    PlantConnectedCount()
+    [1610940427] FUNC        GetPlantConnected(iConnectedIndex)
+
+== #1 DISPATCH: PlantReviewWorkbench
+    iid={B87AA4B5-EFC2-0000-0280-020CC2000000}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1611005952] FUNC        SelectByName(iObjectName)
+    [1611005953] FUNC        SelectByType(iObjectType)
+
+== #2 ALIAS: CATIAPlantObject
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #3 ALIAS: CATIAPlantReviewWorkBench
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #4 ENUM: foo_AECReviewInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_AECReviewInterfaces
+        foo_AECReviewInterfaces = 0
+
+== #5 MODULE: IID_AECReviewInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=2  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_PlantObject
+    [var 1073741826] IID_PlantReviewWorkbench

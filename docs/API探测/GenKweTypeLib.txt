@@ -1,0 +1,651 @@
+# D:\Programs\CATIA\win_b64\code\bin\GenKweTypeLib.tlb
+# 库名: GenKwe
+# 说明: CATIA V5 GenKnowledgeInterfaces Object Library
+# 属性: (IID('{00B6EC0E-BCFE-11D2-9B5B-006094EB7ECA}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: ExpertRuleBaseComponentRuntime
+    iid={266937E0-BEBD-11D4-9F0A-00D0B7AF59EF}  funcs=31  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Comment()
+    [1610940416] PROP_PUT    Comment()
+    [1610940418] FUNC        Activate()
+    [1610940419] FUNC        Deactivate()
+    [1610940420] FUNC        Isactivate()
+    [1610940421] FUNC        AccurateType()
+    [1610940422] FUNC        SetUseOnly()
+    [1610940423] FUNC        IsUseOnly()
+    [1610940424] FUNC        Parse()
+
+== #1 DISPATCH: ExpertRuleSetRuntime
+    iid={576F7050-BEBE-11D4-9F0A-00D0B7AF59EF}  funcs=34  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Comment()
+    [1610940416] PROP_PUT    Comment()
+    [1610940418] FUNC        Activate()
+    [1610940419] FUNC        Deactivate()
+    [1610940420] FUNC        Isactivate()
+    [1610940421] FUNC        AccurateType()
+    [1610940422] FUNC        SetUseOnly()
+    [1610940423] FUNC        IsUseOnly()
+    [1610940424] FUNC        Parse()
+    [1611005952] PROP_GET    RuleSetEdition()
+    [1611005953] PROP_GET    ExpertRuleBaseComponentRuntimes()
+    [1611005954] FUNC        Status()
+
+== #2 DISPATCH: ExpertRuleSet
+    iid={D095F2EE-BCFE-11D2-9B5B-006094EB7ECA}  funcs=37  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Comment()
+    [1610940416] PROP_PUT    Comment()
+    [1610940418] FUNC        Activate()
+    [1610940419] FUNC        Deactivate()
+    [1610940420] FUNC        Isactivate()
+    [1610940421] FUNC        AccurateType()
+    [1610940422] FUNC        SetUseOnly()
+    [1610940423] FUNC        IsUseOnly()
+    [1610940424] FUNC        Parse()
+    [1611005952] PROP_GET    RuleSetEdition()
+    [1611005953] PROP_GET    ExpertRuleBaseComponentRuntimes()
+    [1611005954] FUNC        Status()
+    [1611071488] FUNC        CreateCheck(iName, iCheckVariables, iCheckBody, iRuleSet)
+    [1611071489] FUNC        CreateRule(iName, iRuleVariables, iRuleBody, iRuleSet)
+    [1611071490] FUNC        CreateRuleSet(iName, iRuleSet)
+
+== #3 DISPATCH: ExpertCheck
+    iid={96FBC284-BCFE-11D2-9B5B-006094EB7ECA}  funcs=57  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Comment()
+    [1610940416] PROP_PUT    Comment()
+    [1610940418] FUNC        Activate()
+    [1610940419] FUNC        Deactivate()
+    [1610940420] FUNC        Isactivate()
+    [1610940421] FUNC        AccurateType()
+    [1610940422] FUNC        SetUseOnly()
+    [1610940423] FUNC        IsUseOnly()
+    [1610940424] FUNC        Parse()
+    [1611005952] PROP_GET    Failures()
+    [1611005953] PROP_GET    Succeeds()
+    [1611005954] PROP_GET    CorrectFunction()
+    [1611005954] PROP_PUT    CorrectFunction()
+    [1611005956] PROP_GET    CorrectFunctionType()
+    [1611005956] PROP_PUT    CorrectFunctionType()
+    [1611005958] PROP_GET    AutomaticCorrect()
+    [1611005958] PROP_PUT    AutomaticCorrect()
+    [1611005960] PROP_GET    Help()
+    [1611005960] PROP_PUT    Help()
+    [1611005962] PROP_GET    Justification()
+    [1611005962] PROP_PUT    Justification()
+    [1611005964] PROP_GET    CorrectFunctionComment()
+    [1611005964] PROP_PUT    CorrectFunctionComment()
+    [1611005966] PROP_GET    CheckEdition()
+    [1611005967] FUNC        Highlight()
+    [1611005968] FUNC        Correct()
+    [1611005969] FUNC        Status()
+    [1611005970] PROP_GET    Priority()
+    [1611005970] PROP_PUT    Priority()
+    [1611071488] PROP_GET    Variables()
+    [1611071488] PROP_PUT    Variables()
+    [1611071490] PROP_GET    Body()
+    [1611071490] PROP_PUT    Body()
+    [1611071492] PROP_GET    Language()
+    [1611071492] PROP_PUT    Language()
+
+== #4 DISPATCH: ExpertCheckRuntime
+    iid={A4CA4A50-A02D-11D4-9EFB-00D0B752954C}  funcs=51  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Comment()
+    [1610940416] PROP_PUT    Comment()
+    [1610940418] FUNC        Activate()
+    [1610940419] FUNC        Deactivate()
+    [1610940420] FUNC        Isactivate()
+    [1610940421] FUNC        AccurateType()
+    [1610940422] FUNC        SetUseOnly()
+    [1610940423] FUNC        IsUseOnly()
+    [1610940424] FUNC        Parse()
+    [1611005952] PROP_GET    Failures()
+    [1611005953] PROP_GET    Succeeds()
+    [1611005954] PROP_GET    CorrectFunction()
+    [1611005954] PROP_PUT    CorrectFunction()
+    [1611005956] PROP_GET    CorrectFunctionType()
+    [1611005956] PROP_PUT    CorrectFunctionType()
+    [1611005958] PROP_GET    AutomaticCorrect()
+    [1611005958] PROP_PUT    AutomaticCorrect()
+    [1611005960] PROP_GET    Help()
+    [1611005960] PROP_PUT    Help()
+    [1611005962] PROP_GET    Justification()
+    [1611005962] PROP_PUT    Justification()
+    [1611005964] PROP_GET    CorrectFunctionComment()
+    [1611005964] PROP_PUT    CorrectFunctionComment()
+    [1611005966] PROP_GET    CheckEdition()
+    [1611005967] FUNC        Highlight()
+    [1611005968] FUNC        Correct()
+    [1611005969] FUNC        Status()
+    [1611005970] PROP_GET    Priority()
+    [1611005970] PROP_PUT    Priority()
+
+== #5 DISPATCH: ExpertReportObjects
+    iid={9E7F80C0-50D2-11D4-9EEB-00508B617AE8}  funcs=28  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] PROP_GET    CountSucceed()
+    [1610940417] PROP_GET    CountFail()
+    [1610940418] FUNC        Item(iIndex)
+    [1610940419] FUNC        SucceedItem(iIndex)
+    [1610940420] FUNC        FailItem(iIndex)
+
+== #6 DISPATCH: ExpertReportObject
+    iid={2EBC278C-61D5-11D3-9B79-006094EB7ECA}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Validity()
+    [1610940417] FUNC        getTuple(oSafeArray)
+    [1610940418] FUNC        getTupleSize()
+
+== #7 DISPATCH: ExpertRule
+    iid={FA729E14-9F72-11D4-9EFB-00D0B752954C}  funcs=40  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Comment()
+    [1610940416] PROP_PUT    Comment()
+    [1610940418] FUNC        Activate()
+    [1610940419] FUNC        Deactivate()
+    [1610940420] FUNC        Isactivate()
+    [1610940421] FUNC        AccurateType()
+    [1610940422] FUNC        SetUseOnly()
+    [1610940423] FUNC        IsUseOnly()
+    [1610940424] FUNC        Parse()
+    [1611005952] PROP_GET    Priority()
+    [1611005952] PROP_PUT    Priority()
+    [1611005954] PROP_GET    RuleEdition()
+    [1611071488] PROP_GET    Variables()
+    [1611071488] PROP_PUT    Variables()
+    [1611071490] PROP_GET    Body()
+    [1611071490] PROP_PUT    Body()
+    [1611071492] PROP_GET    Language()
+    [1611071492] PROP_PUT    Language()
+
+== #8 DISPATCH: ExpertRuleRuntime
+    iid={529C42D0-A031-11D4-9EFB-00D0B752954C}  funcs=34  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Comment()
+    [1610940416] PROP_PUT    Comment()
+    [1610940418] FUNC        Activate()
+    [1610940419] FUNC        Deactivate()
+    [1610940420] FUNC        Isactivate()
+    [1610940421] FUNC        AccurateType()
+    [1610940422] FUNC        SetUseOnly()
+    [1610940423] FUNC        IsUseOnly()
+    [1610940424] FUNC        Parse()
+    [1611005952] PROP_GET    Priority()
+    [1611005952] PROP_PUT    Priority()
+    [1611005954] PROP_GET    RuleEdition()
+
+== #9 DISPATCH: ExpertRuleBaseComponentRuntimes
+    iid={985E050E-BF11-11D4-9EFC-00D0B752954C}  funcs=28  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Item(iIndex)
+    [1610940417] FUNC        ShallowItem(iIndex)
+    [1610940418] FUNC        ShallowCount()
+    [1610940419] FUNC        Remove(iIndex)
+    [1610940420] FUNC        ShallowRemove(iIndex)
+
+== #10 DISPATCH: ExpertRuleBaseRuntime
+    iid={23F084D0-9F4C-11D4-9EFB-00D0B752954C}  funcs=68  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Hidden()
+    [1610940416] PROP_PUT    Hidden()
+    [1610940418] PROP_GET    IsConst()
+    [1610940418] PROP_PUT    IsConst()
+    [1611005952] PROP_GET    Activated()
+    [1611005953] FUNC        Activate()
+    [1611005954] FUNC        Deactivate()
+    [1611071488] PROP_GET    Value()
+    [1611071489] PROP_GET    Comment()
+    [1611071489] PROP_PUT    Comment()
+    [1611071491] FUNC        Rename(iName)
+    [1611071492] FUNC        Modify(iValue)
+    [1611071493] PROP_GET    NbInParameters()
+    [1611071494] PROP_GET    NbOutParameters()
+    [1611071495] FUNC        GetInParameter(iIndex)
+    [1611071496] FUNC        GetOutParameter(iIndex)
+    [1611071497] PROP_GET    Context()
+    [1611137024] PROP_GET    RuleBaseEdition()
+    [1611137025] PROP_GET    RuleSet()
+    [1611137026] PROP_GET    ReportOutPutFormat()
+    [1611137026] PROP_PUT    ReportOutPutFormat()
+    [1611137028] PROP_GET    ReportDescriptionLength()
+    [1611137028] PROP_PUT    ReportDescriptionLength()
+    [1611137030] PROP_GET    ReportShowResult()
+    [1611137030] PROP_PUT    ReportShowResult()
+    [1611137032] PROP_GET    TextVisualization()
+    [1611137032] PROP_PUT    TextVisualization()
+    [1611137034] PROP_GET    SolveType()
+    [1611137034] PROP_PUT    SolveType()
+    [1611137036] PROP_GET    ReportPath()
+    [1611137036] PROP_PUT    ReportPath()
+    [1611137038] FUNC        AccurateType()
+    [1611137039] FUNC        Deduce()
+    [1611137040] FUNC        AddFact(iFact)
+    [1611137041] FUNC        RemoveFact(iFact)
+    [1611137042] FUNC        ReloadFact(iFact)
+    [1611137043] FUNC        AddRootOfFacts(iRootFacts)
+    [1611137044] FUNC        RemoveRootOfFacts(iRootFacts)
+    [1611137045] FUNC        GetRootsOfFacts(oRootsOfFacts)
+    [1611137046] FUNC        GetNumberOfRootsOfFacts()
+    [1611137047] FUNC        Report(reallyStartBrowser)
+    [1611137048] FUNC        Fingerprint()
+    [1611137049] FUNC        ImportFromFile(iPath, iForce)
+    [1611137050] FUNC        Import(iRuleSet, iForce)
+    [1611137051] FUNC        ImportWithLink(iRoot, iForce)
+    [1611137052] FUNC        SynchronizeStatus()
+
+== #11 DISPATCH: ExpertRuleBase
+    iid={709360AC-BCFE-11D2-9B5B-006094EB7ECA}  funcs=69  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Hidden()
+    [1610940416] PROP_PUT    Hidden()
+    [1610940418] PROP_GET    IsConst()
+    [1610940418] PROP_PUT    IsConst()
+    [1611005952] PROP_GET    Activated()
+    [1611005953] FUNC        Activate()
+    [1611005954] FUNC        Deactivate()
+    [1611071488] PROP_GET    Value()
+    [1611071489] PROP_GET    Comment()
+    [1611071489] PROP_PUT    Comment()
+    [1611071491] FUNC        Rename(iName)
+    [1611071492] FUNC        Modify(iValue)
+    [1611071493] PROP_GET    NbInParameters()
+    [1611071494] PROP_GET    NbOutParameters()
+    [1611071495] FUNC        GetInParameter(iIndex)
+    [1611071496] FUNC        GetOutParameter(iIndex)
+    [1611071497] PROP_GET    Context()
+    [1611137024] PROP_GET    RuleBaseEdition()
+    [1611137025] PROP_GET    RuleSet()
+    [1611137026] PROP_GET    ReportOutPutFormat()
+    [1611137026] PROP_PUT    ReportOutPutFormat()
+    [1611137028] PROP_GET    ReportDescriptionLength()
+    [1611137028] PROP_PUT    ReportDescriptionLength()
+    [1611137030] PROP_GET    ReportShowResult()
+    [1611137030] PROP_PUT    ReportShowResult()
+    [1611137032] PROP_GET    TextVisualization()
+    [1611137032] PROP_PUT    TextVisualization()
+    [1611137034] PROP_GET    SolveType()
+    [1611137034] PROP_PUT    SolveType()
+    [1611137036] PROP_GET    ReportPath()
+    [1611137036] PROP_PUT    ReportPath()
+    [1611137038] FUNC        AccurateType()
+    [1611137039] FUNC        Deduce()
+    [1611137040] FUNC        AddFact(iFact)
+    [1611137041] FUNC        RemoveFact(iFact)
+    [1611137042] FUNC        ReloadFact(iFact)
+    [1611137043] FUNC        AddRootOfFacts(iRootFacts)
+    [1611137044] FUNC        RemoveRootOfFacts(iRootFacts)
+    [1611137045] FUNC        GetRootsOfFacts(oRootsOfFacts)
+    [1611137046] FUNC        GetNumberOfRootsOfFacts()
+    [1611137047] FUNC        Report(reallyStartBrowser)
+    [1611137048] FUNC        Fingerprint()
+    [1611137049] FUNC        ImportFromFile(iPath, iForce)
+    [1611137050] FUNC        Import(iRuleSet, iForce)
+    [1611137051] FUNC        ImportWithLink(iRoot, iForce)
+    [1611137052] FUNC        SynchronizeStatus()
+    [1611202560] FUNC        VolatileCopy()
+
+== #12 ENUM: CatOutPutFormatType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=4  impltypes=0
+    [var 1073741824] KWEHtml
+    [var 1073741825] KWEText
+    [var 1073741826] KWEPrint
+    [var 1073741827] KWEEmail
+        KWEHtml = 0
+        KWEText = 1
+        KWEPrint = 2
+        KWEEmail = 3
+
+== #13 ENUM: CatDescriptionLengthType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] ShortText
+    [var 1073741825] LongText
+        ShortText = 0
+        LongText = 1
+
+== #14 ENUM: CatShowResultType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] ByRule
+    [var 1073741825] ByObject
+    [var 1073741826] ByState
+        ByRule = 0
+        ByObject = 1
+        ByState = 2
+
+== #15 ENUM: CatVisualizationType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] Passed
+    [var 1073741825] Failed
+    [var 1073741826] Both
+        Passed = 0
+        Failed = 1
+        Both = 2
+
+== #16 ENUM: CatSolveType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] ManualSolveType
+    [var 1073741825] AutomaticOptimizedSolveType
+    [var 1073741826] AutomaticCompleteSolveType
+        ManualSolveType = 0
+        AutomaticOptimizedSolveType = 1
+        AutomaticCompleteSolveType = 2
+
+== #17 ALIAS: CATIAExpertCheck
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #18 ALIAS: CATIAExpertCheckRuntime
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #19 ALIAS: CATIAExpertReportObject
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #20 ALIAS: CATIAExpertReportObjects
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #21 ALIAS: CATIAExpertRule
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #22 ALIAS: CATIAExpertRuleBase
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #23 ALIAS: CATIAExpertRuleBaseComponentRuntime
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #24 ALIAS: CATIAExpertRuleBaseComponentRuntimes
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #25 ALIAS: CATIAExpertRuleBaseRuntime
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #26 ALIAS: CATIAExpertRuleRuntime
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #27 ALIAS: CATIAExpertRuleSet
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #28 ALIAS: CATIAExpertRuleSetRuntime
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #29 MODULE: IID_GenKnowledgeInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=12  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_ExpertRuleBaseComponentRuntime
+    [var 1073741826] IID_ExpertRuleSetRuntime
+    [var 1073741827] IID_ExpertRuleSet
+    [var 1073741828] IID_ExpertRuleRuntime
+    [var 1073741829] IID_ExpertRule
+    [var 1073741830] IID_ExpertCheckRuntime
+    [var 1073741831] IID_ExpertCheck
+    [var 1073741832] IID_ExpertReportObject
+    [var 1073741833] IID_ExpertRuleBaseComponentRuntimes
+    [var 1073741834] IID_ExpertReportObjects
+    [var 1073741835] IID_ExpertRuleBaseRuntime
+    [var 1073741836] IID_ExpertRuleBase

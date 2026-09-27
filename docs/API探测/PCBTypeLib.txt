@@ -1,0 +1,84 @@
+# D:\Programs\CATIA\win_b64\code\bin\PCBTypeLib.tlb
+# 库名: PCBITF
+# 说明: CATIA V5 PCBoardBase Object Library
+# 属性: (IID('{9140106B-CD44-0000-0280-030BBD000000}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: PCBBoard
+    iid={962FB008-7B27-11D3-AB7B-006094EB39D9}  funcs=29  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Part()
+    [1610940416] PROP_PUT    Part()
+    [1610940418] FUNC        create_zone(zonetype, iPad)
+    [1610940419] PROP_GET    Owner()
+    [1610940419] PROP_PUT    Owner()
+    [1610940421] FUNC        create_pcbhole(iHole, iplatingStyle, iAssociatedPartName, iHoleType, iHoleOwner)
+    [1610940422] FUNC        create_pcbpattern(iPattern, iplatingStyle, iAssociatedPartName, iHoleType, iHoleOwner)
+
+== #1 DISPATCH: PCBWorkbench
+    iid={913EF589-CB7A-0000-0280-030BBD000000}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1611005952] FUNC        CreateBoard(iRoot)
+    [1611005953] FUNC        CreateComponent(iRoot, iElecPackageNumber, iElecPartNumber, iElecType)
+    [1611005954] FUNC        GetRootProduct(doc)
+    [1611005955] FUNC        CreatePanel(iRoot)
+
+== #2 ALIAS: CATIAPCBBoard
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #3 ALIAS: CATIAPCBWorkbench
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #4 ENUM: foo_PCBoardBase
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_PCBoardBase
+        foo_PCBoardBase = 0
+
+== #5 MODULE: IID_PCBoardBase
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=2  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_PCBBoard
+    [var 1073741826] IID_PCBWorkbench

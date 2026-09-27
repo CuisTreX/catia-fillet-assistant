@@ -1,0 +1,9 @@
+# D:\Programs\CATIA\win_b64\code\bin\CATSpdFunctionalTypeLib.tlb
+# 库名: CATSpdFunctional
+# 说明: CATIA V5 CATSpdFunctionalInterfaces Object Library
+# 属性: (IID('{5E00D52D-1930-45B7-8877-AB780AF9988F}'), 0, 1, 0, 0, 8)
+
+== #0 ENUM: foo_CATSpdFunctionalInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_CATSpdFunctionalInterfaces
+        foo_CATSpdFunctionalInterfaces = 0

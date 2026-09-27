@@ -1,0 +1,214 @@
+# D:\Programs\CATIA\win_b64\code\bin\DNBSimActivityTypeLib.tlb
+# 库名: DNBSimAct
+# 说明: CATIA V5 DNBSimActivityInterfaces Object Library
+# 属性: (IID('{F1978546-69D8-4A96-BCDD-AD943304CBB7}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: ReleaseAct
+    iid={D1AAF8D8-8DE7-4F22-9690-A87AF3A41854}  funcs=58  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        IsSubTypeOf(iName)
+    [1610940417] FUNC        AttrValue(iIndex)
+    [1610940418] FUNC        AttrName(iIndex)
+    [1610940419] PROP_GET    Type()
+    [1610940420] PROP_GET    Description()
+    [1610940420] PROP_PUT    Description()
+    [1610940422] PROP_GET    CycleTime()
+    [1610940422] PROP_PUT    CycleTime()
+    [1610940424] PROP_GET    CalculatedCycleTime()
+    [1610940425] PROP_GET    BeginningDate()
+    [1610940425] PROP_PUT    BeginningDate()
+    [1610940427] PROP_GET    EndDate()
+    [1610940428] PROP_GET    ChildrenActivities()
+    [1610940429] FUNC        CreateChild(iTypeOfChild)
+    [1610940430] FUNC        CreateLink(iSecondActivity)
+    [1610940431] FUNC        RemoveLink(iSecondActivity)
+    [1610940432] PROP_GET    NextCFActivities()
+    [1610940433] PROP_GET    PreviousCFActivities()
+    [1610940434] PROP_GET    NextPRFActivities()
+    [1610940435] PROP_GET    PreviousPRFActivities()
+    [1610940436] PROP_GET    AttrCount()
+    [1610940437] PROP_GET    Items()
+    [1610940438] PROP_GET    Outputs()
+    [1610940439] PROP_GET    Resources()
+    [1610940440] PROP_GET    Relations()
+    [1610940441] PROP_GET    Parameters()
+    [1610940442] FUNC        GetTechnologicalObject(iApplicationType)
+    [1610940443] PROP_GET    PrecedenceActivities()
+    [1610940444] PROP_GET    PossiblePrecedenceActivities()
+    [1610940445] PROP_GET    ProcessID()
+    [1610940446] FUNC        SetProcessID(iProcessID, iCheckUnique)
+    [1610940447] PROP_GET    CalculatedBeginTime()
+    [1611005952] PROP_GET    GrabbingObject()
+    [1611005952] PROP_PUT    GrabbingObject()
+    [1611005954] FUNC        GetGrabbedObjects(oGrabbedObjects)
+    [1611005955] FUNC        PutGrabbedObjects(iGrabbedObjects)
+
+== #1 DISPATCH: GrabAct
+    iid={9ECE8FFB-0DE6-4F6B-860F-C7E1FC17B9A9}  funcs=58  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        IsSubTypeOf(iName)
+    [1610940417] FUNC        AttrValue(iIndex)
+    [1610940418] FUNC        AttrName(iIndex)
+    [1610940419] PROP_GET    Type()
+    [1610940420] PROP_GET    Description()
+    [1610940420] PROP_PUT    Description()
+    [1610940422] PROP_GET    CycleTime()
+    [1610940422] PROP_PUT    CycleTime()
+    [1610940424] PROP_GET    CalculatedCycleTime()
+    [1610940425] PROP_GET    BeginningDate()
+    [1610940425] PROP_PUT    BeginningDate()
+    [1610940427] PROP_GET    EndDate()
+    [1610940428] PROP_GET    ChildrenActivities()
+    [1610940429] FUNC        CreateChild(iTypeOfChild)
+    [1610940430] FUNC        CreateLink(iSecondActivity)
+    [1610940431] FUNC        RemoveLink(iSecondActivity)
+    [1610940432] PROP_GET    NextCFActivities()
+    [1610940433] PROP_GET    PreviousCFActivities()
+    [1610940434] PROP_GET    NextPRFActivities()
+    [1610940435] PROP_GET    PreviousPRFActivities()
+    [1610940436] PROP_GET    AttrCount()
+    [1610940437] PROP_GET    Items()
+    [1610940438] PROP_GET    Outputs()
+    [1610940439] PROP_GET    Resources()
+    [1610940440] PROP_GET    Relations()
+    [1610940441] PROP_GET    Parameters()
+    [1610940442] FUNC        GetTechnologicalObject(iApplicationType)
+    [1610940443] PROP_GET    PrecedenceActivities()
+    [1610940444] PROP_GET    PossiblePrecedenceActivities()
+    [1610940445] PROP_GET    ProcessID()
+    [1610940446] FUNC        SetProcessID(iProcessID, iCheckUnique)
+    [1610940447] PROP_GET    CalculatedBeginTime()
+    [1611005952] PROP_GET    GrabbingObject()
+    [1611005952] PROP_PUT    GrabbingObject()
+    [1611005954] FUNC        GetGrabbedObjects(oGrabbedObjects)
+    [1611005955] FUNC        PutGrabbedObjects(iGrabbedObjects)
+
+== #2 DISPATCH: AnnotationActivity
+    iid={1B9CA9B8-18AB-4941-9674-229B34071423}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    VisibilityStatus()
+    [1610940417] FUNC        GetFTAList()
+    [1610940418] PROP_GET    CompletionStatus()
+
+== #3 DISPATCH: FTAList
+    iid={B5AE2BC3-41A3-4228-AB71-D4939B7423FF}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Item(iIndex)
+
+== #4 ENUM: DNBAnnotationStatus
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] NotApplicable
+    [var 1073741825] InProgress
+    [var 1073741826] Complete
+        NotApplicable = 0
+        InProgress = 1
+        Complete = 2
+
+== #5 ALIAS: DNBIAAnnotationActivity
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #6 ALIAS: DNBIAFTAList
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #7 ALIAS: DELMIAGrabActivity
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #8 ALIAS: DELMIAReleaseActivity
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #9 MODULE: IID_DNBSimActivityInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=4  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_ReleaseAct
+    [var 1073741826] IID_GrabAct
+    [var 1073741827] IID_AnnotationActivity
+    [var 1073741828] IID_FTAList

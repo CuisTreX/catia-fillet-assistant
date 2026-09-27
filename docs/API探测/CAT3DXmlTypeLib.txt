@@ -1,0 +1,115 @@
+# D:\Programs\CATIA\win_b64\code\bin\CAT3DXmlTypeLib.tlb
+# 库名: CAT3DXml
+# 说明: CATIA V5 CAT3DXmlInterfaces Object Library
+# 属性: (IID('{0FCBA824-46B4-430B-A3C6-BC8E84D1FB7F}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: Export3DXmlSettingAtt
+    iid={60FE4C0A-F771-4105-9413-FA83ABB57DFA}  funcs=75  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    GeometryRepresentationFormat()
+    [1611005952] PROP_PUT    GeometryRepresentationFormat()
+    [1611005954] FUNC        GetGeometryRepresentationFormatInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetGeometryRepresentationFormatLock(iLocked)
+    [1611005956] PROP_GET    SurfaceAccuracy()
+    [1611005956] PROP_PUT    SurfaceAccuracy()
+    [1611005958] FUNC        GetSurfaceAccuracyInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetSurfaceAccuracyLock(iLocked)
+    [1611005960] PROP_GET    AnnotatedView()
+    [1611005960] PROP_PUT    AnnotatedView()
+    [1611005962] FUNC        GetAnnotatedViewInfo(ioAdminLevel, ioLocked)
+    [1611005963] FUNC        SetAnnotatedViewLock(iLocked)
+    [1611005964] PROP_GET    AlternateView()
+    [1611005964] PROP_PUT    AlternateView()
+    [1611005966] FUNC        GetAlternateViewInfo(ioAdminLevel, ioLocked)
+    [1611005967] FUNC        SetAlternateViewLock(iLocked)
+    [1611005968] PROP_GET    Presentation()
+    [1611005968] PROP_PUT    Presentation()
+    [1611005970] FUNC        GetPresentationInfo(ioAdminLevel, ioLocked)
+    [1611005971] FUNC        SetPresentationLock(iLocked)
+    [1611005972] PROP_GET    Section()
+    [1611005972] PROP_PUT    Section()
+    [1611005974] FUNC        GetSectionInfo(ioAdminLevel, ioLocked)
+    [1611005975] FUNC        SetSectionLock(iLocked)
+    [1611005976] PROP_GET    Measure()
+    [1611005976] PROP_PUT    Measure()
+    [1611005978] FUNC        GetMeasureInfo(ioAdminLevel, ioLocked)
+    [1611005979] FUNC        SetMeasureLock(iLocked)
+    [1611005980] PROP_GET    Animation()
+    [1611005980] PROP_PUT    Animation()
+    [1611005982] FUNC        GetAnimationInfo(ioAdminLevel, ioLocked)
+    [1611005983] FUNC        SetAnimationLock(iLocked)
+    [1611005984] PROP_GET    Annotation3D()
+    [1611005984] PROP_PUT    Annotation3D()
+    [1611005986] FUNC        GetAnnotation3DInfo(ioAdminLevel, ioLocked)
+    [1611005987] FUNC        SetAnnotation3DLock(iLocked)
+    [1611005988] PROP_GET    PPRSaveConfig()
+    [1611005988] PROP_PUT    PPRSaveConfig()
+    [1611005990] FUNC        GetPPRSaveConfigInfo(ioAdminLevel, ioLocked)
+    [1611005991] FUNC        SetPPRSaveConfigLock(iLocked)
+    [1611005992] PROP_GET    DesignReview()
+    [1611005992] PROP_PUT    DesignReview()
+    [1611005994] FUNC        GetDesignReviewInfo(ioAdminLevel, ioLocked)
+    [1611005995] FUNC        SetDesignReviewLock(iLocked)
+    [1611005996] PROP_GET    WorkInstructions()
+    [1611005996] PROP_PUT    WorkInstructions()
+    [1611005998] FUNC        GetWorkInstructionsInfo(ioAdminLevel, ioLocked)
+    [1611005999] FUNC        SetWorkInstructionsLock(iLocked)
+
+== #1 ENUM: Cat3DXmlGeomRepresentationType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=6  impltypes=0
+    [var 1073741824] cat3DXmlExact
+    [var 1073741825] cat3DXmlTessellation
+    [var 1073741826] cat3DXmlCompressedTessellation
+    [var 1073741827] cat3DXmlDynamicTessellation
+    [var 1073741828] cat3DXmlStaticTessellation
+    [var 1073741829] cat3DXmlXmlTessellation
+        cat3DXmlExact = 0
+        cat3DXmlTessellation = 1
+        cat3DXmlCompressedTessellation = 2
+        cat3DXmlDynamicTessellation = 3
+        cat3DXmlStaticTessellation = 4
+        cat3DXmlXmlTessellation = 5
+
+== #2 ENUM: Cat3DXmlPPRSaveConfig
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] cat3DXmlProductAndResourceList
+    [var 1073741825] cat3DXmlProductList
+    [var 1073741826] cat3DXmlResourceList
+        cat3DXmlProductAndResourceList = 0
+        cat3DXmlProductList = 1
+        cat3DXmlResourceList = 2
+
+== #3 ALIAS: CATIAExport3DXmlSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #4 MODULE: IID_CAT3DXmlInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=1  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_Export3DXmlSettingAtt

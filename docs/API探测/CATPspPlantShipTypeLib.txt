@@ -1,0 +1,1225 @@
+# D:\Programs\CATIA\win_b64\code\bin\CATPspPlantShipTypeLib.tlb
+# 库名: CATPspPlantShipTypeLib
+# 说明: CATIA V5 CATPlantShipInterfaces Object Library
+# 属性: (IID('{07CD116E-CF88-11D4-8E1B-00D0B7ACB59A}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: PspWorkbench
+    iid={3DA93C6A-3B38-11D5-8E3E-00D0B7ACB59A}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetApplication(iApplicationID)
+    [1610940417] FUNC        GetInterface(iInterfaceName, iObject)
+    [1610940418] FUNC        ExportProperties(iDocumentToExportFrom, iXMLOutputFileName)
+
+== #1 ENUM: CatPspIDLApplicationID
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=15  impltypes=0
+    [var 1073741824] catPspIDLCATPiping
+    [var 1073741825] catPspIDLCATHVAC
+    [var 1073741826] catPspIDLCATEquipment
+    [var 1073741827] catPspIDLCATWaveguide
+    [var 1073741828] catPspIDLCATTubing
+    [var 1073741829] catPspIDLCATHanger
+    [var 1073741830] catPspIDLCATRaceway
+    [var 1073741831] catPspIDLCATConduit
+    [var 1073741832] catPspIDLCATCompAccess
+    [var 1073741833] catPspIDLCATElectrical
+    [var 1073741834] catPspIDLCATPID
+    [var 1073741835] catPspIDLCATHVACDiagram
+    [var 1073741836] catPspIDLCATTubingDiagram
+    [var 1073741837] catPspIDLCATWaveguideDiagram
+    [var 1073741838] catPspIDLCATElectricalDiagram
+        catPspIDLCATPiping = 0
+        catPspIDLCATHVAC = 1
+        catPspIDLCATEquipment = 2
+        catPspIDLCATWaveguide = 3
+        catPspIDLCATTubing = 4
+        catPspIDLCATHanger = 5
+        catPspIDLCATRaceway = 6
+        catPspIDLCATConduit = 7
+        catPspIDLCATCompAccess = 8
+        catPspIDLCATElectrical = 9
+        catPspIDLCATPID = 10
+        catPspIDLCATHVACDiagram = 11
+        catPspIDLCATTubingDiagram = 12
+        catPspIDLCATWaveguideDiagram = 13
+        catPspIDLCATElectricalDiagram = 14
+
+== #2 DISPATCH: PspApplication
+    iid={322EBADF-A446-4E76-86C9-9F23B44EEECB}  funcs=23  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Initialization()
+
+== #3 DISPATCH: PspTempListFactory
+    iid={EB0E2837-0368-457C-99F8-1B18D38EE9FA}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        CreateListOfObjects()
+    [1610940417] FUNC        CreateListOfBSTRs()
+    [1610940418] FUNC        CreateListOfDoubles()
+    [1610940419] FUNC        CreateListOfLongs()
+
+== #4 DISPATCH: PspListOfObjects
+    iid={128A0542-E271-4C00-89D1-2277A6A9A1A3}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Count()
+    [1610940417] FUNC        Item(iIndex, iInterfaceName)
+    [1610940418] FUNC        Append(iObject)
+    [1610940419] FUNC        RemoveByIndex(iIndex)
+
+== #5 DISPATCH: PspListOfBSTRs
+    iid={58964B87-A6C1-4F92-BBB2-FF60CDF422DB}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Count()
+    [1610940417] FUNC        Item(iIndex)
+    [1610940418] FUNC        Append(iBSTR)
+    [1610940419] FUNC        RemoveByIndex(iIndex)
+
+== #6 DISPATCH: PspListOfDoubles
+    iid={A9138996-B646-44C0-B533-5B53B18F5456}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Count()
+    [1610940417] FUNC        Item(iIndex)
+    [1610940418] FUNC        Append(iDouble)
+    [1610940419] FUNC        RemoveByIndex(iIndex)
+
+== #7 DISPATCH: PspListOfLongs
+    iid={F1845D16-46EE-4D10-9424-BF7DD12E44CF}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Count()
+    [1610940417] FUNC        Item(iIndex)
+    [1610940418] FUNC        Append(iLong)
+    [1610940419] FUNC        RemoveByIndex(iIndex)
+
+== #8 DISPATCH: PspStretchableData
+    iid={F91EDC68-8093-4714-AA91-0D089A1BD613}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        ListDefinitionPoints(iRelAxis)
+    [1610940417] FUNC        ListBendData()
+
+== #9 DISPATCH: PspSpatial
+    iid={94F1D6FC-56C5-46C7-835A-6FB8196B6205}  funcs=23  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Physicals()
+
+== #10 DISPATCH: PspResource
+    iid={C8253478-071E-4D7A-A9F5-D2DEDD60AAD8}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetResourceValue(iResourceName)
+    [1610940417] FUNC        GetResourcePath(iResourceName)
+
+== #11 DISPATCH: PspPlacePart
+    iid={7A690B9B-B391-4672-AED2-F8255FD96135}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        PlacePartInSpace(iuStandard, iuFunctionType, ipiReferencePart, ipiParentProduct, ipiLogicalLine, iuPlacedPartID, iUpDirection, iHorizontalOrientation, iPosition)
+    [1610940417] FUNC        RouteStringPartInSpace(iuStandard, iuFunctionType, ipiReferencePart, ipiParentProduct, ipiLogicalLine, iuPlacedPartID, iFirstPointUpDirection, ipiListPoints, iListBendRadii)
+    [1610940418] PROP_GET    ErrorMessage()
+
+== #12 DISPATCH: PspPhsyicalProduct
+    iid={5EF8C952-6C2A-4B14-A2F8-6F8A52A6C148}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Connectors()
+    [1610940417] FUNC        AddConnector(iClassFilter, iFaceCntr, ieFaceType, iAlignmentCntr, ieAlignType, iClockCntr, ieClockType)
+    [1610940418] FUNC        RemoveConnector(iCntrToRemove)
+
+== #13 ENUM: CatPspIDLPartConnectorType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=15  impltypes=0
+    [var 1073741824] catPspIDLPartCtrTypeNotRecognized
+    [var 1073741825] catPspIDLPartCtrTypeFace
+    [var 1073741826] catPspIDLPartCtrTypeSupport
+    [var 1073741827] catPspIDLPartCtrTypeCenter
+    [var 1073741828] catPspIDLPartCtrTypeTop
+    [var 1073741829] catPspIDLPartCtrTypeBottom
+    [var 1073741830] catPspIDLPartCtrTypeLeft
+    [var 1073741831] catPspIDLPartCtrTypeRight
+    [var 1073741832] catPspIDLPartCtrTypeTopLeft
+    [var 1073741833] catPspIDLPartCtrTypeTopRight
+    [var 1073741834] catPspIDLPartCtrTypeBottomLeft
+    [var 1073741835] catPspIDLPartCtrTypeBottomRight
+    [var 1073741836] catPspIDLPartCtrTypeCircular
+    [var 1073741837] catPspIDLPartCtrTypeRectangular
+    [var 1073741838] catPspIDLPartCtrTypeUpOnly
+        catPspIDLPartCtrTypeNotRecognized = 0
+        catPspIDLPartCtrTypeFace = 1
+        catPspIDLPartCtrTypeSupport = 2
+        catPspIDLPartCtrTypeCenter = 3
+        catPspIDLPartCtrTypeTop = 4
+        catPspIDLPartCtrTypeBottom = 5
+        catPspIDLPartCtrTypeLeft = 6
+        catPspIDLPartCtrTypeRight = 7
+        catPspIDLPartCtrTypeTopLeft = 8
+        catPspIDLPartCtrTypeTopRight = 9
+        catPspIDLPartCtrTypeBottomLeft = 10
+        catPspIDLPartCtrTypeBottomRight = 11
+        catPspIDLPartCtrTypeCircular = 12
+        catPspIDLPartCtrTypeRectangular = 13
+        catPspIDLPartCtrTypeUpOnly = 14
+
+== #14 DISPATCH: PspPartConnector
+    iid={2CA57212-64E5-4231-A4AC-66ADC1A7E5BB}  funcs=39  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetFaceConnector()
+    [1610940417] FUNC        SetFaceConnector(iFaceCntr, ieFaceType)
+    [1610940418] FUNC        GetAlignmentConnector()
+    [1610940419] FUNC        SetAlignmentConnector(iAlignCntr, ieAlignType)
+    [1610940420] FUNC        GetOrientationConnector()
+    [1610940421] FUNC        SetOrientationConnector(iOrientCntr, ieOrientation)
+    [1610940422] FUNC        GetDatumConnector()
+    [1610940423] FUNC        SetDatumConnector(iDatumCntr)
+    [1610940424] FUNC        GetPosition(iRelAxis)
+    [1610940425] FUNC        GetAlignmentDirection(iRelAxis)
+    [1610940426] FUNC        GetConnectorMathPlane(iRelAxis)
+    [1610940427] FUNC        GetUpDirection(iRelAxis)
+    [1610940428] PROP_GET    FaceType()
+    [1610940429] PROP_GET    AlignType()
+    [1610940430] PROP_GET    ClockType()
+    [1610940431] PROP_GET    AttributeNames()
+    [1610940431] PROP_PUT    AttributeNames()
+
+== #15 DISPATCH: PspPhysical
+    iid={1D991BBE-CA4F-463C-A148-05FEA1FE4944}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetFunctional()
+    [1610940417] FUNC        GetSpatial()
+
+== #16 DISPATCH: PspFunctional
+    iid={C34B729F-AC96-4AD3-AA48-09A60CA62A2B}  funcs=34  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        IsSpecDriven()
+    [1610940417] FUNC        GetCompatiblePartTypes(iuStandard)
+    [1610940418] FUNC        ListCompatiblePartNumbers(iuPartType, iuStandard, iuCatalogName, oLPartTypes, oLCatalogPartNames)
+    [1610940419] FUNC        IsRealized()
+    [1610940420] PROP_GET    Physicals()
+    [1610940421] PROP_GET    PartType()
+    [1610940422] PROP_GET    PartNumber()
+    [1610940423] PROP_GET    CatalogPartName()
+    [1610940424] PROP_GET    PartCatalogName()
+    [1610940425] PROP_GET    Standard()
+    [1610940426] FUNC        IsOKToIntegrate()
+    [1610940427] PROP_GET    FunctionStatus()
+
+== #17 ENUM: CatPspIDLFunctionStatus
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=6  impltypes=0
+    [var 1073741824] catPspIDLFuncUndefined
+    [var 1073741825] catPspIDLInFuncNet
+    [var 1073741826] catPspIDLFuncNetPhysType
+    [var 1073741827] catPspIDLFuncNetPhysNoPos
+    [var 1073741828] catPspIDLFuncNoNetPhys
+    [var 1073741829] catPspIDLFuncNetPhys
+        catPspIDLFuncUndefined = 0
+        catPspIDLInFuncNet = 1
+        catPspIDLFuncNetPhysType = 2
+        catPspIDLFuncNetPhysNoPos = 3
+        catPspIDLFuncNoNetPhys = 4
+        catPspIDLFuncNetPhys = 5
+
+== #18 DISPATCH: PspObject
+    iid={4A0608A1-939A-4D03-9CB3-8B190E1231DC}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    ApplicationID()
+    [1610940417] PROP_GET    DomainID()
+    [1610940418] PROP_GET    StartupType()
+
+== #19 ENUM: CatPspIDLDomainID
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=13  impltypes=0
+    [var 1073741824] catPspIDLNone
+    [var 1073741825] catPspIDLCATPIP
+    [var 1073741826] catPspIDLCATINS
+    [var 1073741827] catPspIDLCATHVA
+    [var 1073741828] catPspIDLCATEQT
+    [var 1073741829] catPspIDLCATTUB
+    [var 1073741830] catPspIDLCATMLD
+    [var 1073741831] catPspIDLCATWVG
+    [var 1073741832] catPspIDLCATRWY
+    [var 1073741833] catPspIDLCATCND
+    [var 1073741834] catPspIDLCATHGR
+    [var 1073741835] catPspIDLCATCAM
+    [var 1073741836] catPspIDLCATELE
+        catPspIDLNone = 0
+        catPspIDLCATPIP = 1
+        catPspIDLCATINS = 2
+        catPspIDLCATHVA = 3
+        catPspIDLCATEQT = 4
+        catPspIDLCATTUB = 5
+        catPspIDLCATMLD = 6
+        catPspIDLCATWVG = 7
+        catPspIDLCATRWY = 8
+        catPspIDLCATCND = 9
+        catPspIDLCATHGR = 10
+        catPspIDLCATCAM = 11
+        catPspIDLCATELE = 12
+
+== #20 DISPATCH: PspLightPart
+    iid={24F84DF6-A0AF-4C59-AA6F-924DBEF8D251}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetDefinition(iRelAxis)
+    [1610940417] FUNC        SetDefinition(iRelAxis, iListPoints)
+
+== #21 DISPATCH: PspLightConnector
+    iid={1DDBFA08-FF41-4BDA-A61F-AE8FABA8FA3A}  funcs=28  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetOrigin(iRelAxis)
+    [1610940417] FUNC        SetOrigin(iRelAxis, iDb3Position)
+    [1610940418] FUNC        GetAlignmentVector(iRelAxis)
+    [1610940419] FUNC        SetAlignmentVector(iRelAxis, iAlignmentDirection)
+    [1610940420] FUNC        GetOrientationVector(iRelAxis)
+    [1610940421] FUNC        SetOrientationVector(iRelAxis, iOrientationDirection)
+
+== #22 DISPATCH: PspLightBend
+    iid={31F70633-EC18-402E-B3A6-9B976B1084B2}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetBendData()
+    [1610940417] FUNC        SetBendData(iListOfBendRadius)
+
+== #23 DISPATCH: PspID
+    iid={F562BD86-091F-45E2-84A4-14E6D93B6838}  funcs=29  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetID()
+    [1610940417] FUNC        SetID(iID)
+    [1610940418] FUNC        GenAndPutID()
+    [1610940419] FUNC        GenAndPutIDNoGenSeqNum()
+    [1610940420] FUNC        GenIDNoGenSeqNum()
+    [1610940421] FUNC        IsIDGenerated()
+    [1610940422] FUNC        GetLocalID()
+
+== #24 DISPATCH: PspGroupable
+    iid={813EDE4E-F748-4FC1-9143-D119526E9CC2}  funcs=23  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Groups()
+
+== #25 DISPATCH: PspGroup
+    iid={F2BD94C1-3214-4BD6-A59B-D465813AF169}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Members()
+    [1610940417] FUNC        AddMember(iGroupable)
+    [1610940418] FUNC        RemoveMember(iGroupable)
+
+== #26 DISPATCH: PspLogicalLine
+    iid={454C6650-D43F-11D4-8E48-00D0B7ACBB09}  funcs=28  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Members()
+    [1610940417] FUNC        AddMember(iGroupable)
+    [1610940418] FUNC        RemoveMember(iGroupable)
+    [1611005952] FUNC        GetFromTo(oListFromMajor, oListFromMinor, oListToMajor, oListToMinor)
+    [1611005953] FUNC        GetFromToInfoArrayMaxSize()
+    [1611005954] FUNC        GetFromToInformation(oFromToLabel, oFTMajor, oFTMinor, oSizeOfOutput)
+
+== #27 DISPATCH: PspConnector
+    iid={6ED7CE41-FE13-4568-BF6B-C97B528BDCE0}  funcs=30  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetAssociatedConnectable()
+    [1610940417] FUNC        Connect(iCntrToConnect)
+    [1610940418] FUNC        Disconnect(iCntrToDisconnect)
+    [1610940419] FUNC        IsCntrConnected()
+    [1610940420] PROP_GET    ConnectorName()
+    [1610940420] PROP_PUT    ConnectorName()
+    [1610940422] PROP_GET    AttrNames()
+    [1610940422] PROP_PUT    AttrNames()
+
+== #28 DISPATCH: PspConnectable
+    iid={9A5453BF-6AE3-4985-9129-3CB7AC97098F}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Connectors()
+    [1610940417] FUNC        ListConnectables(iuClassFilter, oLCntbles, oLCntrsOnThisObj, oLCntrsOnConnected)
+    [1610940418] PROP_GET    ValidConnectorTypes()
+    [1610940419] FUNC        GetConnectorByName(iuConnectorName)
+
+== #29 DISPATCH: PspCntrFlow
+    iid={9131183D-7277-45EE-B098-3420A6715429}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    FlowCapability()
+    [1610940416] PROP_PUT    FlowCapability()
+    [1610940418] PROP_GET    FlowReality()
+    [1610940418] PROP_PUT    FlowReality()
+
+== #30 ENUM: CatPspIDLFlowCapability
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=4  impltypes=0
+    [var 1073741824] catPspIDLFlowCapability_Undefined
+    [var 1073741825] catPspIDLFlowCapability_InDirection
+    [var 1073741826] catPspIDLFlowCapability_OutDirection
+    [var 1073741827] catPspIDLFlowCapability_InOutDirection
+        catPspIDLFlowCapability_Undefined = 0
+        catPspIDLFlowCapability_InDirection = 1
+        catPspIDLFlowCapability_OutDirection = 2
+        catPspIDLFlowCapability_InOutDirection = 3
+
+== #31 ENUM: CatPspIDLFlowReality
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=4  impltypes=0
+    [var 1073741824] catPspIDLFlowReality_Undefined
+    [var 1073741825] catPspIDLFlowReality_InDirection
+    [var 1073741826] catPspIDLFlowReality_OutDirection
+    [var 1073741827] catPspIDLFlowReality_InOutDirection
+        catPspIDLFlowReality_Undefined = 0
+        catPspIDLFlowReality_InDirection = 1
+        catPspIDLFlowReality_OutDirection = 2
+        catPspIDLFlowReality_InOutDirection = 3
+
+== #32 DISPATCH: PspClass
+    iid={652A65E9-677E-46C0-B80D-AFD55EF8E641}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    StartUpPhysicals()
+    [1610940417] PROP_GET    StartUpFunctions()
+    [1610940418] PROP_GET    StartUpConnectors()
+
+== #33 DISPATCH: PspBuildPart
+    iid={EBA6A72E-594F-4B3F-9B7C-F95632770F1F}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        NewPart(iuPartType, uPartNumber)
+    [1610940417] FUNC        ChangePartType(iRefPart, iuPartType, uPartNumber)
+    [1610940418] FUNC        SetPartParametricAttributes(iRefPart, iLAttributeNames)
+    [1610940419] FUNC        ListPartParametricAttributes(iRefPart)
+
+== #34 DISPATCH: PspAttributeReport
+    iid={D3097224-398D-11D5-8E0A-00D0B7ACAABA}  funcs=23  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GenerateReport(iInputFormatFile, iOutputfile)
+
+== #35 DISPATCH: PspAttribute
+    iid={7BD89052-CE33-11D4-8E41-00D0B7ACBB09}  funcs=33  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        ListAttributes(iDomainID)
+    [1610940417] FUNC        IsDiscrete(iAttributeName, obStatus)
+    [1610940418] FUNC        GetType(iAttributeName)
+    [1610940419] FUNC        GetParameter(iAttributeName)
+    [1610940420] FUNC        GetMultiStringAttributeValues(iAttributeName)
+    [1610940421] FUNC        ListStringDiscreteValues(iAttributeName)
+    [1610940422] FUNC        ListDoubleDiscreteValues(iAttributeName)
+    [1610940423] FUNC        ListIntegerDiscreteValues(iAttributeName)
+    [1610940424] FUNC        ListEncodedDecodedDiscreteValues(iAttributeName, oLDiscreteEncodedValues, oLDiscreteDecodedValue)
+    [1610940425] FUNC        IsDerived(iAttributeName)
+    [1610940426] FUNC        ResetDerivedAttr(iAttributeName)
+
+== #36 ENUM: CatPspIDLAttrDataType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=5  impltypes=0
+    [var 1073741824] catPspIDLInteger
+    [var 1073741825] catPspIDLDouble
+    [var 1073741826] catPspIDLString
+    [var 1073741827] catPspIDLMultiString
+    [var 1073741828] catPspIDLBoolean
+        catPspIDLInteger = 0
+        catPspIDLDouble = 1
+        catPspIDLString = 2
+        catPspIDLMultiString = 3
+        catPspIDLBoolean = 4
+
+== #37 DISPATCH: PspAppFactory
+    iid={FF8BA6DB-443F-42BF-A80A-14251C825B39}  funcs=33  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        ListPhysicals(iCurrentProduct, iDomainID)
+    [1610940417] FUNC        GetLogicalLine(iCurrentProduct, iLogicalLineID)
+    [1610940418] FUNC        ListLogicalLines(iCurrentProduct)
+    [1610940419] FUNC        DeleteLogicalLine(iLogicalLine)
+    [1610940420] FUNC        GetCompartment(iCurrentProduct, iCompartmentID)
+    [1610940421] FUNC        ListCompartments(iCurrentProduct)
+    [1610940422] FUNC        DeleteCompartment(iCompartment)
+    [1610940423] FUNC        CreateGroup(iCurrentProduct, iGroupType, iGroupID)
+    [1610940424] FUNC        ListGroups(iCurrentProduct)
+    [1610940425] FUNC        DeleteGroup(iGroup)
+    [1610940426] FUNC        DeletePart(iPart)
+
+== #38 ALIAS: CATIAPspAppFactory
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #39 ALIAS: CATIAPspApplication
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #40 ALIAS: CATIAPspAttribute
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #41 ALIAS: CATIAPspAttributeReport
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #42 ALIAS: CATIAPspBuildPart
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #43 ALIAS: CATIAPspClass
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #44 ALIAS: CATIAPspCntrFlow
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #45 ALIAS: CATIAPspConnectable
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #46 ALIAS: CATIAPspConnector
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #47 ALIAS: CATIAPspFunctional
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #48 ALIAS: CATIAPspGroup
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #49 ALIAS: CATIAPspGroupable
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #50 ALIAS: CATIAPspID
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #51 ALIAS: CATIAPspLightBend
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #52 ALIAS: CATIAPspLightConnector
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #53 ALIAS: CATIAPspLightPart
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #54 ALIAS: CATIAPspListOfBSTRs
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #55 ALIAS: CATIAPspListOfDoubles
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #56 ALIAS: CATIAPspListOfLongs
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #57 ALIAS: CATIAPspListOfObjects
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #58 ALIAS: CATIAPspLogicalLine
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #59 ALIAS: CATIAPspObject
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #60 ALIAS: CATIAPspPartConnector
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #61 ALIAS: CATIAPspPhysicalProduct
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #62 ALIAS: CATIAPspPhysical
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #63 ALIAS: CATIAPspPlacePart
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #64 ALIAS: CATIAPspResource
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #65 ALIAS: CATIAPspSpatial
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #66 ALIAS: CATIAPspStretchableData
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #67 ALIAS: CATIAPspTempListFactory
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #68 ALIAS: CATIAPspWorkbench
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #69 MODULE: IID_CATPlantShipInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=31  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_PspWorkbench
+    [var 1073741826] IID_PspTempListFactory
+    [var 1073741827] IID_PspStretchableData
+    [var 1073741828] IID_PspSpatial
+    [var 1073741829] IID_PspResource
+    [var 1073741830] IID_PspPlacePart
+    [var 1073741831] IID_PspPhsyicalProduct
+    [var 1073741832] IID_PspPhysical
+    [var 1073741833] IID_PspPartConnector
+    [var 1073741834] IID_PspObject
+    [var 1073741835] IID_PspListOfObjects
+    [var 1073741836] IID_PspListOfLongs
+    [var 1073741837] IID_PspListOfDoubles
+    [var 1073741838] IID_PspListOfBSTRs
+    [var 1073741839] IID_PspLightPart
+    [var 1073741840] IID_PspLightConnector
+    [var 1073741841] IID_PspLightBend
+    [var 1073741842] IID_PspID
+    [var 1073741843] IID_PspGroupable
+    [var 1073741844] IID_PspGroup
+    [var 1073741845] IID_PspLogicalLine
+    [var 1073741846] IID_PspFunctional
+    [var 1073741847] IID_PspConnector
+    [var 1073741848] IID_PspConnectable
+    [var 1073741849] IID_PspCntrFlow
+    [var 1073741850] IID_PspClass
+    [var 1073741851] IID_PspBuildPart
+    [var 1073741852] IID_PspAttributeReport
+    [var 1073741853] IID_PspAttribute
+    [var 1073741854] IID_PspApplication
+    [var 1073741855] IID_PspAppFactory

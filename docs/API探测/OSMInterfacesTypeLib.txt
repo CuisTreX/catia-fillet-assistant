@@ -1,0 +1,238 @@
+# D:\Programs\CATIA\win_b64\code\bin\OSMInterfacesTypeLib.tlb
+# 库名: OSMInterfacesTypeLib
+# 说明: CATIA V5 OSMInterfaces Object Library
+# 属性: (IID('{96986334-CF57-11D3-876D-006094EB3996}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: Scene
+    iid={E5E79D5A-CF56-11D3-876D-006094EB3996}  funcs=34  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        HasAMasterShapeRepresentation(iProduct)
+    [1610940417] FUNC        GetMasterShapeRepresentation(iProduct, iLoadIfNecessary)
+    [1610940418] FUNC        GetPartNumber(iProduct)
+    [1610940419] FUNC        GetRevision(iProduct)
+    [1610940420] FUNC        GetDefinition(iProduct)
+    [1610940421] FUNC        GetNomenclature(iProduct)
+    [1610940422] FUNC        GetSource(iProduct, oSource)
+    [1610940423] FUNC        GetDescription(iProduct)
+    [1610940424] FUNC        GetMove(iProduct)
+    [1610940425] FUNC        GetPosition(iProduct)
+    [1610940426] FUNC        UpgradeToPartial()
+    [1610940427] FUNC        UpgradeToFull()
+
+== #1 ENUM: CatProductSource
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] catProductSourceUnknown
+    [var 1073741825] catProductMade
+    [var 1073741826] catProductBought
+        catProductSourceUnknown = 0
+        catProductMade = 1
+        catProductBought = 2
+
+== #2 DISPATCH: ProductScene
+    iid={8CA02FCA-2148-4420-A097-081B2F3F8A41}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Type()
+    [1610940417] FUNC        ExistsInScene(iProduct)
+    [1610940418] FUNC        GetSceneProductData(iProduct)
+    [1610940419] FUNC        Copy(iType)
+
+== #3 ENUM: CatSceneType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] CatSceneTypeDelta
+    [var 1073741825] CatSceneTypeFull
+        CatSceneTypeDelta = 0
+        CatSceneTypeFull = 1
+
+== #4 DISPATCH: SceneProductData
+    iid={283D96E4-AC8F-42FB-B35C-000FF82BEE9C}  funcs=30  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Move()
+    [1610940417] PROP_GET    Position()
+    [1610940418] PROP_GET    Hidden()
+    [1610940418] PROP_PUT    Hidden()
+    [1610940420] PROP_GET    Activation()
+    [1610940420] PROP_PUT    Activation()
+    [1610940422] FUNC        SetRealColor(iRed, iGreen, iBlue, iInheritance)
+    [1610940423] FUNC        GetRealColor(oRed, oGreen, oBlue, oInheritance)
+
+== #5 DISPATCH: Scenes
+    iid={46282CC0-CF57-11D3-876D-006094EB3996}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        AddNewScene(iName, iReferenceProduct)
+    [1610940417] FUNC        AddCopyScene(iName, iReferenceScene)
+    [1610940418] FUNC        Remove(iScene)
+
+== #6 DISPATCH: ProductScenes
+    iid={1BECB076-894F-4687-8AC2-E2776366E895}  funcs=27  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        AddProductScenePartial(iName, iReferenceProducts)
+    [1610940417] FUNC        AddProductSceneFull(iName, iReferenceProducts)
+    [1610940418] FUNC        Item(iIndex)
+    [1610940419] FUNC        Remove(iProductScene)
+
+== #7 DISPATCH: SceneWorkbench
+    iid={96986332-CF57-11D3-876D-006094EB3996}  funcs=23  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1611005952] PROP_GET    WorkScenes()
+
+== #8 ALIAS: CATIAScene
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #9 ALIAS: CATIAScenes
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #10 ALIAS: CATIAWorkScene
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #11 ALIAS: CATIASceneProduct
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #12 ALIAS: CATIAWorkSceneWorkbench
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #13 ALIAS: CATIAWorkScenes
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #14 MODULE: IID_OSMInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=6  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_Scene
+    [var 1073741826] IID_SceneProductData
+    [var 1073741827] IID_ProductScene
+    [var 1073741828] IID_Scenes
+    [var 1073741829] IID_ProductScenes
+    [var 1073741830] IID_SceneWorkbench

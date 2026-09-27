@@ -1,0 +1,672 @@
+# D:\Programs\CATIA\win_b64\code\bin\SMTypeLib.tlb
+# 库名: SMTypeLib
+# 说明: CATIA V5 SMTInterfaces Object Library
+# 属性: (IID('{90D2BC28-DA87-11D1-9557-00805F85878F}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: SweptVolume
+    iid={8C4197E6-39A4-0000-0280-030D89000000}  funcs=22  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+
+== #1 DISPATCH: Silhouette
+    iid={95DB0494-23FA-11D3-B803-0008C7BF20D9}  funcs=22  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+
+== #2 DISPATCH: PartComp
+    iid={8BC99195-76CE-0000-0280-030D76000000}  funcs=22  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+
+== #3 DISPATCH: FreeSpace
+    iid={29E48AB8-702F-11D3-B819-0008C7BF20D9}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Volume()
+    [1610940417] FUNC        GetGravityCenter(oGravityCenterCoordinatesArray)
+
+== #4 DISPATCH: Wrapping
+    iid={8BC579C7-5226-0000-0280-030B35000000}  funcs=22  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+
+== #5 DISPATCH: DMOThickness
+    iid={C2807C00-24AD-11D3-A796-006094EB381A}  funcs=22  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+
+== #6 DISPATCH: DMOOffset
+    iid={8BC55BDB-34F7-0000-0280-030B35000000}  funcs=22  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+
+== #7 DISPATCH: VibrationVolumes
+    iid={6B70E8FE-30F1-11D6-B8D3-00025520573A}  funcs=29  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        ComputeVibrationVolume(GroupOfSelectedProducts, PositionsFilePath, iAccuracy, iSimplifAccuracy)
+    [1610940417] FUNC        ComputeVibrationVolumeFromTrack(GroupOfSelectedProducts, iSweptAble, iAccuracy, iSimplifAccuracy)
+    [1610940418] FUNC        ComputeVibrationVolumeWithAReference(iGroupOfSelectedProducts, iReferenceProduct, PositionsFilePath, iAccuracy, iSimplifAccuracy)
+    [1610940419] FUNC        ComputeVibrationVolumeFromTrackWithAReference(GroupOfSelectedProducts, iReferenceProduct, iSweptAble, iAccuracy, iSimplifAccuracy)
+    [1610940420] FUNC        VibrationVolumeShapeName()
+    [1610940421] FUNC        CleanUp()
+
+== #8 DISPATCH: SweptVolumes
+    iid={8C4198EB-CD55-0000-0280-030D89000000}  funcs=34  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Add(replay, iProductsToSwept, iProductReference, iLODMode, iAccuracy, iShapeName, iActivatedShape, iDefaultShape)
+    [1610940417] FUNC        AddFromSweptAble(iSweptAble, iProductsToSwept, iProductReference, iLODMode, iAccuracy, iShapeName, iActivatedShape, iDefaultShape)
+    [1610940418] FUNC        ComputeASweptVolume(iReplay, iSweptAble, iProductsToSwept, iProductReference, iLODMode, iAccuracy, iWrappingGrain, iWrappingRatio, iSimplifAccuracy)
+    [1610940419] FUNC        ComputeASweptVolumeFromReplay(iReplay, iProductsToSwept, iProductReference, iLODMode, iAccuracy, iWrappingGrain, iWrappingRatio, iSimplifAccuracy)
+    [1610940420] FUNC        ComputeASweptVolumeFromSweptable(iSweptAble, iProductsToSwept, iProductReference, iLODMode, iAccuracy, iWrappingGrain, iWrappingRatio, iSimplifAccuracy)
+    [1610940421] FUNC        ComputeSweptVolumes(iReplay, iSweptAble, iProductsToSwept, iProductReference, iLODMode, iAccuracy, iPerformWrapping, iPerformSimplif, iWrappingGrain, iWrappingRatio, iSimplifAccuracy, oSweptVolumeDocuments)
+    [1610940422] FUNC        ComputeSweptVolumesFromReplay(iReplay, iProductsToSwept, iProductReference, iLODMode, iAccuracy, iPerformWrapping, iPerformSimplif, iWrappingGrain, iWrappingRatio, iSimplifAccuracy, oSweptVolumeDocuments)
+    [1610940423] FUNC        ComputeSweptVolumesFromSweptable(iSweptAble, iProductsToSwept, iProductReference, iLODMode, iAccuracy, iPerformWrapping, iPerformSimplif, iWrappingGrain, iWrappingRatio, iSimplifAccuracy, oSweptVolumeDocuments)
+    [1610940424] FUNC        SetSilhouette(OnOff)
+    [1610940425] FUNC        SetSpatialSplit(OnOff)
+    [1610940426] FUNC        CleanUp()
+
+== #9 DISPATCH: Simplifications
+    iid={1DC6D01E-BBBA-11D5-AB4F-001083FF057C}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        ComputeSimplification(GroupOfSelectedProducts, iAccuracy)
+    [1610940417] FUNC        ComputeSimplificationWithAReference(iGroupOfSelectedProducts, iReferenceProduct, iAccuracy)
+    [1610940418] FUNC        SimplificationShapeName()
+
+== #10 DISPATCH: Silhouettes
+    iid={AC0D1642-23E8-11D3-B803-0008C7BF20D9}  funcs=28  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        ComputeASilhouette(GroupOfSelectedProducts, iViewPoints, iAccuracy, iAccuracyForSimplification)
+    [1610940417] FUNC        ComputeASilhouetteWithAReference(iGroupOfSelectedProducts, iReferenceProduct, iViewPoints, iAccuracy, iAccuracyForSimplification)
+    [1610940418] FUNC        SilhouetteShapeName()
+    [1610940419] FUNC        Add(iProductToSilhouette, iAccuracy, iAzimuts, iShapeName, iActivatedShape, iDefaultShape)
+    [1610940420] FUNC        CleanUp()
+
+== #11 DISPATCH: PartComps
+    iid={8BC992F2-3718-0000-0280-030D76000000}  funcs=28  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] PROP_GET    AddedMaterialPercentage()
+    [1610940417] PROP_GET    AddedMaterialVolume()
+    [1610940418] PROP_GET    RemovedMaterialPercentage()
+    [1610940419] PROP_GET    RemovedMaterialVolume()
+    [1610940420] FUNC        Add(iProduct1, iProduct2, iCompAccuracy, iDispAccuracy, iComputationType)
+
+== #12 DISPATCH: Merges
+    iid={DF0B423A-6432-48D1-A5CC-F8C11AA2AF70}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        ComputeMerge(GroupOfSelectedProducts, iAccuracyForSimplification, iKeepEdges, iDecoration)
+    [1610940417] FUNC        MergeShapeName()
+    [1610940418] FUNC        CleanUp()
+
+== #13 DISPATCH: FreeSpaces
+    iid={BCA98A52-6F2F-11D3-B819-0008C7BF20D9}  funcs=29  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Add(iProductForFreeSpace, iAccuracy, iXmin, iXmax, iYmin, iYmax, iZmin, iZmax, iTypeFreeSpace, iXpt, iYpt, iZpt, iHoles, iShapeName, iActivatedShape, iDefaultShape)
+    [1610940417] FUNC        AddAroundAny(iAccuracy, iXmin, iXmax, iYmin, iYmax, iZmin, iZmax, iShapeName, iTypeFreeSpace, iHoles)
+    [1610940418] FUNC        AddAroundProducts(iAccuracy, iXmin, iXmax, iYmin, iYmax, iZmin, iZmax, iShapeName, iTypeFreeSpace, iHoles, iReferenceSelection)
+    [1610940419] FUNC        AddFromFile(iFileName, iShapeName)
+    [1610940420] FUNC        AddInflatingFromFile(iFileName, iShapeName)
+    [1610940421] FUNC        AddSplitFromFile(iX, iY, iZ, iNx, iNy, iNz, iFileName, iShapeName)
+
+== #14 DISPATCH: Wrappings
+    iid={8BC57901-2062-0000-0280-030B35000000}  funcs=28  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        ComputeAWrapping(GroupOfSelectedProducts, iAccuracy, iRation, iAccuracyForSimplification)
+    [1610940417] FUNC        ComputeAWrappingWithAReference(iGroupOfSelectedProducts, iReferenceProduct, iAccuracy, iRation, iAccuracyForSimplification)
+    [1610940418] FUNC        WrappingShapeName()
+    [1610940419] FUNC        Add(iProductToWrapping, iAccuracy, iRatio, iShapeName, iActivatedShape, iDefaultShape)
+    [1610940420] FUNC        CleanUp()
+
+== #15 DISPATCH: DMOThicknesses
+    iid={3B6F97DC-2584-11D3-A796-006094EB381A}  funcs=29  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        ComputeAThickness(GroupOfSelectedProducts, iThickness1, iThickness2, iUseConstraints, iConstraints)
+    [1610940417] FUNC        ComputeAThicknessWithAReference(iGroupOfSelectedProducts, iReferenceProduct, iThickness1, iThickness2, iUseConstraints, iConstraints)
+    [1610940418] FUNC        ComputeThickness(GroupOfSelectedProducts, iThickness1, iThickness2, iUseConstraints, iConstraints)
+    [1610940419] FUNC        ComputeThicknessWithReference(iGroupOfSelectedProducts, iReferenceProduct, iThickness1, iThickness2, iUseConstraints, iConstraints)
+    [1610940420] FUNC        ThicknessShapeName()
+    [1610940421] FUNC        Add(iProductToThickness, iThickness1, iThickness2, iUseConstraints, iConstraints, iShapeName, iActivatedShape, iDefaultShape)
+
+== #16 DISPATCH: DMOOffsets
+    iid={8BC55CED-2F06-0000-0280-030B35000000}  funcs=31  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        ComputeAnOffset(GroupOfSelectedProducts, iOffset, iUseConstraints, iConstraints)
+    [1610940417] FUNC        ComputeAnOffsetWithAReference(iGroupOfSelectedProducts, iReferenceProduct, iOffset, iUseConstraints, iConstraints)
+    [1610940418] FUNC        ComputeAnOffsetFromVectors(GroupOfSelectedProducts, iOffsetVectors, iOffsetValues)
+    [1610940419] FUNC        ComputeAnOffsetFromVectorsWithAReference(iGroupOfSelectedProducts, iReferenceProduct, iOffsetVectors, iOffsetValues)
+    [1610940420] FUNC        OffsetShapeName()
+    [1610940421] FUNC        CleanUp()
+    [1610940422] FUNC        Add(iProductToOffset, iOffset1, iUseConstraints, iConstraints, iShapeName, iActivatedShape, iDefaultShape)
+    [1610940423] FUNC        AddOffsetFromVectors(iProductToOffset, iOffsetVectors, iOffsetValues, iShapeName, iActivatedShape, iDefaultShape)
+
+== #17 DISPATCH: ThreeDCuts
+    iid={0990D595-B570-44EA-9FCE-8E78FC491319}  funcs=32  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Compute3DCut(GroupOfSelectedProducts, ThreeDCutDocument)
+    [1610940417] FUNC        Compute3DCutWithAReference(GroupOfSelectedProducts, iReferenceProduct, ThreeDCutDocument)
+    [1610940418] FUNC        GetCompute3DCut(GroupOfSelectedProducts)
+    [1610940419] FUNC        GetCompute3DCutWithAReference(GroupOfSelectedProducts, iReferenceProduct)
+    [1610940420] FUNC        SetBox(OriginX, OriginY, OriginZ, VX, VY, VZ)
+    [1610940421] FUNC        SetMatrix(iComponents)
+    [1610940422] FUNC        SetType(Type)
+    [1610940423] FUNC        SetOnBorders(OnBorders)
+    [1610940424] FUNC        ThreeDCutShapeName(Name)
+
+== #18 DISPATCH: OptimizerWorkBench
+    iid={12D12507-B50A-11D2-BC4D-006094B93BB8}  funcs=31  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1611005952] FUNC        QueryNeighbours(iAccuracy, iClearance, iReferenceSelection, iTypeQuery)
+    [1611005953] FUNC        Check(iContext, iInstanceID, iLatestShape)
+    [1611005954] PROP_GET    Silhouettes()
+    [1611005955] PROP_GET    Wrappings()
+    [1611005956] PROP_GET    Thicknesses()
+    [1611005957] PROP_GET    Offsets()
+    [1611005958] PROP_GET    PartComps()
+    [1611005959] PROP_GET    SweptVolumes()
+    [1611005960] PROP_GET    FreeSpaces()
+
+== #19 ALIAS: CATIADMOOffset
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #20 ALIAS: CATIADMOOffsets
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #21 ALIAS: CATIADMOThickness
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #22 ALIAS: CATIADMOThicknesses
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #23 ALIAS: CATIAFreeSpace
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #24 ALIAS: CATIAFreeSpaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #25 ALIAS: CATIAMerges
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #26 ALIAS: CATIAOptimizerWorkBench
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #27 ALIAS: CATIAPartComp
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #28 ALIAS: CATIAPartComps
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #29 ALIAS: CATIASilhouette
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #30 ALIAS: CATIASilhouettes
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #31 ALIAS: CATIASimplifications
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #32 ALIAS: CATIASweptVolume
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #33 ALIAS: CATIASweptVolumes
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #34 ALIAS: CATIA3DCuts
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #35 ALIAS: CATIAVibrationVolumes
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #36 ALIAS: CATIADMOWrapping
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #37 ALIAS: CATIADMOWrappings
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #38 ENUM: foo_SMTInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_SMTInterfaces
+        foo_SMTInterfaces = 0
+
+== #39 MODULE: IID_SMTInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=19  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_SweptVolume
+    [var 1073741826] IID_Silhouette
+    [var 1073741827] IID_PartComp
+    [var 1073741828] IID_FreeSpace
+    [var 1073741829] IID_Wrapping
+    [var 1073741830] IID_DMOThickness
+    [var 1073741831] IID_DMOOffset
+    [var 1073741832] IID_VibrationVolumes
+    [var 1073741833] IID_SweptVolumes
+    [var 1073741834] IID_Simplifications
+    [var 1073741835] IID_Silhouettes
+    [var 1073741836] IID_PartComps
+    [var 1073741837] IID_Merges
+    [var 1073741838] IID_FreeSpaces
+    [var 1073741839] IID_Wrappings
+    [var 1073741840] IID_DMOThicknesses
+    [var 1073741841] IID_DMOOffsets
+    [var 1073741842] IID_ThreeDCuts
+    [var 1073741843] IID_OptimizerWorkBench

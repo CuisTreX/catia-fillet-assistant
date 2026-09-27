@@ -1,0 +1,68 @@
+# D:\Programs\CATIA\win_b64\code\bin\DNBSimIOTypeLib.tlb
+# 库名: DNBSimIO
+# 说明: CATIA V5 DNBSimIOInterfaces Object Library
+# 属性: (IID('{D01C6413-4925-4F4A-8F5C-EE92778FC184}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: IOAnalysisSettingAtt
+    iid={C8004733-5141-4323-B444-59B88E1E166E}  funcs=47  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    WaitIOHighlightColor()
+    [1611005952] PROP_PUT    WaitIOHighlightColor()
+    [1611005954] FUNC        GetWaitIOHighlightColorInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetWaitIOHighlightColorLock(iLocked)
+    [1611005956] PROP_GET    WaitIOAnalysisStatus()
+    [1611005956] PROP_PUT    WaitIOAnalysisStatus()
+    [1611005958] FUNC        GetWaitIOAnalysisStatusInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetWaitIOAnalysisStatusLock(iLocked)
+    [1611005960] PROP_GET    IgnoreDisconnectedIOStatus()
+    [1611005960] PROP_PUT    IgnoreDisconnectedIOStatus()
+    [1611005962] FUNC        GetIgnoreDisconnectedIOStatusInfo(ioAdminLevel, ioLocked)
+    [1611005963] FUNC        SetIgnoreDisconnectedIOStatusLock(iLocked)
+    [1611005964] PROP_GET    ShowHideSimSensorMessageStatus()
+    [1611005964] PROP_PUT    ShowHideSimSensorMessageStatus()
+    [1611005966] FUNC        GetShowHideSimSensorMessageStatusInfo(ioAdminLevel, ioLocked)
+    [1611005967] FUNC        SetShowHideSimSensorMessageStatusLock(iLocked)
+    [1611005968] PROP_GET    ShowHideResSensorMessageStatus()
+    [1611005968] PROP_PUT    ShowHideResSensorMessageStatus()
+    [1611005970] FUNC        GetShowHideResSensorMessageStatusInfo(ioAdminLevel, ioLocked)
+    [1611005971] FUNC        SetShowHideResSensorMessageStatusLock(iLocked)
+
+== #1 ALIAS: DNBIAIOAnalysisSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #2 ENUM: foo_DNBSimIOInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_DNBSimIOInterfaces
+        foo_DNBSimIOInterfaces = 0
+
+== #3 MODULE: IID_DNBSimIOInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=1  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_IOAnalysisSettingAtt

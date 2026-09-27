@@ -1,0 +1,412 @@
+# D:\Programs\CATIA\win_b64\code\bin\CATV4IInteropTypeLib.tlb
+# 库名: CATV4IInteropTypeLib
+# 说明: CATIA V5 CATIAV4Interfaces Object Library
+# 属性: (IID('{B370B426-EF27-41DD-91EE-852F02C5F0DD}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: V4MasterModel
+    iid={AADCFFF9-78D8-0000-0280-0310FE000000}  funcs=23  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    V4DocumentModel()
+
+== #1 DISPATCH: V4WritingSettingAtt
+    iid={AAA72638-8769-0000-0280-0310FE000000}  funcs=75  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    Code_page_Dest()
+    [1611005952] PROP_PUT    Code_page_Dest()
+    [1611005954] FUNC        SetCode_page_DestLock(iLock)
+    [1611005955] FUNC        GetCode_page_DestInfo(AdminLevel, oLocked)
+    [1611005956] PROP_GET    Model_Dimension()
+    [1611005956] PROP_PUT    Model_Dimension()
+    [1611005958] FUNC        SetModel_DimensionLock(iLock)
+    [1611005959] FUNC        GetModel_DimensionInfo(AdminLevel, oLocked)
+    [1611005960] PROP_GET    Model_Unit()
+    [1611005960] PROP_PUT    Model_Unit()
+    [1611005962] FUNC        SetModel_UnitLock(iLock)
+    [1611005963] FUNC        GetModel_UnitInfo(AdminLevel, oLocked)
+    [1611005964] PROP_GET    Asso_mode()
+    [1611005964] PROP_PUT    Asso_mode()
+    [1611005966] FUNC        SetAsso_modeLock(iLock)
+    [1611005967] FUNC        GetAsso_modeInfo(AdminLevel, oLocked)
+    [1611005968] PROP_GET    Layer_for_No_Asso()
+    [1611005968] PROP_PUT    Layer_for_No_Asso()
+    [1611005970] FUNC        SetLayer_for_No_AssoLock(iLock)
+    [1611005971] FUNC        GetLayer_for_No_AssoInfo(AdminLevel, oLocked)
+    [1611005972] PROP_GET    ModeErrorDisplay()
+    [1611005972] PROP_PUT    ModeErrorDisplay()
+    [1611005974] FUNC        SetModeErrorDisplayLock(iLock)
+    [1611005975] FUNC        GetModeErrorDisplayInfo(AdminLevel, oLocked)
+    [1611005976] PROP_GET    Initial_Model_File_Path()
+    [1611005976] PROP_PUT    Initial_Model_File_Path()
+    [1611005978] FUNC        SetInitial_Model_File_PathLock(iLock)
+    [1611005979] FUNC        GetInitial_Model_File_PathInfo(AdminLevel, oLocked)
+    [1611005980] PROP_GET    ModeCreateDisplay()
+    [1611005980] PROP_PUT    ModeCreateDisplay()
+    [1611005982] FUNC        SetModeCreateDisplayLock(iLock)
+    [1611005983] FUNC        GetModeCreateDisplayInfo(AdminLevel, oLocked)
+    [1611005984] PROP_GET    Model_Factor()
+    [1611005984] PROP_PUT    Model_Factor()
+    [1611005986] FUNC        SetModel_FactorLock(iLock)
+    [1611005987] FUNC        GetModel_FactorInfo(AdminLevel, oLocked)
+    [1611005988] PROP_GET    Model_File_Name()
+    [1611005988] PROP_PUT    Model_File_Name()
+    [1611005990] FUNC        SetModel_File_NameLock(iLock)
+    [1611005991] FUNC        GetModel_File_NameInfo(AdminLevel, oLocked)
+    [1611005992] PROP_GET    CleanTolCheck()
+    [1611005992] PROP_PUT    CleanTolCheck()
+    [1611005994] FUNC        SetCleanTolCheckLock(iLock)
+    [1611005995] FUNC        GetCleanTolCheckInfo(AdminLevel, oLocked)
+    [1611005996] PROP_GET    CleanTolValue()
+    [1611005996] PROP_PUT    CleanTolValue()
+    [1611005998] FUNC        SetCleanTolValueLock(iLock)
+    [1611005999] FUNC        GetCleanTolValueInfo(AdminLevel, oLocked)
+
+== #2 ENUM: CATV4IV5V4AssociativityModeEnum
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] AssociativeMode
+    [var 1073741825] NonAssociativeMode
+    [var 1073741826] NonAssociativityModeAndNoSolidCreation
+        AssociativeMode = 0
+        NonAssociativeMode = 1
+        NonAssociativityModeAndNoSolidCreation = 2
+
+== #3 ENUM: CATV4IV5V4ErrorFeatureCreationEnum
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] NeverCreateErrorFeatures
+    [var 1073741825] CreateAnErrorFeatureAfterUserAgreement
+    [var 1073741826] AlwaysCreateErrorFeatures
+        NeverCreateErrorFeatures = 0
+        CreateAnErrorFeatureAfterUserAgreement = 1
+        AlwaysCreateErrorFeatures = 2
+
+== #4 ENUM: CATV4IV5V4InternalCurveCreationEnum
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] AllCurvesAreCreated
+    [var 1073741825] OnlyConicsAreCreated
+    [var 1073741826] NoInternalCurveIsCreated
+        AllCurvesAreCreated = 0
+        OnlyConicsAreCreated = 1
+        NoInternalCurveIsCreated = 2
+
+== #5 DISPATCH: V4V5SpaceSettingAtt
+    iid={BCBDD91B-9BF4-4480-8A38-C7E99DF8B3EB}  funcs=67  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    ExternalTypeDeformation()
+    [1611005952] PROP_PUT    ExternalTypeDeformation()
+    [1611005954] FUNC        SetExternalTypeDeformationLock(iLock)
+    [1611005955] FUNC        GetExternalTypeDeformationInfo(AdminLevel, oLocked)
+    [1611005956] PROP_GET    ExternalMaxDeformation()
+    [1611005956] PROP_PUT    ExternalMaxDeformation()
+    [1611005958] FUNC        SetExternalMaxDeformationLock(iLock)
+    [1611005959] FUNC        GetExternalMaxDeformationInfo(AdminLevel, oLocked)
+    [1611005960] PROP_GET    InternalTypeDeformation()
+    [1611005960] PROP_PUT    InternalTypeDeformation()
+    [1611005962] FUNC        SetInternalTypeDeformationLock(iLock)
+    [1611005963] FUNC        GetInternalTypeDeformationInfo(AdminLevel, oLocked)
+    [1611005964] PROP_GET    InternalMaxDeformation()
+    [1611005964] PROP_PUT    InternalMaxDeformation()
+    [1611005966] FUNC        SetInternalMaxDeformationLock(iLock)
+    [1611005967] FUNC        GetInternalMaxDeformationInfo(AdminLevel, oLocked)
+    [1611005968] PROP_GET    KeepSegmentation()
+    [1611005968] PROP_PUT    KeepSegmentation()
+    [1611005970] FUNC        SetKeepSegmentationLock(iLock)
+    [1611005971] FUNC        GetKeepSegmentationInfo(AdminLevel, oLocked)
+    [1611005972] PROP_GET    DetailsModeUsual()
+    [1611005972] PROP_PUT    DetailsModeUsual()
+    [1611005974] FUNC        SetDetailsModeUsualLock(iLock)
+    [1611005975] FUNC        GetDetailsModeUsualInfo(AdminLevel, oLocked)
+    [1611005976] PROP_GET    DetailsModeExplode()
+    [1611005976] PROP_PUT    DetailsModeExplode()
+    [1611005978] FUNC        SetDetailsModeExplodeLock(iLock)
+    [1611005979] FUNC        GetDetailsModeExplodeInfo(AdminLevel, oLocked)
+    [1611005980] PROP_GET    DetailsModeWireframe()
+    [1611005980] PROP_PUT    DetailsModeWireframe()
+    [1611005982] FUNC        SetDetailsModeWireframeLock(iLock)
+    [1611005983] FUNC        GetDetailsModeWireframeInfo(AdminLevel, oLocked)
+    [1611005984] PROP_GET    SolidMU()
+    [1611005984] PROP_PUT    SolidMU()
+    [1611005986] FUNC        SetSolidMULock(iLock)
+    [1611005987] FUNC        GetSolidMUInfo(AdminLevel, oLocked)
+    [1611005988] PROP_GET    TextMigration()
+    [1611005988] PROP_PUT    TextMigration()
+    [1611005990] FUNC        SetTextMigrationLock(iLock)
+    [1611005991] FUNC        GetTextMigrationInfo(AdminLevel, oLocked)
+
+== #6 DISPATCH: SpecV4SettingAtt
+    iid={32690A7B-41C6-4F92-82FF-B4F5CD937E78}  funcs=35  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    StepByStepUpdateAndReroute()
+    [1611005952] PROP_PUT    StepByStepUpdateAndReroute()
+    [1611005954] FUNC        GetStepByStepUpdateAndRerouteInfo(AdminLevel, oLocked)
+    [1611005955] FUNC        SetStepByStepUpdateAndRerouteLock(iLock)
+    [1611005956] PROP_GET    DraftFeatureMigrationMode()
+    [1611005956] PROP_PUT    DraftFeatureMigrationMode()
+    [1611005958] FUNC        GetDraftFeatureMigrationModeInfo(AdminLevel, oLocked)
+    [1611005959] FUNC        SetDraftFeatureMigrationModeLock(iLock)
+
+== #7 ENUM: CATV4IV4V5SpecDraftMigrationEnum
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] squareMode
+    [var 1073741825] coneMode
+        squareMode = 0
+        coneMode = 1
+
+== #8 DISPATCH: MigrBatchSettingAtt
+    iid={AB84DE8A-1C4A-0000-0280-0310FE000000}  funcs=67  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    Migration_Type()
+    [1611005952] PROP_PUT    Migration_Type()
+    [1611005954] FUNC        GetMigration_TypeInfo(AdminLevel, oLocked)
+    [1611005955] FUNC        SetMigration_TypeLock(iLock)
+    [1611005956] PROP_GET    Migration_Interface()
+    [1611005956] PROP_PUT    Migration_Interface()
+    [1611005958] FUNC        GetMigration_InterfaceInfo(AdminLevel, oLocked)
+    [1611005959] FUNC        SetMigration_InterfaceLock(iLock)
+    [1611005960] PROP_GET    Migration_Format()
+    [1611005960] PROP_PUT    Migration_Format()
+    [1611005962] FUNC        GetMigration_FormatInfo(AdminLevel, oLocked)
+    [1611005963] FUNC        SetMigration_FormatLock(iLock)
+    [1611005964] PROP_GET    V4_Part_Definition()
+    [1611005964] PROP_PUT    V4_Part_Definition()
+    [1611005966] FUNC        GetV4_Part_DefinitionInfo(AdminLevel, oLocked)
+    [1611005967] FUNC        SetV4_Part_DefinitionLock(iLock)
+    [1611005968] PROP_GET    Visu_Mode_2D()
+    [1611005968] PROP_PUT    Visu_Mode_2D()
+    [1611005970] FUNC        GetVisu_Mode_2DInfo(AdminLevel, oLocked)
+    [1611005971] FUNC        SetVisu_Mode_2DLock(iLock)
+    [1611005972] PROP_GET    StartUp_Model_For_Drawing()
+    [1611005972] PROP_PUT    StartUp_Model_For_Drawing()
+    [1611005974] FUNC        GetStartUp_Model_For_DrawingInfo(AdminLevel, oLocked)
+    [1611005975] FUNC        SetStartUp_Model_For_DrawingLock(iLock)
+    [1611005976] PROP_GET    Mapping_File_Save_Mode()
+    [1611005976] PROP_PUT    Mapping_File_Save_Mode()
+    [1611005978] FUNC        GetMapping_File_Save_ModeInfo(AdminLevel, oLocked)
+    [1611005979] FUNC        SetMapping_File_Save_ModeLock(iLock)
+    [1611005980] PROP_GET    Mapping_Saving_File()
+    [1611005980] PROP_PUT    Mapping_Saving_File()
+    [1611005982] FUNC        GetMapping_Saving_FileInfo(AdminLevel, oLocked)
+    [1611005983] FUNC        SetMapping_Saving_FileLock(iLock)
+    [1611005984] PROP_GET    Search_List_Size()
+    [1611005984] PROP_PUT    Search_List_Size()
+    [1611005986] PROP_GET    Affiche_Attribut()
+    [1611005986] PROP_PUT    Affiche_Attribut()
+    [1611005988] FUNC        GetAffiche_AttributInfo(AdminLevel, oLocked)
+    [1611005989] FUNC        SetAffiche_AttributLock(iLock)
+    [1611005990] FUNC        GetSearch_Mapping_List()
+    [1611005991] FUNC        PutSearch_Mapping_List(iRelPath)
+
+== #9 DISPATCH: InteropSettingAtt
+    iid={AA061555-62F4-0000-0280-0310FE000000}  funcs=55  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    DisplayMode()
+    [1611005952] PROP_PUT    DisplayMode()
+    [1611005954] FUNC        SetDisplayModeLock(iLock)
+    [1611005955] FUNC        GetDisplayModeInfo(AdminLevel, oLocked)
+    [1611005956] PROP_GET    DisplayV4Text3D()
+    [1611005956] PROP_PUT    DisplayV4Text3D()
+    [1611005958] FUNC        SetDisplayV4Text3DLock(iLock)
+    [1611005959] FUNC        GetDisplayV4Text3DInfo(AdminLevel, oLocked)
+    [1611005960] PROP_GET    Draw()
+    [1611005960] PROP_PUT    Draw()
+    [1611005962] FUNC        SetDrawLock(iLock)
+    [1611005963] FUNC        GetDrawInfo(AdminLevel, oLocked)
+    [1611005964] PROP_GET    Code_page()
+    [1611005964] PROP_PUT    Code_page()
+    [1611005966] FUNC        SetCode_pageLock(iLock)
+    [1611005967] FUNC        GetCode_pageInfo(AdminLevel, oLocked)
+    [1611005968] PROP_GET    PROJECT_File_Path()
+    [1611005968] PROP_PUT    PROJECT_File_Path()
+    [1611005970] FUNC        SetPROJECT_File_PathLock(iLock)
+    [1611005971] FUNC        GetPROJECT_File_PathInfo(AdminLevel, oLocked)
+    [1611005972] PROP_GET    Dlname()
+    [1611005972] PROP_PUT    Dlname()
+    [1611005974] FUNC        SetDlnameLock(iLock)
+    [1611005975] FUNC        GetDlnameInfo(AdminLevel, oLocked)
+    [1611005976] PROP_GET    Conversion_Table()
+    [1611005976] PROP_PUT    Conversion_Table()
+    [1611005978] FUNC        SetConversion_TableLock(iLock)
+    [1611005979] FUNC        GetConversion_TableInfo(AdminLevel, oLocked)
+
+== #10 ALIAS: CATIAInteropSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #11 ALIAS: CATIAMigrBatchSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #12 ALIAS: CATIASpecV4SettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #13 ALIAS: CATIAV4MasterModel
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #14 ALIAS: CATIAV4V5SpaceSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #15 ALIAS: CATIAV4WritingSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #16 MODULE: IID_CATIAV4Interfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=6  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_V4MasterModel
+    [var 1073741826] IID_V4WritingSettingAtt
+    [var 1073741827] IID_V4V5SpaceSettingAtt
+    [var 1073741828] IID_SpecV4SettingAtt
+    [var 1073741829] IID_MigrBatchSettingAtt
+    [var 1073741830] IID_InteropSettingAtt

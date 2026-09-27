@@ -1,0 +1,72 @@
+{
+  "timestamp": "2026-09-25T21:19:21",
+  "cases": {
+    "case1": {
+      "state": "SYMMETRY_FOUND",
+      "edge_count": 12,
+      "candidates": [
+        "中点(0.0, 0.0, 20.0)，长 40.00 mm，直线，匹配度 100.0%｜Y = 30.00 的中面（法向 Y）"
+      ],
+      "fillet": {
+        "ok": true,
+        "message": "已生成倒圆角 倒圆角.1（半径 5，2 条边）",
+        "shapes": [
+          "凸台.1",
+          "倒圆角.1"
+        ],
+        "volume": 0.00023957079632679494
+      }
+    },
+    "case3": {
+      "edge_count_after_fillet": 18,
+      "arc_count": 4,
+      "arc_lengths": [
+        7.854,
+        7.854,
+        7.854,
+        7.854
+      ]
+    },
+    "case4": {
+      "state": "SYMMETRY_FOUND",
+      "source": "圆弧 长7.85 中点(2.2, 2.2, 40.0)",
+      "candidates": [
+        "中点(2.2, 2.2, 0.0)，长 7.85 mm，圆弧，匹配度 100.0%｜Z = 20.00 的中面（法向 Z）"
+      ],
+      "fillet": {
+        "ok": true,
+        "message": "已生成倒圆角 倒圆角.2（半径 5，2 条边）"
+      }
+    },
+    "case5": {
+      "state": "SELF_SYMMETRIC",
+      "ok": false
+    }
+  },
+  "results": [
+    {
+      "name": "Case1 扫描+配对",
+      "ok": true
+    },
+    {
+      "name": "Case1 生成一个倒圆角",
+      "ok": true
+    },
+    {
+      "name": "Case3 能扫到圆角新边",
+      "ok": true
+    },
+    {
+      "name": "Case4 连续第二刀",
+      "ok": true
+    },
+    {
+      "name": "Case5 连续第三刀",
+      "ok": false
+    },
+    {
+      "name": "负测试",
+      "ok": false
+    }
+  ]
+}

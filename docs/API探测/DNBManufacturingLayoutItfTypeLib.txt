@@ -1,0 +1,113 @@
+# D:\Programs\CATIA\win_b64\code\bin\DNBManufacturingLayoutItfTypeLib.tlb
+# 库名: DNBManufacturingLayoutItf
+# 说明: CATIA V5 DNBManufacturingLayoutItf Object Library
+# 属性: (IID('{0C850845-5B21-42C7-A8DA-C02B7962CCE5}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: AttachmentCont
+    iid={9FC66BA1-75A3-4465-B7FF-C7CF0D5502B4}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetListofAttachments(oAttachList)
+    [1610940417] FUNC        GetAttachmentFactory(oAttachFactory)
+
+== #1 DISPATCH: DNBAttachmentFactory
+    iid={EF68BE49-B6D1-4842-B98F-C726950236EB}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Attach(iParent, iChild, oAttachment)
+    [1610940417] FUNC        Remove(iAttachment)
+
+== #2 DISPATCH: DNBAttachment
+    iid={C27C2B9D-40C2-42AB-8EFA-8D86D98A8E9B}  funcs=28  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetParent(oParent)
+    [1610940417] FUNC        GetChild(oChild)
+    [1610940418] FUNC        GetParentMA(oParentMA)
+    [1610940419] FUNC        GetChildMA(oChildMA)
+    [1610940420] FUNC        IsParentMA(iParentMA)
+    [1610940421] FUNC        IsChildMA(iChildMA)
+
+== #3 ALIAS: DNBIAMRLDocAttachments
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #4 ALIAS: DNBIAMRLAttachment
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #5 ALIAS: DNBIAMRLAttachmentFactory
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #6 ENUM: foo_DNBManufacturingLayoutItf
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_DNBManufacturingLayoutItf
+        foo_DNBManufacturingLayoutItf = 0
+
+== #7 MODULE: IID_DNBManufacturingLayoutItf
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=3  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_AttachmentCont
+    [var 1073741826] IID_DNBAttachmentFactory
+    [var 1073741827] IID_DNBAttachment

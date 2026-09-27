@@ -1,0 +1,17 @@
+@echo off
+chcp 65001 >nul
+setlocal
+set "VENV_PY=D:\Programs\CodexTools\catia-fillet-assistant\venv\Scripts\pythonw.exe"
+set "HERE=%~dp0"
+
+if not exist "%VENV_PY%" (
+  echo [错误] 没找到运行环境：%VENV_PY%
+  echo 请先运行「安装环境.bat」。
+  pause
+  exit /b 1
+)
+
+start "" "%VENV_PY%" "%HERE%run_assistant.py"
+echo CATIA 倒圆角助手已启动（后台运行，无控制台窗口）。
+echo 退出：在 CATIA 里按 Ctrl+Alt+Q。
+timeout /t 3 >nul

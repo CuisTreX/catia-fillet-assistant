@@ -1,0 +1,142 @@
+# D:\Programs\CATIA\win_b64\code\bin\DNBIgpResourceProgramTypeLib.tlb
+# 库名: DNBIgpResourceProgram
+# 说明: CATIA V5 DNBResourceProgramInterfaces Object Library
+# 属性: (IID('{6487219A-06D9-4F6D-9352-5AA4D3AA4760}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: Task
+    iid={463D013F-086B-4190-9039-095A2EA0CC08}  funcs=57  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        IsSubTypeOf(iName)
+    [1610940417] FUNC        AttrValue(iIndex)
+    [1610940418] FUNC        AttrName(iIndex)
+    [1610940419] PROP_GET    Type()
+    [1610940420] PROP_GET    Description()
+    [1610940420] PROP_PUT    Description()
+    [1610940422] PROP_GET    CycleTime()
+    [1610940422] PROP_PUT    CycleTime()
+    [1610940424] PROP_GET    CalculatedCycleTime()
+    [1610940425] PROP_GET    BeginningDate()
+    [1610940425] PROP_PUT    BeginningDate()
+    [1610940427] PROP_GET    EndDate()
+    [1610940428] PROP_GET    ChildrenActivities()
+    [1610940429] FUNC        CreateChild(iTypeOfChild)
+    [1610940430] FUNC        CreateLink(iSecondActivity)
+    [1610940431] FUNC        RemoveLink(iSecondActivity)
+    [1610940432] PROP_GET    NextCFActivities()
+    [1610940433] PROP_GET    PreviousCFActivities()
+    [1610940434] PROP_GET    NextPRFActivities()
+    [1610940435] PROP_GET    PreviousPRFActivities()
+    [1610940436] PROP_GET    AttrCount()
+    [1610940437] PROP_GET    Items()
+    [1610940438] PROP_GET    Outputs()
+    [1610940439] PROP_GET    Resources()
+    [1610940440] PROP_GET    Relations()
+    [1610940441] PROP_GET    Parameters()
+    [1610940442] FUNC        GetTechnologicalObject(iApplicationType)
+    [1610940443] PROP_GET    PrecedenceActivities()
+    [1610940444] PROP_GET    PossiblePrecedenceActivities()
+    [1610940445] PROP_GET    ProcessID()
+    [1610940446] FUNC        SetProcessID(iProcessID, iCheckUnique)
+    [1610940447] PROP_GET    CalculatedBeginTime()
+    [1611005952] FUNC        GetName(oName)
+    [1611005953] FUNC        SetName(iName)
+    [1611005954] FUNC        GetResource(oRes)
+
+== #1 DISPATCH: ResourceProgramManager
+    iid={D2F9DE05-09D4-44F7-ABA3-EF2E00E33B3A}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetAllTasks(oTaskList)
+    [1610940417] FUNC        GetTask(iTaskName, oTask)
+
+== #2 DISPATCH: ActiveTask
+    iid={53152F48-278B-492C-8D59-1946700DB542}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        SetActiveTask(iResource, iTask)
+    [1610940417] FUNC        GetActiveTask(iResource, oTask)
+
+== #3 ALIAS: DELMIAActiveTask
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #4 ALIAS: DELMIAResourceProgramManager
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #5 ALIAS: DELMIATask
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #6 ENUM: foo_DNBResourceProgramInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_DNBResourceProgramInterfaces
+        foo_DNBResourceProgramInterfaces = 0
+
+== #7 MODULE: IID_DNBResourceProgramInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=3  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_Task
+    [var 1073741826] IID_ResourceProgramManager
+    [var 1073741827] IID_ActiveTask

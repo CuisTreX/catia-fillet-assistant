@@ -1,0 +1,76 @@
+# D:\Programs\CATIA\win_b64\code\bin\CATRdgTypeLib.tlb
+# 库名: CATRdg
+# 说明: CATIA V5 CATRdgInterfaces Object Library
+# 属性: (IID('{AB9D7654-6206-0000-0280-02157B000000}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: RenderingSettingAtt
+    iid={6EC1F8A2-386C-4594-8458-AB53DFFD2888}  funcs=55  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    OutputSizeFrom()
+    [1611005952] PROP_PUT    OutputSizeFrom()
+    [1611005954] FUNC        GetOutputSizeFromInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetOutputSizeFromLock(iLocked)
+    [1611005956] PROP_GET    OutputWidth()
+    [1611005956] PROP_PUT    OutputWidth()
+    [1611005958] FUNC        GetOutputWidthInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetOutputWidthLock(iLocked)
+    [1611005960] PROP_GET    OutputHeight()
+    [1611005960] PROP_PUT    OutputHeight()
+    [1611005962] FUNC        GetOutputHeightInfo(ioAdminLevel, ioLocked)
+    [1611005963] FUNC        SetOutputHeightLock(iLocked)
+    [1611005964] PROP_GET    OutputType()
+    [1611005964] PROP_PUT    OutputType()
+    [1611005966] FUNC        GetOutputTypeInfo(ioAdminLevel, ioLocked)
+    [1611005967] FUNC        SetOutputTypeLock(iLocked)
+    [1611005968] PROP_GET    OutputPath()
+    [1611005968] PROP_PUT    OutputPath()
+    [1611005970] FUNC        GetOutputPathInfo(ioAdminLevel, ioLocked)
+    [1611005971] FUNC        SetOutputPathLock(iLocked)
+    [1611005972] PROP_GET    SaveAutoIncrement()
+    [1611005972] PROP_PUT    SaveAutoIncrement()
+    [1611005974] FUNC        GetSaveAutoIncrementInfo(ioAdminLevel, ioLocked)
+    [1611005975] FUNC        SetSaveAutoIncrementLock(iLocked)
+    [1611005976] PROP_GET    EngineInterface()
+    [1611005976] PROP_PUT    EngineInterface()
+    [1611005978] FUNC        GetEngineInterfaceInfo(ioAdminLevel, ioLocked)
+    [1611005979] FUNC        SetEngineInterfaceLock(iLocked)
+
+== #1 ALIAS: CATIARenderingSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #2 ENUM: foo_CATRdgInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_CATRdgInterfaces
+        foo_CATRdgInterfaces = 0
+
+== #3 MODULE: IID_CATRdgInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=1  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_RenderingSettingAtt

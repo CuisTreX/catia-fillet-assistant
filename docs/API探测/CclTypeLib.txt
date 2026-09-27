@@ -1,0 +1,70 @@
+# D:\Programs\CATIA\win_b64\code\bin\CclTypeLib.tlb
+# 库名: ComponentsCatalogsTypeLib
+# 说明: CATIA V5 ComponentsCatalogsInterfaces Object Library
+# 属性: (IID('{FE86BC00-D89C-11D2-BE6C-00104B7D1988}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: CatalogDocument
+    iid={8231C1C0-D89F-11D2-BE6C-00104B7D1988}  funcs=49  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    FullName()
+    [1610940417] PROP_GET    Path()
+    [1610940418] PROP_GET    ReadOnly()
+    [1610940419] PROP_GET    Saved()
+    [1610940420] PROP_GET    SeeHiddenElements()
+    [1610940420] PROP_PUT    SeeHiddenElements()
+    [1610940422] PROP_GET    Cameras()
+    [1610940423] PROP_GET    Selection()
+    [1610940424] PROP_GET    CurrentLayer()
+    [1610940424] PROP_PUT    CurrentLayer()
+    [1610940426] PROP_GET    CurrentFilter()
+    [1610940426] PROP_PUT    CurrentFilter()
+    [1610940428] FUNC        CreateFilter(iFilterName, iFilterDefinition)
+    [1610940429] FUNC        RemoveFilter(iFilterName)
+    [1610940430] FUNC        Indicate2D(iMessage, ioDocumentWindowLocation)
+    [1610940431] FUNC        Indicate3D(iPlanarGeometricObject, iMessage, ioWindowLocation2D, ioWindowLocation3D)
+    [1610940432] FUNC        CreateReferenceFromName(iLabel)
+    [1610940433] FUNC        NewWindow()
+    [1610940434] FUNC        Activate()
+    [1610940435] FUNC        Save()
+    [1610940436] FUNC        SaveAs(fileName)
+    [1610940437] FUNC        ExportData(fileName, format)
+    [1610940438] FUNC        Close()
+    [1610940439] FUNC        GetWorkbench(workbenchName)
+    [1611005952] FUNC        CreateCatalogFromcsv(iInitData, iNewCatalog)
+    [1611005953] FUNC        CreateCatalogFromLibrary(iLibraryPath, iProjectPath, iCatalogPath, iTablePath, iConvFormat, iBatchMode)
+    [1611005954] FUNC        CreateChapterFromDesignTable(iChapterName, iDocumentContainingDT)
+
+== #1 ALIAS: CATIACatalogDocument
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #2 ENUM: foo_ComponentsCatalogsInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_ComponentsCatalogsInterfaces
+        foo_ComponentsCatalogsInterfaces = 0
+
+== #3 MODULE: IID_ComponentsCatalogsInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=1  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_CatalogDocument

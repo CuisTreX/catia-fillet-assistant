@@ -1,0 +1,9 @@
+# D:\Programs\CATIA\win_b64\code\bin\CATSmaInterfacesTypeLib.tlb
+# 库名: CATSmaInterfacesTypeLib
+# 说明: CATIA V5 CATSmaInterfaces Object Library
+# 属性: (IID('{F2EE6F26-CE7E-4A79-A99F-8F522AF060BE}'), 0, 1, 0, 0, 8)
+
+== #0 ENUM: foo_CATSmaInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_CATSmaInterfaces
+        foo_CATSmaInterfaces = 0

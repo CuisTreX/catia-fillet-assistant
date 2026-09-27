@@ -1,0 +1,9 @@
+# D:\Programs\CATIA\win_b64\code\bin\CATMmFunctionalTypeLib.tlb
+# 库名: CATMmFunctional
+# 说明: CATIA V5 CATMmFunctionalInterfaces Object Library
+# 属性: (IID('{84E94EA4-5132-4F97-8BA4-A21C74D9074A}'), 0, 1, 0, 0, 8)
+
+== #0 ENUM: foo_CATMmFunctionalInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_CATMmFunctionalInterfaces
+        foo_CATMmFunctionalInterfaces = 0

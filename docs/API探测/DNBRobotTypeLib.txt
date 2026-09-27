@@ -1,0 +1,766 @@
+# D:\Programs\CATIA\win_b64\code\bin\DNBRobotTypeLib.tlb
+# 库名: DNBRobot
+# 说明: CATIA V5 DNBRobotInterfaces Object Library
+# 属性: (IID('{715642EA-ABF9-410C-90BD-447C0122616C}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: TCPTraceManagerGraphics
+    iid={815D3A86-C0D9-4601-AAAF-806A127504B2}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        SetTraceNextColor(iRep, iR, iG, iB, iA)
+    [1610940417] FUNC        SetNextType(iRep, iType)
+    [1610940418] FUNC        SetNextThickness(iRep, iThickness)
+
+== #1 ENUM: DNBTCPTraceReps
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=4  impltypes=0
+    [var 1073741824] DNBTCPTraceRepAllRep
+    [var 1073741825] DNBTCPTraceRepPoint
+    [var 1073741826] DNBTCPTraceRepLine
+    [var 1073741827] DNBTCPTraceRepAxis
+        DNBTCPTraceRepAllRep = 0
+        DNBTCPTraceRepPoint = 1
+        DNBTCPTraceRepLine = 2
+        DNBTCPTraceRepAxis = 3
+
+== #2 DISPATCH: TCPTraceManager
+    iid={4A3F4A51-BDF3-487A-858F-CBE192C7B9D0}  funcs=34  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    TCPTraceMode()
+    [1610940416] PROP_PUT    TCPTraceMode()
+    [1610940418] PROP_GET    InitStatus()
+    [1610940418] PROP_PUT    InitStatus()
+    [1610940420] FUNC        GetNbPath()
+    [1610940421] FUNC        GetPath(iIndex)
+    [1610940422] FUNC        RemovePathByObject(TCPPath)
+    [1610940423] FUNC        RemovePathByIndex(iIndex)
+    [1610940424] FUNC        RemoveAllPath()
+    [1610940425] FUNC        GetAttachedOwner()
+    [1610940426] FUNC        SetAttachedOwner(iOwner)
+    [1610940427] FUNC        ResetAttachedOwner()
+
+== #3 DISPATCH: TCPTrace
+    iid={D9024AA3-2A61-46BB-958B-48730CC6894F}  funcs=43  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    TraceName()
+    [1610940416] PROP_PUT    TraceName()
+    [1610940418] PROP_GET    Visibility()
+    [1610940418] PROP_PUT    Visibility()
+    [1610940420] PROP_GET    TotalPoints()
+    [1610940421] FUNC        Export(iName)
+    [1610940422] FUNC        GetAttachedOwner()
+    [1610940423] FUNC        SetAttachedOwner(iOwner)
+    [1610940424] FUNC        ResetAttachedOwner()
+    [1610940425] FUNC        RefreshDisplay()
+    [1610940426] FUNC        SetVisibility(iRep, ibVisible)
+    [1610940427] FUNC        GetVisibility(iRep)
+    [1610940428] FUNC        SetColor(iRep, iR, iG, iB, iA)
+    [1610940429] FUNC        GetColor(iRep, oR, oG, oB, oA)
+    [1610940430] FUNC        SetType(iRep, iType)
+    [1610940431] FUNC        GetType(iRep)
+    [1610940432] FUNC        SetThickness(iRep, iThickness)
+    [1610940433] FUNC        GetThickness(iRep)
+    [1610940434] FUNC        GetLegendsVisibility(iType)
+    [1610940435] FUNC        SetLegendsVisibility(iType, ibVisible)
+    [1610940436] FUNC        ResetGraphics(bSetting)
+
+== #4 ENUM: DNBTCPTraceLegends
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=11  impltypes=0
+    [var 1073741824] DNBTCPTraceLegendAllLegend
+    [var 1073741825] DNBTCPTraceLegendName
+    [var 1073741826] DNBTCPTraceLegendX
+    [var 1073741827] DNBTCPTraceLegendY
+    [var 1073741828] DNBTCPTraceLegendZ
+    [var 1073741829] DNBTCPTraceLegendYaw
+    [var 1073741830] DNBTCPTraceLegendPitch
+    [var 1073741831] DNBTCPTraceLegendRoll
+    [var 1073741832] DNBTCPTraceLegendCycleTime
+    [var 1073741833] DNBTCPTraceLegendHighlight
+    [var 1073741834] DNBTCPTraceLegendAlwaysVisible
+        DNBTCPTraceLegendAllLegend = 0
+        DNBTCPTraceLegendName = 1
+        DNBTCPTraceLegendX = 2
+        DNBTCPTraceLegendY = 3
+        DNBTCPTraceLegendZ = 4
+        DNBTCPTraceLegendYaw = 5
+        DNBTCPTraceLegendPitch = 6
+        DNBTCPTraceLegendRoll = 7
+        DNBTCPTraceLegendCycleTime = 8
+        DNBTCPTraceLegendHighlight = 9
+        DNBTCPTraceLegendAlwaysVisible = 10
+
+== #5 DISPATCH: RobGenericController
+    iid={024191F6-08DE-44EC-A815-080002F42426}  funcs=60  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        SetName(name)
+    [1610940417] FUNC        GetName(oName)
+    [1610940418] FUNC        AddToolProfile(iProfile)
+    [1610940419] FUNC        GetToolProfile(name, profile)
+    [1610940420] FUNC        GetToolProfiles(profiles)
+    [1610940421] FUNC        HasToolProfile(name, flag)
+    [1610940422] FUNC        RemoveToolProfile(name)
+    [1610940423] FUNC        RemoveToolProfiles()
+    [1610940424] FUNC        SetCurrentToolProfile(profile)
+    [1610940425] FUNC        GetCurrentToolProfile(profile)
+    [1610940426] FUNC        GetToolProfileCount(count)
+    [1610940427] FUNC        AddMotionProfile(profile)
+    [1610940428] FUNC        GetMotionProfile(name, profile)
+    [1610940429] FUNC        GetMotionProfiles(profiles)
+    [1610940430] FUNC        HasMotionProfile(name, flag)
+    [1610940431] FUNC        RemoveMotionProfile(name)
+    [1610940432] FUNC        RemoveMotionProfiles()
+    [1610940433] FUNC        SetCurrentMotionProfile(profile)
+    [1610940434] FUNC        GetCurrentMotionProfile(profile)
+    [1610940435] FUNC        GetMotionProfileCount(count)
+    [1610940436] FUNC        AddAccuracyProfile(profile)
+    [1610940437] FUNC        GetAccuracyProfile(name, profile)
+    [1610940438] FUNC        GetAccuracyProfiles(profiles)
+    [1610940439] FUNC        HasAccuracyProfile(name, flag)
+    [1610940440] FUNC        RemoveAccuracyProfile(name)
+    [1610940441] FUNC        RemoveAccuracyProfiles()
+    [1610940442] FUNC        SetCurrentAccuracyProfile(profile)
+    [1610940443] FUNC        GetCurrentAccuracyProfile(profile)
+    [1610940444] FUNC        GetAccuracyProfileCount(count)
+    [1610940445] FUNC        AddObjFrameProfile(profile)
+    [1610940446] FUNC        GetObjFrameProfile(name, profile)
+    [1610940447] FUNC        GetObjFrameProfiles(profiles)
+    [1610940448] FUNC        HasObjFrameProfile(name, flag)
+    [1610940449] FUNC        RemoveObjFrameProfile(name)
+    [1610940450] FUNC        RemoveObjFrameProfiles()
+    [1610940451] FUNC        SetCurrentObjFrameProfile(profile)
+    [1610940452] FUNC        GetCurrentObjFrameProfile(profile)
+    [1610940453] FUNC        GetObjFrameProfileCount(count)
+
+== #6 DISPATCH: GenericToolProfile
+    iid={23463F51-578E-4E1D-800A-DB77AA114410}  funcs=35  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        SetName(iName)
+    [1610940417] FUNC        GetName(oName)
+    [1610940418] FUNC        SetToolMobility(iMobile)
+    [1610940419] FUNC        GetToolMobility(oMobile)
+    [1610940420] FUNC        SetTCPOffset(x, y, z, roll, pitch, yaw)
+    [1610940421] FUNC        GetTCPOffset(x, y, z, roll, pitch, yaw)
+    [1610940422] FUNC        SetMass(mass)
+    [1610940423] FUNC        GetMass(mass)
+    [1610940424] FUNC        SetCentroid(cx, cy, cz)
+    [1610940425] FUNC        GetCentroid(cx, cy, cz)
+    [1610940426] FUNC        SetInertia(Ixx, Iyy, Izz, Ixy, Iyz, Izx)
+    [1610940427] FUNC        GetInertia(Ixx, Iyy, Izz, Ixy, Iyz, Izx)
+    [1610940428] FUNC        GetController(oController)
+
+== #7 DISPATCH: GenericMotionProfile
+    iid={16C4F1D2-C6D3-45B9-8F98-59B8BD8AD7C3}  funcs=35  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        SetName(iName)
+    [1610940417] FUNC        GetName(oName)
+    [1610940418] FUNC        SetMotionBasis(basis)
+    [1610940419] FUNC        GetMotionBasis(basis)
+    [1610940420] FUNC        SetSpeedValue(value)
+    [1610940421] FUNC        GetSpeedValue(value)
+    [1610940422] FUNC        SetAccelerationValue(value)
+    [1610940423] FUNC        GetAccelerationValue(value)
+    [1610940424] FUNC        SetAngularSpeedValue(value)
+    [1610940425] FUNC        GetAngularSpeedValue(value)
+    [1610940426] FUNC        SetAngularAccelerationValue(value)
+    [1610940427] FUNC        GetAngularAccelerationValue(value)
+    [1610940428] FUNC        GetController(oController)
+
+== #8 ENUM: MotionBasis
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] MOTION_ABSOLUTE
+    [var 1073741825] MOTION_PERCENT
+    [var 1073741826] MOTION_TIME
+        MOTION_ABSOLUTE = 0
+        MOTION_PERCENT = 1
+        MOTION_TIME = 2
+
+== #9 DISPATCH: GenericAccuracyProfile
+    iid={8D70C83D-9600-48B5-8107-B91D23E76250}  funcs=31  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        SetName(iName)
+    [1610940417] FUNC        GetName(oName)
+    [1610940418] FUNC        SetFlyByMode(iMode)
+    [1610940419] FUNC        GetFlyByMode(oMode)
+    [1610940420] FUNC        SetAccuracyType(accuracy)
+    [1610940421] FUNC        GetAccuracyType(accuracy)
+    [1610940422] FUNC        SetAccuracyValue(value)
+    [1610940423] FUNC        GetAccuracyValue(value)
+    [1610940424] FUNC        GetController(oController)
+
+== #10 ENUM: AccuracyType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] ACCURACY_TYPE_DISTANCE
+    [var 1073741825] ACCURACY_TYPE_SPEED
+        ACCURACY_TYPE_DISTANCE = 0
+        ACCURACY_TYPE_SPEED = 1
+
+== #11 DISPATCH: GenericObjFrameProfile
+    iid={FCAB3545-A62A-47E9-A433-5648C28106E8}  funcs=27  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        SetName(iName)
+    [1610940417] FUNC        GetName(oName)
+    [1610940418] FUNC        SetObjectFrame(x, y, z, roll, pitch, yaw)
+    [1610940419] FUNC        GetObjectFrame(x, y, z, roll, pitch, yaw)
+    [1610940420] FUNC        GetController(oController)
+
+== #12 DISPATCH: RobControllerFactory
+    iid={D1F4C474-5833-4D8D-9E2B-329ADE0B1E7E}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        CreateGenericToolProfile(oToolProfile)
+    [1610940417] FUNC        CreateGenericMotionProfile(oMotionProfile)
+    [1610940418] FUNC        CreateGenericAccuracyProfile(oAccuracyProfile)
+    [1610940419] FUNC        CreateGenericObjFrameProfile(oObjFrameProfile)
+
+== #13 DISPATCH: CalibOffsets
+    iid={1C923241-02B7-48F5-A7CA-C973346542B0}  funcs=38  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        SetReferenceBasePosition(x, y, z, roll, pitch, yaw)
+    [1610940417] FUNC        GetReferenceBasePosition(x, y, z, roll, pitch, yaw)
+    [1610940418] FUNC        SetNominalBaseOffset(x, y, z, roll, pitch, yaw)
+    [1610940419] FUNC        GetNominalBaseOffset(x, y, z, roll, pitch, yaw)
+    [1610940420] FUNC        SetNominalToolOffset(x, y, z, roll, pitch, yaw)
+    [1610940421] FUNC        GetNominalToolOffset(x, y, z, roll, pitch, yaw)
+    [1610940422] FUNC        SetCorrectedBaseOffset(x, y, z, roll, pitch, yaw)
+    [1610940423] FUNC        GetCorrectedBaseOffset(x, y, z, roll, pitch, yaw)
+    [1610940424] FUNC        SetCorrectedToolOffset(x, y, z, roll, pitch, yaw)
+    [1610940425] FUNC        GetCorrectedToolOffset(x, y, z, roll, pitch, yaw)
+    [1610940426] FUNC        SetCalibReferenceFile(iCalibReferenceFile)
+    [1610940427] FUNC        GetCalibReferenceFile(oCalibReferenceFile)
+    [1610940428] FUNC        ApplyNominalBaseOffset()
+    [1610940429] FUNC        ApplyCorrectedBaseOffset()
+    [1610940430] FUNC        ApplyNominalToolOffset()
+    [1610940431] FUNC        ApplyCorrectedToolOffset()
+
+== #14 DISPATCH: ParameterProfilesFactory
+    iid={D4F8A560-5DF0-4AE0-A79C-34DFE40D7DC4}  funcs=27  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        CreateProfileInstance(iProfileType, iInstanceName, oAppParameterProfile)
+    [1610940417] FUNC        DeleteProfileInstance(ioParameterProfile)
+    [1610940418] FUNC        GetProfileInstance(iInstanceName, oProfileInstance)
+    [1610940419] FUNC        GetProfileInstances(iProfileType, oProfiles)
+    [1610940420] FUNC        GetAllProfileInstances(oAllInstancesOnProduct)
+
+== #15 DISPATCH: ParameterProfiles
+    iid={2BD03B13-AC32-4B60-902B-1B4B0A7E68CA}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        SetName(iNewInstanceName)
+    [1610940417] FUNC        GetName(oInstanceName)
+    [1610940418] FUNC        SetAttributeValue(iAttributeName, iEncapsulatedAttributeValue)
+    [1610940419] FUNC        GetAttributeValue(iAttributeName, oEncapsulatedAttributeValue)
+
+== #16 DISPATCH: RobAnalysisSettingAtt
+    iid={54E9AEE2-76D6-4C35-92C9-09183E08F178}  funcs=67  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    LinSpeedLimit()
+    [1611005952] PROP_PUT    LinSpeedLimit()
+    [1611005954] FUNC        GetLinSpeedLimitInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetLinSpeedLimitLock(iLocked)
+    [1611005956] PROP_GET    RotSpeedLimit()
+    [1611005956] PROP_PUT    RotSpeedLimit()
+    [1611005958] FUNC        GetRotSpeedLimitInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetRotSpeedLimitLock(iLocked)
+    [1611005960] PROP_GET    LinAccelLimit()
+    [1611005960] PROP_PUT    LinAccelLimit()
+    [1611005962] FUNC        GetLinAccelLimitInfo(ioAdminLevel, ioLocked)
+    [1611005963] FUNC        SetLinAccelLimitLock(iLocked)
+    [1611005964] PROP_GET    RotAccelLimit()
+    [1611005964] PROP_PUT    RotAccelLimit()
+    [1611005966] FUNC        GetRotAccelLimitInfo(ioAdminLevel, ioLocked)
+    [1611005967] FUNC        SetRotAccelLimitLock(iLocked)
+    [1611005968] PROP_GET    LinSpeedColor()
+    [1611005968] PROP_PUT    LinSpeedColor()
+    [1611005970] FUNC        GetLinSpeedColorInfo(ioAdminLevel, ioLocked)
+    [1611005971] FUNC        SetLinSpeedColorLock(iLocked)
+    [1611005972] PROP_GET    RotSpeedColor()
+    [1611005972] PROP_PUT    RotSpeedColor()
+    [1611005974] FUNC        GetRotSpeedColorInfo(ioAdminLevel, ioLocked)
+    [1611005975] FUNC        SetRotSpeedColorLock(iLocked)
+    [1611005976] PROP_GET    LinAccelColor()
+    [1611005976] PROP_PUT    LinAccelColor()
+    [1611005978] FUNC        GetLinAccelColorInfo(ioAdminLevel, ioLocked)
+    [1611005979] FUNC        SetLinAccelColorLock(iLocked)
+    [1611005980] PROP_GET    RotAccelColor()
+    [1611005980] PROP_PUT    RotAccelColor()
+    [1611005982] FUNC        GetRotAccelColorInfo(ioAdminLevel, ioLocked)
+    [1611005983] FUNC        SetRotAccelColorLock(iLocked)
+    [1611005984] PROP_GET    ReachColor()
+    [1611005984] PROP_PUT    ReachColor()
+    [1611005986] FUNC        GetReachColorInfo(ioAdminLevel, ioLocked)
+    [1611005987] FUNC        SetReachColorLock(iLocked)
+    [1611005988] PROP_GET    SingularColor()
+    [1611005988] PROP_PUT    SingularColor()
+    [1611005990] FUNC        GetSingularColorInfo(ioAdminLevel, ioLocked)
+    [1611005991] FUNC        SetSingularColorLock(iLocked)
+
+== #17 ENUM: DNBAnalysisLevel
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=4  impltypes=0
+    [var 1073741824] DNBAnalysisLevelOff
+    [var 1073741825] DNBAnalysisLevelHighlight
+    [var 1073741826] DNBAnalysisLevelVerbose
+    [var 1073741827] DNBAnalysisLevelInterrupt
+        DNBAnalysisLevelOff = 0
+        DNBAnalysisLevelHighlight = 1
+        DNBAnalysisLevelVerbose = 2
+        DNBAnalysisLevelInterrupt = 3
+
+== #18 DISPATCH: RRSSettingAtt
+    iid={8AD7C9D4-B30C-4B71-8316-B66B4E2AC65B}  funcs=109  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    RRSLibDir()
+    [1611005952] PROP_PUT    RRSLibDir()
+    [1611005954] FUNC        GetRRSLibDirInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetRRSLibDirLock(iLocked)
+    [1611005956] PROP_GET    RRSServerFile()
+    [1611005956] PROP_PUT    RRSServerFile()
+    [1611005958] FUNC        GetRRSServerFileInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetRRSServerFileLock(iLocked)
+    [1611005960] PROP_GET    RCSDataLibDir()
+    [1611005960] PROP_PUT    RCSDataLibDir()
+    [1611005962] FUNC        GetRCSDataLibDirInfo(ioAdminLevel, ioLocked)
+    [1611005963] FUNC        SetRCSDataLibDirLock(iLocked)
+    [1611005964] PROP_GET    RRS2MotionPlannerActiveDuringTeachOLP()
+    [1611005964] PROP_PUT    RRS2MotionPlannerActiveDuringTeachOLP()
+    [1611005966] FUNC        GetRRS2MotionPlannerActiveDuringTeachOLPInfo(ioAdminLevel, ioLocked)
+    [1611005967] FUNC        SetRRS2MotionPlannerActiveDuringTeachOLPLock(iLocked)
+    [1611005968] PROP_GET    RRS2UseVRCTurnLimits()
+    [1611005968] PROP_PUT    RRS2UseVRCTurnLimits()
+    [1611005970] FUNC        GetRRS2UseVRCTurnLimitsInfo(ioAdminLevel, ioLocked)
+    [1611005971] FUNC        SetRRS2UseVRCTurnLimitsLock(iLocked)
+    [1611005972] PROP_GET    RRS2DownloadLogFileName()
+    [1611005972] PROP_PUT    RRS2DownloadLogFileName()
+    [1611005974] FUNC        GetRRS2DownloadLogFileNameInfo(ioAdminLevel, ioLocked)
+    [1611005975] FUNC        SetRRS2DownloadLogFileNameLock(iLocked)
+    [1611005976] PROP_GET    RRS2DfltControllerIdentifier()
+    [1611005976] PROP_PUT    RRS2DfltControllerIdentifier()
+    [1611005978] FUNC        GetRRS2DfltControllerIdentifierInfo(ioAdminLevel, ioLocked)
+    [1611005979] FUNC        SetRRS2DfltControllerIdentifierLock(iLocked)
+    [1611005980] PROP_GET    RRS2ControllerIdentifiers()
+    [1611005980] PROP_PUT    RRS2ControllerIdentifiers()
+    [1611005982] FUNC        GetRRS2ControllerIdentifiersInfo(ioAdminLevel, ioLocked)
+    [1611005983] FUNC        SetRRS2ControllerIdentifiersLock(iLocked)
+    [1611005984] PROP_GET    RRS2ConnectDownloaders()
+    [1611005984] PROP_PUT    RRS2ConnectDownloaders()
+    [1611005986] FUNC        GetRRS2ConnectDownloadersInfo(ioAdminLevel, ioLocked)
+    [1611005987] FUNC        SetRRS2ConnectDownloadersLock(iLocked)
+    [1611005988] PROP_GET    RRS2SimRunDownloaders()
+    [1611005988] PROP_PUT    RRS2SimRunDownloaders()
+    [1611005990] FUNC        GetRRS2SimRunDownloadersInfo(ioAdminLevel, ioLocked)
+    [1611005991] FUNC        SetRRS2SimRunDownloadersLock(iLocked)
+    [1611005992] PROP_GET    RRS2ConsistencyCmdDownloaders()
+    [1611005992] PROP_PUT    RRS2ConsistencyCmdDownloaders()
+    [1611005994] FUNC        GetRRS2ConsistencyCmdDownloadersInfo(ioAdminLevel, ioLocked)
+    [1611005995] FUNC        SetRRS2ConsistencyCmdDownloadersLock(iLocked)
+    [1611005996] PROP_GET    RRS2DownloadDuringConnect()
+    [1611005996] PROP_PUT    RRS2DownloadDuringConnect()
+    [1611005998] FUNC        GetRRS2DownloadDuringConnectInfo(ioAdminLevel, ioLocked)
+    [1611005999] FUNC        SetRRS2DownloadDuringConnectLock(iLocked)
+    [1611006000] PROP_GET    RRS2DownloadDuringSimRun()
+    [1611006000] PROP_PUT    RRS2DownloadDuringSimRun()
+    [1611006002] FUNC        GetRRS2DownloadDuringSimRunInfo(ioAdminLevel, ioLocked)
+    [1611006003] FUNC        SetRRS2DownloadDuringSimRunLock(iLocked)
+    [1611006004] PROP_GET    RRS2UpdateProgramOnDownload()
+    [1611006004] PROP_PUT    RRS2UpdateProgramOnDownload()
+    [1611006006] FUNC        GetRRS2UpdateProgramOnDownloadInfo(ioAdminLevel, ioLocked)
+    [1611006007] FUNC        SetRRS2UpdateProgramOnDownloadLock(iLocked)
+    [1611006008] PROP_GET    RRS2DownloadInPartCoordinates()
+    [1611006008] PROP_PUT    RRS2DownloadInPartCoordinates()
+    [1611006010] FUNC        GetRRS2DownloadInPartCoordinatesInfo(ioAdminLevel, ioLocked)
+    [1611006011] FUNC        SetRRS2DownloadInPartCoordinatesLock(iLocked)
+    [1611006012] FUNC        AddNewRRS2ControllerIdentifier(iControllerIdentifier)
+    [1611006013] FUNC        GetRRS2ControllerIdentifierAttributes(iControllerIdentifier, oRRS2ConnectDownloader, oRRS2SimRunDownloader, oRRS2ConsistencyCmdDownloader, oRRS2DownloadDuringConnect, oRRS2DownloadDuringSimRun, oRRS2UpdateProgramOnDownload, oRRS2DownloadInPartCoordinates)
+    [1611006014] PROP_GET    RRS2UseVRCInverseKinematics()
+    [1611006014] PROP_PUT    RRS2UseVRCInverseKinematics()
+    [1611006016] FUNC        GetRRS2UseVRCInverseKinematicsInfo(ioAdminLevel, ioLocked)
+    [1611006017] FUNC        SetRRS2UseVRCInverseKinematicsLock(iLocked)
+    [1611006018] PROP_GET    RRS2FreePlaySimStepSize()
+    [1611006018] PROP_PUT    RRS2FreePlaySimStepSize()
+    [1611006020] FUNC        GetRRS2FreePlaySimStepSizeInfo(ioAdminLevel, ioLocked)
+    [1611006021] FUNC        SetRRS2FreePlaySimStepSizeLock(iLocked)
+    [1611006022] PROP_GET    RRS2StopVRCWhenSimStops()
+    [1611006022] PROP_PUT    RRS2StopVRCWhenSimStops()
+    [1611006024] FUNC        GetRRS2StopVRCWhenSimStopsInfo(ioAdminLevel, ioLocked)
+    [1611006025] FUNC        SetRRS2StopVRCWhenSimStopsLock(iLocked)
+    [1611006026] PROP_GET    RRS2MainTaskProcessing()
+    [1611006026] PROP_PUT    RRS2MainTaskProcessing()
+    [1611006028] FUNC        GetRRS2MainTaskProcessingInfo(ioAdminLevel, ioLocked)
+    [1611006029] FUNC        SetRRS2MainTaskProcessingLock(iLocked)
+    [1611006030] PROP_GET    RRS2DeleteAutoDownloadFilesAfterXfer()
+    [1611006030] PROP_PUT    RRS2DeleteAutoDownloadFilesAfterXfer()
+    [1611006032] FUNC        GetRRS2DeleteAutoDownloadFilesAfterXferInfo(ioAdminLevel, ioLocked)
+    [1611006033] FUNC        SetRRS2DeleteAutoDownloadFilesAfterXferLock(iLocked)
+
+== #19 ALIAS: DNBIARobCalibOffsets
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #20 ALIAS: DNBIAGenericAccuracyProfile
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #21 ALIAS: DNBIAGenericMotionProfile
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #22 ALIAS: DNBIAGenericObjFrameProfile
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #23 ALIAS: DNBIAGenericToolProfile
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #24 ALIAS: DNBIAParameterProfiles
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #25 ALIAS: DNBIAParameterProfilesFactory
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #26 ALIAS: DNBIARRSSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #27 ALIAS: DNBIARobAnalysisSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #28 ALIAS: DNBIARobControllerFactory
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #29 ALIAS: DNBIARobGenericController
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #30 ALIAS: DNBIATCPTrace
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #31 ALIAS: DNBIATCPTraceManager
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #32 ALIAS: DNBIATCPTraceManagerGraphics
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #33 MODULE: IID_DNBRobotInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=14  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_TCPTraceManagerGraphics
+    [var 1073741826] IID_TCPTraceManager
+    [var 1073741827] IID_TCPTrace
+    [var 1073741828] IID_RobGenericController
+    [var 1073741829] IID_RobControllerFactory
+    [var 1073741830] IID_CalibOffsets
+    [var 1073741831] IID_ParameterProfilesFactory
+    [var 1073741832] IID_ParameterProfiles
+    [var 1073741833] IID_GenericToolProfile
+    [var 1073741834] IID_GenericObjFrameProfile
+    [var 1073741835] IID_GenericMotionProfile
+    [var 1073741836] IID_GenericAccuracyProfile
+    [var 1073741837] IID_RobAnalysisSettingAtt
+    [var 1073741838] IID_RRSSettingAtt

@@ -1,0 +1,103 @@
+# D:\Programs\CATIA\win_b64\code\bin\CATDataExchTypeLib.tlb
+# 库名: CATDataExch
+# 说明: CATIA V5 CATDataExchInterfaces Object Library
+# 属性: (IID('{737CBEE1-8395-4A53-818C-FE7BFE900297}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: DECProductToProduct
+    iid={DCD66EC4-4D06-4A71-AF5B-4CC96FC5E353}  funcs=22  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] FUNC        SetOption(iOption)
+    [1610874881] FUNC        RemoveOption(iOption)
+    [1610874882] FUNC        Run()
+    [1610874883] FUNC        GetResult()
+    [1610874884] FUNC        GetError()
+
+== #1 DISPATCH: DECProductToPart
+    iid={A6ED5AD9-DA34-428F-9C9E-F1EFE8355791}  funcs=22  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] FUNC        SetOption(iOption)
+    [1610874881] FUNC        RemoveOption(iOption)
+    [1610874882] FUNC        Run()
+    [1610874883] FUNC        GetResult()
+    [1610874884] FUNC        GetError()
+
+== #2 DISPATCH: DECPartToPart
+    iid={61D0DD80-A586-4D10-A1B5-44FDC1F8D9BE}  funcs=22  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] FUNC        SetOption(iOption)
+    [1610874881] FUNC        RemoveOption(iOption)
+    [1610874882] FUNC        Run()
+    [1610874883] FUNC        GetResult()
+    [1610874884] FUNC        GetError()
+
+== #3 ALIAS: CATIADECPartToPart
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #4 ALIAS: CATIADECProductToPart
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #5 ALIAS: CATIADECProductToProduct
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #6 ENUM: foo_CATDataExchInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_CATDataExchInterfaces
+        foo_CATDataExchInterfaces = 0
+
+== #7 MODULE: IID_CATDataExchInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=3  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_DECProductToProduct
+    [var 1073741826] IID_DECProductToPart
+    [var 1073741827] IID_DECPartToPart

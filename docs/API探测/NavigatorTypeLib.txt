@@ -1,0 +1,1158 @@
+# D:\Programs\CATIA\win_b64\code\bin\NavigatorTypeLib.tlb
+# 库名: NavigatorTypeLib
+# 说明: CATIA V5 NavigatorInterfaces Object Library
+# 属性: (IID('{E6BCB304-3260-11D4-9465-006094EB3826}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: SpatialQuery
+    iid={0A099DE2-54D4-11D5-AB3F-001083FF057C}  funcs=27  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        ReleasedProximity(iClearance, iGroupOfSelectedProduct)
+    [1610940417] FUNC        Proximity(iAccuracy, iClearance, iTypeQuery, iGroupOfSelectedProduct)
+    [1610940418] FUNC        ProximityWithFilters(iAccuracy, iClearance, iTypeQuery, NoShowFilter, NotActivatedFilter, iGroupOfSelectedProduct)
+    [1610940419] FUNC        ZoneQuery(iProduct, iBoxDimensions, iAccuracy, iClearance, iTypeQuery)
+    [1610940420] FUNC        GetReleasedAccuracy()
+
+== #1 DISPATCH: Group
+    iid={5760ED64-3260-11D4-9465-006094EB3826}  funcs=34  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        AddExplicit(iProduct)
+    [1610940417] FUNC        CountExplicit()
+    [1610940418] FUNC        ItemExplicit(iIndex)
+    [1610940419] FUNC        RemoveExplicit(iIndex)
+    [1610940420] PROP_GET    ExtractMode()
+    [1610940420] PROP_PUT    ExtractMode()
+    [1610940422] FUNC        CountExtract()
+    [1610940423] FUNC        ItemExtract(iIndex)
+    [1610940424] FUNC        FillSelWithExtract()
+    [1610940425] FUNC        CountInvert()
+    [1610940426] FUNC        ItemInvert(iIndex)
+    [1610940427] FUNC        FillSelWithInvert()
+
+== #2 DISPATCH: PresentationBrowser
+    iid={D0967F25-3369-4975-8205-AB975370750D}  funcs=28  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Begin()
+    [1610940417] FUNC        End()
+    [1610940418] FUNC        Next()
+    [1610940419] FUNC        Prev()
+    [1610940420] PROP_GET    Current()
+    [1610940420] PROP_PUT    Current()
+
+== #3 DISPATCH: Presentation
+    iid={C6BC54E4-985F-445A-AB05-1371B9D8B355}  funcs=35  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Add(iObject)
+    [1610940417] PROP_GET    Count()
+    [1610940418] FUNC        Item(iIndex)
+    [1610940419] FUNC        Swap(iIndex1, iIndex2)
+    [1610940420] FUNC        MoveTo(iIndex1, iIndex2)
+    [1610940421] FUNC        Remove(iIndex)
+    [1610940422] FUNC        AvailableBehaviorsCount(iIndex)
+    [1610940423] FUNC        GetBehaviorInfo(iIndex, iBehavior)
+    [1610940424] FUNC        SetBehavior(iIndex, iBehavior)
+    [1610940425] FUNC        GetBehavior(iIndex)
+    [1610940426] FUNC        SetBehaviorData(iIndex, iData)
+    [1610940427] FUNC        GetBehaviorData(iIndex, iData)
+    [1610940428] FUNC        ComputeThumbnail()
+
+== #4 DISPATCH: Marker3D
+    iid={08DFFFF8-7CB3-11D4-A384-00D0B7AC57CB}  funcs=44  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Type()
+    [1610940417] FUNC        GetTextPositions(oCoordinates)
+    [1610940418] FUNC        SetTextPositions(iCoordinates)
+    [1610940419] PROP_GET    Text()
+    [1610940419] PROP_PUT    Text()
+    [1610940421] FUNC        CountObject()
+    [1610940422] FUNC        ItemObject(iIndex)
+    [1610940423] FUNC        AddObject(iObject)
+    [1610940424] FUNC        RemoveObject(iIndex)
+    [1610940425] FUNC        GetObjectPositions(iIndex, oCoordinates)
+    [1610940426] FUNC        SetObjectPositions(iIndex, iCoordinates)
+    [1610940427] PROP_GET    Fill()
+    [1610940427] PROP_PUT    Fill()
+    [1610940429] PROP_GET    Frame()
+    [1610940429] PROP_PUT    Frame()
+    [1610940431] PROP_GET    TextFont()
+    [1610940431] PROP_PUT    TextFont()
+    [1610940433] PROP_GET    TextSize()
+    [1610940433] PROP_PUT    TextSize()
+    [1610940435] PROP_GET    TextOrientation()
+    [1610940435] PROP_PUT    TextOrientation()
+    [1610940437] FUNC        Update()
+
+== #5 ENUM: CatMarker3DType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] catMarker3DTypeText
+        catMarker3DTypeText = 0
+
+== #6 ENUM: CatMarkerTextOrientation
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=4  impltypes=0
+    [var 1073741824] CatMarkerTextOrientationRight
+    [var 1073741825] CatMarkerTextOrientationUp
+    [var 1073741826] CatMarkerTextOrientationLeft
+    [var 1073741827] CatMarkerTextOrientationDown
+        CatMarkerTextOrientationRight = 0
+        CatMarkerTextOrientationUp = 1
+        CatMarkerTextOrientationLeft = 2
+        CatMarkerTextOrientationDown = 3
+
+== #7 DISPATCH: Marker2D
+    iid={289D80A8-517B-11D4-9469-006094EB3826}  funcs=41  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Type()
+    [1610940417] FUNC        GetPositions(oCoordinates)
+    [1610940418] FUNC        SetPositions(iCoordinates)
+    [1610940419] PROP_GET    Fill()
+    [1610940419] PROP_PUT    Fill()
+    [1610940421] PROP_GET    Frame()
+    [1610940421] PROP_PUT    Frame()
+    [1610940423] PROP_GET    Text()
+    [1610940423] PROP_PUT    Text()
+    [1610940425] PROP_GET    TextFont()
+    [1610940425] PROP_PUT    TextFont()
+    [1610940427] PROP_GET    TextSize()
+    [1610940427] PROP_PUT    TextSize()
+    [1610940429] PROP_GET    TextOrientation()
+    [1610940429] PROP_PUT    TextOrientation()
+    [1610940431] PROP_GET    Picture()
+    [1610940431] PROP_PUT    Picture()
+    [1610940433] PROP_GET    TextAngle()
+    [1610940433] PROP_PUT    TextAngle()
+
+== #8 ENUM: CatMarker2DType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=7  impltypes=0
+    [var 1073741824] catMarker2DTypeLine
+    [var 1073741825] catMarker2DTypeArrow
+    [var 1073741826] catMarker2DTypeRectangle
+    [var 1073741827] catMarker2DTypeCircle
+    [var 1073741828] catMarker2DTypeFreeHand
+    [var 1073741829] catMarker2DTypeText
+    [var 1073741830] catMarker2DTypePicture
+        catMarker2DTypeLine = 0
+        catMarker2DTypeArrow = 1
+        catMarker2DTypeRectangle = 2
+        catMarker2DTypeCircle = 3
+        catMarker2DTypeFreeHand = 4
+        catMarker2DTypeText = 5
+        catMarker2DTypePicture = 6
+
+== #9 DISPATCH: Hyperlink
+    iid={1E1E6A3C-AFB7-413F-94DF-64DDDC2E5BF8}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        AddUrl(iUrl)
+    [1610940417] FUNC        CountObject()
+    [1610940418] FUNC        ItemObject(iIndex)
+    [1610940419] FUNC        RemoveObject(iIndex)
+
+== #10 DISPATCH: DMUReview
+    iid={475B7D08-FAB6-404C-B6B9-F4ECC08058CE}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Activation()
+    [1610940416] PROP_PUT    Activation()
+    [1610940418] PROP_GET    DMUReviews()
+
+== #11 DISPATCH: DMUReviews
+    iid={8097F276-F07B-4AFA-81A6-6F70B0B4382A}  funcs=28  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Add()
+    [1610940417] FUNC        ImportFrom(iProduct)
+    [1610940418] PROP_GET    Current()
+    [1610940419] FUNC        Item(iIndex)
+    [1610940420] FUNC        Remove(iIndex)
+
+== #12 DISPATCH: DMUDataFlow
+    iid={A3245ACF-709B-0000-0280-030CCD000000}  funcs=29  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        SaveAsFrozen(iDirectory, iPrefix, iData, iCache)
+    [1610940417] FUNC        CacheExport(iDirectory, iPrefix, iData)
+    [1610940418] FUNC        CacheImport(iDirectory)
+    [1610940419] FUNC        ReplaceByCGR(iDirectory, iPrefix)
+    [1610940420] FUNC        Collapse()
+    [1610940421] FUNC        Load(iName)
+    [1610940422] FUNC        Execute(iCommand)
+
+== #13 DISPATCH: AnnotatedView
+    iid={D5430A2C-517A-11D4-9469-006094EB3826}  funcs=36  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetOrigin(oOrigin)
+    [1610940417] FUNC        GetSightDirection(oSight)
+    [1610940418] FUNC        GetUpDirection(oUp)
+    [1610940419] PROP_GET    ProjectionMode()
+    [1610940420] PROP_GET    Zoom()
+    [1610940421] PROP_GET    FieldOfView()
+    [1610940422] PROP_GET    Comment()
+    [1610940422] PROP_PUT    Comment()
+    [1610940424] PROP_GET    Sound()
+    [1610940424] PROP_PUT    Sound()
+    [1610940426] PROP_GET    Marker2Ds()
+    [1610940427] FUNC        Update()
+    [1610940428] PROP_GET    BehaviorMode()
+    [1610940428] PROP_PUT    BehaviorMode()
+
+== #14 ENUM: CatProjectionMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] catProjectionConic
+    [var 1073741825] catProjectionCylindric
+    [var 1073741826] catProjectionUndefined
+        catProjectionConic = 0
+        catProjectionCylindric = 1
+        catProjectionUndefined = 2
+
+== #15 DISPATCH: Marker2Ds
+    iid={063FDB64-517B-11D4-9469-006094EB3826}  funcs=32  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Add2DLine(iCoordinates)
+    [1610940417] FUNC        Add2DArrow(iCoordinates)
+    [1610940418] FUNC        Add2DRectangle(iCoordinates, iFillStatus)
+    [1610940419] FUNC        Add2DCircle(iCoordinates, iFillStatus)
+    [1610940420] FUNC        Add2DFreeHand(iCoordinates)
+    [1610940421] FUNC        Add2DText(iCoordinates, iText)
+    [1610940422] FUNC        Add2DPicture(iCoordinates, iPath)
+    [1610940423] FUNC        Item(iIndex)
+    [1610940424] FUNC        Remove(iIndex)
+
+== #16 ENUM: CatAnnotatedViewBehavior
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] CatAnnotatedViewBehaviorLink
+    [var 1073741825] CatAnnotatedViewBehaviorUnlink
+        CatAnnotatedViewBehaviorLink = 0
+        CatAnnotatedViewBehaviorUnlink = 1
+
+== #17 DISPATCH: Presentations
+    iid={B7118C09-9FD5-42D0-BEAF-3F5470A33F60}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Add()
+    [1610940417] FUNC        Item(iIndex)
+    [1610940418] FUNC        Remove(iIndex)
+
+== #18 DISPATCH: Marker3Ds
+    iid={05E771D2-7CB3-11D4-A384-00D0B7AC57CB}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Add3DText(iTextCoordinates, iText, iObjectCoordinates, iObject)
+    [1610940417] FUNC        Item(iIndex)
+    [1610940418] FUNC        Remove(iIndex)
+
+== #19 DISPATCH: Hyperlinks
+    iid={1611D0F8-7A68-4621-8C73-AA3B696183B5}  funcs=27  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        GetHyperlink(iObject)
+    [1610940417] FUNC        Item(iIndex)
+    [1610940418] FUNC        Remove(iIndex)
+    [1610940419] FUNC        Add(iObject)
+
+== #20 DISPATCH: Groups
+    iid={2E157296-3260-11D4-9465-006094EB3826}  funcs=28  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Add()
+    [1610940417] FUNC        AddFromSel()
+    [1610940418] FUNC        AllLeaves()
+    [1610940419] FUNC        Item(iIndex)
+    [1610940420] FUNC        Remove(iIndex)
+
+== #21 DISPATCH: AnnotatedViews
+    iid={82EE6F06-5179-11D4-9469-006094EB3826}  funcs=27  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Add()
+    [1610940417] FUNC        AddFromViewpoint(iViewpoint)
+    [1610940418] FUNC        Item(iIndex)
+    [1610940419] FUNC        Remove(iIndex)
+
+== #22 DISPATCH: OverlaySettingAtt
+    iid={EAEC0DE5-3542-40F4-94DC-C00E55357B5B}  funcs=71  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    ActiveState()
+    [1611005952] PROP_PUT    ActiveState()
+    [1611005954] FUNC        GetActiveStateInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetActiveStateLock(iLocked)
+    [1611005956] PROP_GET    Type()
+    [1611005956] PROP_PUT    Type()
+    [1611005958] FUNC        GetTypeInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetTypeLock(iLocked)
+    [1611005960] FUNC        GetText(iType)
+    [1611005961] FUNC        SetText(iType, iText)
+    [1611005962] FUNC        GetTextInfo(ioAdminLevel, ioLocked)
+    [1611005963] FUNC        SetTextLock(iLocked)
+    [1611005964] FUNC        GetMappingFile(iType)
+    [1611005965] FUNC        SetMappingFile(iType, iMappingFile)
+    [1611005966] FUNC        GetMappingFileInfo(ioAdminLevel, ioLocked)
+    [1611005967] FUNC        SetMappingFileLock(iLocked)
+    [1611005968] PROP_GET    DateFormat()
+    [1611005968] PROP_PUT    DateFormat()
+    [1611005970] FUNC        GetDateFormatInfo(ioAdminLevel, ioLocked)
+    [1611005971] FUNC        SetDateFormatLock(iLocked)
+    [1611005972] FUNC        GetFillColor(oRed, oGreen, oBlue, oAlpha)
+    [1611005973] FUNC        SetFillColor(iRed, iGreen, iBlue, iAlpha)
+    [1611005974] FUNC        GetFillColorInfo(ioAdminLevel, ioLocked)
+    [1611005975] FUNC        SetFillColorLock(iLocked)
+    [1611005976] FUNC        GetTextColor(oRed, oGreen, oBlue)
+    [1611005977] FUNC        SetTextColor(iRed, iGreen, iBlue)
+    [1611005978] FUNC        GetTextColorInfo(ioAdminLevel, ioLocked)
+    [1611005979] FUNC        SetTextColorLock(iLocked)
+    [1611005980] PROP_GET    TextSize()
+    [1611005980] PROP_PUT    TextSize()
+    [1611005982] FUNC        GetTextSizeInfo(ioAdminLevel, ioLocked)
+    [1611005983] FUNC        SetTextSizeLock(iLocked)
+    [1611005984] PROP_GET    TextFont()
+    [1611005984] PROP_PUT    TextFont()
+    [1611005986] FUNC        GetTextFontInfo(ioAdminLevel, ioLocked)
+    [1611005987] FUNC        SetTextFontLock(iLocked)
+    [1611005988] PROP_GET    Position()
+    [1611005988] PROP_PUT    Position()
+    [1611005990] FUNC        GetPositionInfo(ioAdminLevel, ioLocked)
+    [1611005991] FUNC        SetPositionLock(iLocked)
+    [1611005992] PROP_GET    TileMode()
+    [1611005992] PROP_PUT    TileMode()
+    [1611005994] FUNC        GetTileModeInfo(ioAdminLevel, ioLocked)
+    [1611005995] FUNC        SetTileModeLock(iLocked)
+
+== #23 ENUM: CatDMUOverlayType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] CatOverlayStaticText
+    [var 1073741825] CatOverlayMapping
+        CatOverlayStaticText = 0
+        CatOverlayMapping = 1
+
+== #24 ENUM: CatDMUOverlayPosition
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=5  impltypes=0
+    [var 1073741824] CatOverlayTop
+    [var 1073741825] CatOverlayBottom
+    [var 1073741826] CatOverlayLeft
+    [var 1073741827] CatOverlayRight
+    [var 1073741828] CatOverlayDiagonal
+        CatOverlayTop = 0
+        CatOverlayBottom = 1
+        CatOverlayLeft = 2
+        CatOverlayRight = 3
+        CatOverlayDiagonal = 4
+
+== #25 DISPATCH: N4DNavigatorSettingAtt
+    iid={2353B86B-9A84-4336-BD08-2BDBDED48060}  funcs=187  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    DMUClashPreview()
+    [1611005952] PROP_PUT    DMUClashPreview()
+    [1611005954] FUNC        GetDMUClashPreviewInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetDMUClashPreviewLock(iLocked)
+    [1611005956] PROP_GET    DMUDistancePreview()
+    [1611005956] PROP_PUT    DMUDistancePreview()
+    [1611005958] FUNC        GetDMUDistancePreviewInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetDMUDistancePreviewLock(iLocked)
+    [1611005960] PROP_GET    DMUGroupPreview()
+    [1611005960] PROP_PUT    DMUGroupPreview()
+    [1611005962] FUNC        GetDMUGroupPreviewInfo(ioAdminLevel, ioLocked)
+    [1611005963] FUNC        SetDMUGroupPreviewLock(iLocked)
+    [1611005964] PROP_GET    DMUSectionPreview()
+    [1611005964] PROP_PUT    DMUSectionPreview()
+    [1611005966] FUNC        GetDMUSectionPreviewInfo(ioAdminLevel, ioLocked)
+    [1611005967] FUNC        SetDMUSectionPreviewLock(iLocked)
+    [1611005968] PROP_GET    DMUShuttlePreview()
+    [1611005968] PROP_PUT    DMUShuttlePreview()
+    [1611005970] FUNC        GetDMUShuttlePreviewInfo(ioAdminLevel, ioLocked)
+    [1611005971] FUNC        SetDMUShuttlePreviewLock(iLocked)
+    [1611005972] PROP_GET    DMUThicknessPreview()
+    [1611005972] PROP_PUT    DMUThicknessPreview()
+    [1611005974] FUNC        GetDMUThicknessPreviewInfo(ioAdminLevel, ioLocked)
+    [1611005975] FUNC        SetDMUThicknessPreviewLock(iLocked)
+    [1611005976] PROP_GET    DMUOffsetPreview()
+    [1611005976] PROP_PUT    DMUOffsetPreview()
+    [1611005978] FUNC        GetDMUOffsetPreviewInfo(ioAdminLevel, ioLocked)
+    [1611005979] FUNC        SetDMUOffsetPreviewLock(iLocked)
+    [1611005980] PROP_GET    DMUSweptVolPreview()
+    [1611005980] PROP_PUT    DMUSweptVolPreview()
+    [1611005982] FUNC        GetDMUSweptVolPreviewInfo(ioAdminLevel, ioLocked)
+    [1611005983] FUNC        SetDMUSweptVolPreviewLock(iLocked)
+    [1611005984] PROP_GET    DMUSilhouettePreview()
+    [1611005984] PROP_PUT    DMUSilhouettePreview()
+    [1611005986] FUNC        GetDMUSilhouettePreviewInfo(ioAdminLevel, ioLocked)
+    [1611005987] FUNC        SetDMUSilhouettePreviewLock(iLocked)
+    [1611005988] PROP_GET    DMUWrappingPreview()
+    [1611005988] PROP_PUT    DMUWrappingPreview()
+    [1611005990] FUNC        GetDMUWrappingPreviewInfo(ioAdminLevel, ioLocked)
+    [1611005991] FUNC        SetDMUWrappingPreviewLock(iLocked)
+    [1611005992] PROP_GET    DMUFreeSpacePreview()
+    [1611005992] PROP_PUT    DMUFreeSpacePreview()
+    [1611005994] FUNC        GetDMUFreeSpacePreviewInfo(ioAdminLevel, ioLocked)
+    [1611005995] FUNC        SetDMUFreeSpacePreviewLock(iLocked)
+    [1611005996] PROP_GET    DMUSimplifPreview()
+    [1611005996] PROP_PUT    DMUSimplifPreview()
+    [1611005998] FUNC        GetDMUSimplifPreviewInfo(ioAdminLevel, ioLocked)
+    [1611005999] FUNC        SetDMUSimplifPreviewLock(iLocked)
+    [1611006000] PROP_GET    DMUVibrationVolPreview()
+    [1611006000] PROP_PUT    DMUVibrationVolPreview()
+    [1611006002] FUNC        GetDMUVibrationVolPreviewInfo(ioAdminLevel, ioLocked)
+    [1611006003] FUNC        SetDMUVibrationVolPreviewLock(iLocked)
+    [1611006004] PROP_GET    DMUCut3DPreview()
+    [1611006004] PROP_PUT    DMUCut3DPreview()
+    [1611006006] FUNC        GetDMUCut3DPreviewInfo(ioAdminLevel, ioLocked)
+    [1611006007] FUNC        SetDMUCut3DPreviewLock(iLocked)
+    [1611006008] PROP_GET    DMUMergerPreview()
+    [1611006008] PROP_PUT    DMUMergerPreview()
+    [1611006010] FUNC        GetDMUMergerPreviewInfo(ioAdminLevel, ioLocked)
+    [1611006011] FUNC        SetDMUMergerPreviewLock(iLocked)
+    [1611006012] PROP_GET    NumUrlName()
+    [1611006012] PROP_PUT    NumUrlName()
+    [1611006014] FUNC        GetNumUrlNameInfo(ioAdminLevel, ioLocked)
+    [1611006015] FUNC        SetNumUrlNameLock(iLocked)
+    [1611006016] PROP_GET    MarkerAutoUpdate()
+    [1611006016] PROP_PUT    MarkerAutoUpdate()
+    [1611006018] FUNC        GetMarkerAutoUpdateInfo(ioAdminLevel, ioLocked)
+    [1611006019] FUNC        SetMarkerAutoUpdateLock(iLocked)
+    [1611006020] FUNC        GetSceneDefaultsColor(oR, oG, oB)
+    [1611006021] FUNC        SetSceneDefaultsColor(iR, iG, iB)
+    [1611006022] FUNC        GetSceneDefaultsColorInfo(ioAdminLevel, ioLocked)
+    [1611006023] FUNC        SetSceneDefaultsColorLock(iLocked)
+    [1611006024] PROP_GET    PublishAutoLaunchBrowser()
+    [1611006024] PROP_PUT    PublishAutoLaunchBrowser()
+    [1611006026] FUNC        GetPublishAutoLaunchBrowserInfo(ioAdminLevel, ioLocked)
+    [1611006027] FUNC        SetPublishAutoLaunchBrowserLock(iLocked)
+    [1611006028] PROP_GET    DMUReviewName()
+    [1611006028] PROP_PUT    DMUReviewName()
+    [1611006030] FUNC        GetDMUReviewNameInfo(ioAdminLevel, ioLocked)
+    [1611006031] FUNC        SetDMUReviewNameLock(iLocked)
+    [1611006032] PROP_GET    ForceVoxel()
+    [1611006032] PROP_PUT    ForceVoxel()
+    [1611006034] FUNC        GetForceVoxelInfo(ioAdminLevel, ioLocked)
+    [1611006035] FUNC        SetForceVoxelLock(iLocked)
+    [1611006036] PROP_GET    ClearanceVoxel()
+    [1611006036] PROP_PUT    ClearanceVoxel()
+    [1611006038] FUNC        GetClearanceVoxelInfo(ioAdminLevel, ioLocked)
+    [1611006039] FUNC        SetClearanceVoxelLock(iLocked)
+    [1611006040] PROP_GET    ForceClearanceVoxel()
+    [1611006040] PROP_PUT    ForceClearanceVoxel()
+    [1611006042] FUNC        GetForceClearanceVoxelInfo(ioAdminLevel, ioLocked)
+    [1611006043] FUNC        SetForceClearanceVoxelLock(iLocked)
+    [1611006044] PROP_GET    InsertMode()
+    [1611006044] PROP_PUT    InsertMode()
+    [1611006046] FUNC        GetInsertModeInfo(ioAdminLevel, ioLocked)
+    [1611006047] FUNC        SetInsertModeLock(iLocked)
+    [1611006048] PROP_GET    InsertLevel()
+    [1611006048] PROP_PUT    InsertLevel()
+    [1611006050] FUNC        GetInsertLevelInfo(ioAdminLevel, ioLocked)
+    [1611006051] FUNC        SetInsertLevelLock(iLocked)
+    [1611006052] PROP_GET    DMUGroupPreviewHiddenObjectsDisplayMode()
+    [1611006052] PROP_PUT    DMUGroupPreviewHiddenObjectsDisplayMode()
+    [1611006054] FUNC        GetDMUGroupPreviewHiddenObjectsDisplayModeInfo(ioAdminLevel, ioLocked)
+    [1611006055] FUNC        SetDMUGroupPreviewHiddenObjectsDisplayModeLock(iLocked)
+    [1611006056] FUNC        GetDMUGroupPreviewHiddenObjectsColor(oRed, oGreen, oBlue)
+    [1611006057] FUNC        SetDMUGroupPreviewHiddenObjectsColor(iRed, iGreen, iBlue)
+    [1611006058] FUNC        GetDMUGroupPreviewHiddenObjectsColorInfo(ioAdminLevel, ioLocked)
+    [1611006059] FUNC        SetDMUGroupPreviewHiddenObjectsColorLock(iLocked)
+    [1611006060] PROP_GET    DMUGroupPreviewHiddenObjectsOpacity()
+    [1611006060] PROP_PUT    DMUGroupPreviewHiddenObjectsOpacity()
+    [1611006062] FUNC        GetDMUGroupPreviewHiddenObjectsOpacityInfo(ioAdminLevel, ioLocked)
+    [1611006063] FUNC        SetDMUGroupPreviewHiddenObjectsOpacityLock(iLocked)
+    [1611006064] PROP_GET    DMUGroupPreviewHiddenObjectsLowInt()
+    [1611006064] PROP_PUT    DMUGroupPreviewHiddenObjectsLowInt()
+    [1611006066] FUNC        GetDMUGroupPreviewHiddenObjectsLowIntInfo(ioAdminLevel, ioLocked)
+    [1611006067] FUNC        SetDMUGroupPreviewHiddenObjectsLowIntLock(iLocked)
+    [1611006068] PROP_GET    DMUGroupPreviewHiddenObjectsPick()
+    [1611006068] PROP_PUT    DMUGroupPreviewHiddenObjectsPick()
+    [1611006070] FUNC        GetDMUGroupPreviewHiddenObjectsPickInfo(ioAdminLevel, ioLocked)
+    [1611006071] FUNC        SetDMUGroupPreviewHiddenObjectsPickLock(iLocked)
+    [1611006072] FUNC        GetMarkerDefaultsColor(oRed, oGreen, oBlue)
+    [1611006073] FUNC        SetMarkerDefaultsColor(iRed, iGreen, iBlue)
+    [1611006074] FUNC        GetMarkerDefaultsColorInfo(ioAdminLevel, ioLocked)
+    [1611006075] FUNC        SetMarkerDefaultsColorLock(iLocked)
+    [1611006076] FUNC        GetMarkerTextColor(oRed, oGreen, oBlue)
+    [1611006077] FUNC        SetMarkerTextColor(iRed, iGreen, iBlue)
+    [1611006078] FUNC        GetMarkerTextColorInfo(ioAdminLevel, ioLocked)
+    [1611006079] FUNC        SetMarkerTextColorLock(iLocked)
+    [1611006080] PROP_GET    MarkerDefaultsWeight()
+    [1611006080] PROP_PUT    MarkerDefaultsWeight()
+    [1611006082] FUNC        GetMarkerDefaultsWeightInfo(ioAdminLevel, ioLocked)
+    [1611006083] FUNC        SetMarkerDefaultsWeightLock(iLocked)
+    [1611006084] PROP_GET    MarkerDefaultsDashed()
+    [1611006084] PROP_PUT    MarkerDefaultsDashed()
+    [1611006086] FUNC        GetMarkerDefaultsDashedInfo(ioAdminLevel, ioLocked)
+    [1611006087] FUNC        SetMarkerDefaultsDashedLock(iLocked)
+    [1611006088] PROP_GET    MarkerDefaultsSize()
+    [1611006088] PROP_PUT    MarkerDefaultsSize()
+    [1611006090] FUNC        GetMarkerDefaultsSizeInfo(ioAdminLevel, ioLocked)
+    [1611006091] FUNC        SetMarkerDefaultsSizeLock(iLocked)
+    [1611006092] PROP_GET    MarkerDefaultsFont()
+    [1611006092] PROP_PUT    MarkerDefaultsFont()
+    [1611006094] FUNC        GetMarkerDefaultsFontInfo(ioAdminLevel, ioLocked)
+    [1611006095] FUNC        SetMarkerDefaultsFontLock(iLocked)
+    [1611006096] PROP_GET    MarkerTextDashed()
+    [1611006096] PROP_PUT    MarkerTextDashed()
+    [1611006098] FUNC        GetMarkerTextDashedInfo(ioAdminLevel, ioLocked)
+    [1611006099] FUNC        SetMarkerTextDashedLock(iLocked)
+    [1611006100] PROP_GET    MarkerTextWeight()
+    [1611006100] PROP_PUT    MarkerTextWeight()
+    [1611006102] FUNC        GetMarkerTextWeightInfo(ioAdminLevel, ioLocked)
+    [1611006103] FUNC        SetMarkerTextWeightLock(iLocked)
+    [1611006104] PROP_GET    Marker2DAutoNaming()
+    [1611006104] PROP_PUT    Marker2DAutoNaming()
+    [1611006106] FUNC        GetMarker2DAutoNamingInfo(ioAdminLevel, ioLocked)
+    [1611006107] FUNC        SetMarker2DAutoNamingLock(iLocked)
+    [1611006108] PROP_GET    Marker3DAutoNaming()
+    [1611006108] PROP_PUT    Marker3DAutoNaming()
+    [1611006110] FUNC        GetMarker3DAutoNamingInfo(ioAdminLevel, ioLocked)
+    [1611006111] FUNC        SetMarker3DAutoNamingLock(iLocked)
+
+== #26 ENUM: CatSacSettingsEnum
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] CatSacSettingsEnumNoInsert
+    [var 1073741825] CatSacSettingsEnumAutomatic
+    [var 1073741826] CatSacSettingsEnumUserPrompt
+        CatSacSettingsEnumNoInsert = 0
+        CatSacSettingsEnumAutomatic = 1
+        CatSacSettingsEnumUserPrompt = 2
+
+== #27 ENUM: CatDMUGroupPreviewHiddenObjectsDisplayMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] CatDMUGroupPreviewShowHidden
+    [var 1073741825] CatDMUGroupPreviewShowHiddenCustom
+        CatDMUGroupPreviewShowHidden = 0
+        CatDMUGroupPreviewShowHiddenCustom = 1
+
+== #28 DISPATCH: MarkerSettingAtt
+    iid={54270FD4-5A15-4010-86C5-1E410957DA4C}  funcs=87  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] FUNC        GetMarkerDefaultsColor(oRed, oGreen, oBlue)
+    [1611005953] FUNC        SetMarkerDefaultsColor(iRed, iGreen, iBlue)
+    [1611005954] FUNC        GetMarkerDefaultsColorInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetMarkerDefaultsColorLock(iLocked)
+    [1611005956] PROP_GET    MarkerDefaultsWeight()
+    [1611005956] PROP_PUT    MarkerDefaultsWeight()
+    [1611005958] FUNC        GetMarkerDefaultsWeightInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetMarkerDefaultsWeightLock(iLocked)
+    [1611005960] PROP_GET    MarkerDefaultsDashed()
+    [1611005960] PROP_PUT    MarkerDefaultsDashed()
+    [1611005962] FUNC        GetMarkerDefaultsDashedInfo(ioAdminLevel, ioLocked)
+    [1611005963] FUNC        SetMarkerDefaultsDashedLock(iLocked)
+    [1611005964] PROP_GET    Marker2DAutoNaming()
+    [1611005964] PROP_PUT    Marker2DAutoNaming()
+    [1611005966] FUNC        GetMarker2DAutoNamingInfo(ioAdminLevel, ioLocked)
+    [1611005967] FUNC        SetMarker2DAutoNamingLock(iLocked)
+    [1611005968] PROP_GET    Marker3DAutoNaming()
+    [1611005968] PROP_PUT    Marker3DAutoNaming()
+    [1611005970] FUNC        GetMarker3DAutoNamingInfo(ioAdminLevel, ioLocked)
+    [1611005971] FUNC        SetMarker3DAutoNamingLock(iLocked)
+    [1611005972] FUNC        GetMarkerTextColor2D(oRed, oGreen, oBlue)
+    [1611005973] FUNC        SetMarkerTextColor2D(iRed, iGreen, iBlue)
+    [1611005974] FUNC        GetMarkerTextColor2DInfo(ioAdminLevel, ioLocked)
+    [1611005975] FUNC        SetMarkerTextColor2DLock(iLocked)
+    [1611005976] FUNC        GetMarkerTextColor3D(oRed, oGreen, oBlue)
+    [1611005977] FUNC        SetMarkerTextColor3D(iRed, iGreen, iBlue)
+    [1611005978] FUNC        GetMarkerTextColor3DInfo(ioAdminLevel, ioLocked)
+    [1611005979] FUNC        SetMarkerTextColor3DLock(iLocked)
+    [1611005980] PROP_GET    MarkerTextWeight2D()
+    [1611005980] PROP_PUT    MarkerTextWeight2D()
+    [1611005982] FUNC        GetMarkerTextWeight2DInfo(ioAdminLevel, ioLocked)
+    [1611005983] FUNC        SetMarkerTextWeight2DLock(iLocked)
+    [1611005984] PROP_PUT    MarkerTextWeight3D()
+    [1611005984] PROP_GET    MarkerTextWeight3D()
+    [1611005986] FUNC        GetMarkerTextWeight3DInfo(ioAdminLevel, ioLocked)
+    [1611005987] FUNC        SetMarkerTextWeight3DLock(iLocked)
+    [1611005988] PROP_GET    MarkerTextDashed2D()
+    [1611005988] PROP_PUT    MarkerTextDashed2D()
+    [1611005990] FUNC        GetMarkerTextDashed2DInfo(ioAdminLevel, ioLocked)
+    [1611005991] FUNC        SetMarkerTextDashed2DLock(iLocked)
+    [1611005992] PROP_GET    MarkerTextDashed3D()
+    [1611005992] PROP_PUT    MarkerTextDashed3D()
+    [1611005994] FUNC        GetMarkerTextDashed3DInfo(ioAdminLevel, ioLocked)
+    [1611005995] FUNC        SetMarkerTextDashed3DLock(iLocked)
+    [1611005996] PROP_GET    MarkerTextDefaultsFont2D()
+    [1611005996] PROP_PUT    MarkerTextDefaultsFont2D()
+    [1611005998] FUNC        GetMarkerTextDefaultsFont2DInfo(ioAdminLevel, ioLocked)
+    [1611005999] FUNC        SetMarkerTextDefaultsFont2DLock(iLocked)
+    [1611006000] PROP_PUT    MarkerTextDefaultsFont3D()
+    [1611006000] PROP_GET    MarkerTextDefaultsFont3D()
+    [1611006002] FUNC        GetMarkerTextDefaultsFont3DInfo(ioAdminLevel, ioLocked)
+    [1611006003] FUNC        SetMarkerTextDefaultsFont3DLock(iLocked)
+    [1611006004] PROP_GET    MarkerTextDefaultsSize2D()
+    [1611006004] PROP_PUT    MarkerTextDefaultsSize2D()
+    [1611006006] FUNC        GetMarkerTextDefaultsSize2DInfo(ioAdminLevel, ioLocked)
+    [1611006007] FUNC        SetMarkerTextDefaultsSize2DLock(iLocked)
+    [1611006008] PROP_PUT    MarkerTextDefaultsSize3D()
+    [1611006008] PROP_GET    MarkerTextDefaultsSize3D()
+    [1611006010] FUNC        GetMarkerTextDefaultsSize3DInfo(ioAdminLevel, ioLocked)
+    [1611006011] FUNC        SetMarkerTextDefaultsSize3DLock(iLocked)
+
+== #29 DISPATCH: NavigatorWorkbench
+    iid={D66D7DAE-325F-11D4-9465-006094EB3826}  funcs=33  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1611005952] PROP_GET    Groups()
+    [1611005953] PROP_GET    AnnotatedViews()
+    [1611005954] FUNC        View(iAnnotatedView)
+    [1611005955] FUNC        AdvancedView(iAnnotatedView, iViewOption)
+    [1611005956] PROP_GET    Marker3Ds()
+    [1611005957] FUNC        DMUStart(iName)
+    [1611005958] FUNC        DMUStop(iName)
+    [1611005959] PROP_GET    DMUDataFlow()
+    [1611005960] FUNC        GetOrder(iObject)
+    [1611005961] FUNC        SetOrder(iObject, iNewRank)
+    [1611005962] PROP_GET    Hyperlinks()
+
+== #30 ALIAS: CATIAAnnotatedView
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #31 ALIAS: CATIAAnnotatedViews
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #32 ALIAS: CATIADMUDataFlow
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #33 ALIAS: CATIADMUReview
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #34 ALIAS: CATIADMUReviews
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #35 ALIAS: CATIAGroup
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #36 ALIAS: CATIAGroups
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #37 ALIAS: CATIAHyperlink
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #38 ALIAS: CATIAHyperlinks
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #39 ALIAS: CATIAMarker2D
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #40 ALIAS: CATIAMarker2Ds
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #41 ALIAS: CATIAMarker3D
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #42 ALIAS: CATIAMarker3Ds
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #43 ALIAS: CATIAMarkerSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #44 ALIAS: CATIAN4DNavigatorSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #45 ALIAS: CATIANavigatorWorkbench
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #46 ALIAS: CATIAOverlaySettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #47 ALIAS: CATIAPresentation
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #48 ALIAS: CATIAPresentationBrowser
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #49 ALIAS: CATIAPresentations
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #50 ALIAS: CATIASpatialQuery
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #51 MODULE: IID_NavigatorInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=21  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_SpatialQuery
+    [var 1073741826] IID_PresentationBrowser
+    [var 1073741827] IID_Presentation
+    [var 1073741828] IID_Marker3D
+    [var 1073741829] IID_Marker2D
+    [var 1073741830] IID_Hyperlink
+    [var 1073741831] IID_Group
+    [var 1073741832] IID_DMUReview
+    [var 1073741833] IID_DMUDataFlow
+    [var 1073741834] IID_AnnotatedView
+    [var 1073741835] IID_Presentations
+    [var 1073741836] IID_Marker3Ds
+    [var 1073741837] IID_Marker2Ds
+    [var 1073741838] IID_Hyperlinks
+    [var 1073741839] IID_Groups
+    [var 1073741840] IID_DMUReviews
+    [var 1073741841] IID_AnnotatedViews
+    [var 1073741842] IID_OverlaySettingAtt
+    [var 1073741843] IID_N4DNavigatorSettingAtt
+    [var 1073741844] IID_MarkerSettingAtt
+    [var 1073741845] IID_NavigatorWorkbench

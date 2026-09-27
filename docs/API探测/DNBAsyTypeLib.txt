@@ -1,0 +1,187 @@
+# D:\Programs\CATIA\win_b64\code\bin\DNBAsyTypeLib.tlb
+# 库名: DNBASY
+# 说明: CATIA V5 DNBAsyActivityInterfaces Object Library
+# 属性: (IID('{9A12E21A-7CAC-11D6-810A-00C04FA145A1}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: AsySimActivity
+    iid={42292AC4-7C83-11D6-810A-00C04FA145A1}  funcs=23  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Synchronize()
+
+== #1 DISPATCH: AsyMotionActivity
+    iid={0FDE5A1A-D4B6-11D6-B969-00B0D03DE055}  funcs=34  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Synchronize()
+    [1611005952] FUNC        GetTargets()
+    [1611005953] FUNC        SetStartMode(mode)
+    [1611005954] FUNC        GetStartMode(omode)
+    [1611005955] FUNC        SetReverseMode(mode)
+    [1611005956] FUNC        GetReverseMode(omode)
+    [1611005957] FUNC        GetProfilePosition(oProfile, iDataFormat)
+    [1611005958] FUNC        SetProfilePosition(iProfile, iDataFormat)
+    [1611005959] PROP_GET    MotionSpeed()
+    [1611005959] PROP_PUT    MotionSpeed()
+    [1611005961] PROP_GET    MoveMode()
+    [1611005961] PROP_PUT    MoveMode()
+
+== #2 DISPATCH: AsyMotionTargetList
+    iid={0FDE5A1E-D4B6-11D6-B969-00B0D03DE055}  funcs=28  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Item(iIndex)
+    [1610940417] FUNC        RemoveTarget(iIndex)
+    [1610940418] FUNC        RemoveAll()
+    [1610940419] FUNC        InsertTarget(iIndex, iX, iY, iZ, iRoll, iPitch, iYaw)
+    [1610940420] FUNC        InsertEmptyTarget(iIndex)
+
+== #3 DISPATCH: AsyMotionTarget
+    iid={F5C7CEA4-D64F-11D6-B969-00B0D03DE055}  funcs=34  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetPosition(oXYZPosition)
+    [1610940417] FUNC        SetPosition(iXYZPosition)
+    [1610940418] FUNC        GetOrientation(oRPYOrientation)
+    [1610940419] FUNC        SetOrientation(iRPYOrientation)
+    [1610940420] FUNC        GetTransformation(oXYZRPYTrans)
+    [1610940421] FUNC        SetTransformation(iXYZRPYTrans)
+    [1610940422] FUNC        GetObjectPosition(oObjectPos, iDataFormat)
+    [1610940423] FUNC        SetObjectPosition(iObjectPos, iDataFormat)
+    [1610940424] FUNC        GetCompassPosition(oCompassPos, iDataFormat)
+    [1610940425] FUNC        SetCompassPosition(iCompassPos, iDataFormat)
+    [1610940426] PROP_GET    TargetTime()
+    [1610940426] PROP_PUT    TargetTime()
+
+== #4 ENUM: AsyMotionTargetDataFormat
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] AsyMotionTargetXYZRPY
+    [var 1073741825] AsyMotionTarget3x4Matrix
+        AsyMotionTargetXYZRPY = 0
+        AsyMotionTarget3x4Matrix = 1
+
+== #5 ENUM: DNBAsyStartMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] DNBAsyOldMode
+    [var 1073741825] DNBAsyNewMode
+        DNBAsyOldMode = 0
+        DNBAsyNewMode = 1
+
+== #6 ENUM: AsyMotionActivityDataFormat
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] AsyMotionActivityXYZRPY
+    [var 1073741825] AsyMotionActivity3x4Matrix
+        AsyMotionActivityXYZRPY = 0
+        AsyMotionActivity3x4Matrix = 1
+
+== #7 ENUM: AsyMotionActivityMoveMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] AsyMotionActivitySpeedMode
+    [var 1073741825] AsyMotionActivityTimeMode
+        AsyMotionActivitySpeedMode = 0
+        AsyMotionActivityTimeMode = 1
+
+== #8 ALIAS: DNBIAAsyMotionActivity
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #9 ALIAS: DNBIAAsyMotionTarget
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #10 ALIAS: DNBIAAsyMotionTargetList
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #11 ALIAS: DNBIAAsySimActivity
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #12 MODULE: IID_DNBAsyActivityInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=4  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_AsySimActivity
+    [var 1073741826] IID_AsyMotionActivity
+    [var 1073741827] IID_AsyMotionTarget
+    [var 1073741828] IID_AsyMotionTargetList

@@ -1,0 +1,9 @@
+# D:\Programs\CATIA\win_b64\code\bin\DNBWSQTypeLib.tlb
+# 库名: DNBWSQ
+# 说明: CATIA V5 DNBWSQInterfaces Object Library
+# 属性: (IID('{1C2C06F7-DAB9-11D5-80DF-0050040CD0C6}'), 0, 1, 0, 0, 8)
+
+== #0 ENUM: foo_DNBWSQInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_DNBWSQInterfaces
+        foo_DNBWSQInterfaces = 0

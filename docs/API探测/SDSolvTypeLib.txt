@@ -1,0 +1,9 @@
+# D:\Programs\CATIA\win_b64\code\bin\SDSolvTypeLib.tlb
+# 库名: SDSolv
+# 说明: CATIA V5 SDSolvInterfaces Object Library
+# 属性: (IID('{DCCC4930-9C45-11D3-A71E-0004AC371953}'), 0, 1, 0, 0, 8)
+
+== #0 ENUM: foo_SDSolvInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_SDSolvInterfaces
+        foo_SDSolvInterfaces = 0

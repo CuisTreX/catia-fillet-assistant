@@ -1,0 +1,931 @@
+{
+  "timestamp": "2026-09-25T22:22:13",
+  "route_a": {
+    "dialog": true,
+    "title": "倒圆角定义",
+    "entries": [],
+    "radius": null,
+    "dump": {
+      "title": "倒圆角定义",
+      "class": "#32770",
+      "controls": [
+        {
+          "depth": 0,
+          "class": "Button",
+          "text": "确定"
+        },
+        {
+          "depth": 0,
+          "class": "Button",
+          "text": "取消"
+        },
+        {
+          "depth": 0,
+          "class": "Button",
+          "text": "预览"
+        },
+        {
+          "depth": 0,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "FrmRoot"
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "FrmMain"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "ParamFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "EnglobingFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "IntermediateFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "半径"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "EnglobingFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "IntermediateFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "半径"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "IntermediateFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "半径"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "半径"
+        },
+        {
+          "depth": 2,
+          "class": "Static",
+          "text": "半径： "
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "二次曲线参数："
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "ConicParm"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "EnglobingFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "IntermediateFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "Spinner"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "EnglobingFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "IntermediateFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "Spinner"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "IntermediateFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "Spinner"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "Spinner"
+        },
+        {
+          "depth": 2,
+          "class": "Static",
+          "text": "要圆角化的对象： "
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "ObjectFrameMulti"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "FraEdt"
+        },
+        {
+          "depth": 3,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 3,
+          "class": "Button",
+          "text": "PushBMulti"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "FraEdt"
+        },
+        {
+          "depth": 3,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 3,
+          "class": "Button",
+          "text": "PushBMulti"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "PushBMulti"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "修剪带"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "SelectedFeaturesFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "FraEdt"
+        },
+        {
+          "depth": 3,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 3,
+          "class": "Button",
+          "text": "PushBMulti"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "FraEdt"
+        },
+        {
+          "depth": 3,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 3,
+          "class": "Button",
+          "text": "PushBMulti"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "PushBMulti"
+        },
+        {
+          "depth": 2,
+          "class": "Static",
+          "text": "所选特征： "
+        },
+        {
+          "depth": 2,
+          "class": "Static",
+          "text": "选择模式："
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "OptionsFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Static",
+          "text": "OptionsSeparator2"
+        },
+        {
+          "depth": 3,
+          "class": "Static",
+          "text": " 选项"
+        },
+        {
+          "depth": 2,
+          "class": "Static",
+          "text": "OptionsSeparator2"
+        },
+        {
+          "depth": 2,
+          "class": "Static",
+          "text": " 选项"
+        },
+        {
+          "depth": 2,
+          "class": "Static",
+          "text": "OptionsSeparator"
+        },
+        {
+          "depth": 2,
+          "class": "Static",
+          "text": "支持面： "
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "ReferenceElementFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "FraEdt"
+        },
+        {
+          "depth": 3,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "FraEdt"
+        },
+        {
+          "depth": 3,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 2,
+          "class": "Static",
+          "text": "端点："
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "修剪支持面"
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "ParamFrame"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "EnglobingFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "IntermediateFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "半径"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "IntermediateFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "半径"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "半径"
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "EnglobingFrame"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "IntermediateFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "半径"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "半径"
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "IntermediateFrame"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "半径"
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "半径"
+        },
+        {
+          "depth": 1,
+          "class": "Static",
+          "text": "半径： "
+        },
+        {
+          "depth": 1,
+          "class": "Button",
+          "text": "二次曲线参数："
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "ConicParm"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "EnglobingFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "IntermediateFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "Spinner"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "IntermediateFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "Spinner"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "Spinner"
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "EnglobingFrame"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "IntermediateFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "Spinner"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "Spinner"
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "IntermediateFrame"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "Spinner"
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:400b:0000000000010003:0000000000000000:0000000000000000",
+          "text": "Spinner"
+        },
+        {
+          "depth": 1,
+          "class": "Static",
+          "text": "要圆角化的对象： "
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "ObjectFrameMulti"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "FraEdt"
+        },
+        {
+          "depth": 3,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 3,
+          "class": "Button",
+          "text": "PushBMulti"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "PushBMulti"
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "FraEdt"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "PushBMulti"
+        },
+        {
+          "depth": 1,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 1,
+          "class": "Button",
+          "text": "PushBMulti"
+        },
+        {
+          "depth": 1,
+          "class": "Button",
+          "text": "修剪带"
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "SelectedFeaturesFrame"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "FraEdt"
+        },
+        {
+          "depth": 3,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 3,
+          "class": "Button",
+          "text": "PushBMulti"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "PushBMulti"
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "FraEdt"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "PushBMulti"
+        },
+        {
+          "depth": 1,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 1,
+          "class": "Button",
+          "text": "PushBMulti"
+        },
+        {
+          "depth": 1,
+          "class": "Static",
+          "text": "所选特征： "
+        },
+        {
+          "depth": 1,
+          "class": "Static",
+          "text": "选择模式："
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "OptionsFrame"
+        },
+        {
+          "depth": 2,
+          "class": "Static",
+          "text": "OptionsSeparator2"
+        },
+        {
+          "depth": 2,
+          "class": "Static",
+          "text": " 选项"
+        },
+        {
+          "depth": 1,
+          "class": "Static",
+          "text": "OptionsSeparator2"
+        },
+        {
+          "depth": 1,
+          "class": "Static",
+          "text": " 选项"
+        },
+        {
+          "depth": 1,
+          "class": "Static",
+          "text": "OptionsSeparator"
+        },
+        {
+          "depth": 1,
+          "class": "Static",
+          "text": "支持面： "
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "ReferenceElementFrame"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "FraEdt"
+        },
+        {
+          "depth": 3,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "FraEdt"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 1,
+          "class": "Button",
+          "text": "PushB"
+        },
+        {
+          "depth": 1,
+          "class": "Static",
+          "text": "端点："
+        },
+        {
+          "depth": 1,
+          "class": "Button",
+          "text": "修剪支持面"
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "FrmPshBtn"
+        },
+        {
+          "depth": 2,
+          "class": "Button",
+          "text": "更多>>"
+        },
+        {
+          "depth": 1,
+          "class": "Button",
+          "text": "更多>>"
+        },
+        {
+          "depth": 0,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "FrmMain"
+        },
+        {
+          "depth": 1,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "ParamFrame"
+        },
+        {
+          "depth": 2,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "EnglobingFrame"
+        },
+        {
+          "depth": 3,
+          "class": "Afx:0000000140000000:0:0000000000010003:0000000000000000:0000000000000000",
+          "text": "IntermediateFrame"
+        }
+      ],
+      "listboxes": [
+        {
+          "depth": 3,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 2,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 2,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 2,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 2,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 2,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 1,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 2,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 2,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 1,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 3,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 2,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 2,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        },
+        {
+          "depth": 1,
+          "class": "ListBox",
+          "text": "Edt",
+          "items": 1,
+          "first": [
+            "无选择"
+          ]
+        }
+      ]
+    }
+  },
+  "route_b": {
+    "create_ok": false,
+    "message": "没有可用的源边/目标边",
+    "shapes": [
+      "凸台.1"
+    ]
+  },
+  "shapes_after": [
+    "凸台.1"
+  ]
+}

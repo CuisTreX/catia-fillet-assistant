@@ -1,0 +1,288 @@
+# D:\Programs\CATIA\win_b64\code\bin\ElectricalTypeLib.tlb
+# 库名: ElectricalTypeLib
+# 说明: CATIA V5 ElectricalInterfaces Object Library
+# 属性: (IID('{0249798A-DA3D-11D3-BB2A-006094EB7CE7}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: ElectricalAttributeAccess
+    iid={A15F227C-498C-484C-BFE1-4CDEAE9C80A3}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    ReferenceDesignator()
+    [1610940416] PROP_PUT    ReferenceDesignator()
+    [1610940418] PROP_GET    SubType()
+    [1610940418] PROP_PUT    SubType()
+
+== #1 DISPATCH: SpaceReservationExchange
+    iid={E04357A0-762A-4237-975F-4849E00613C8}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        ExportSpaceReservationDataToXMLFile(iDocument, iXMLFilename, iPreDefinedQuery, iPreDefinedEffectivity)
+    [1610940417] FUNC        ImportSpaceReservationDataInSmarTeam(iXMLFilename, iSmSession, iSimul)
+
+== #2 DISPATCH: ElectricalChildren
+    iid={53B71FD6-B95F-11D5-9F1A-00D0B7512520}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Item(iIndex)
+
+== #3 DISPATCH: ElectricalObject
+    iid={74F12FFE-B708-11D5-9F19-00D0B7512520}  funcs=74  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Products()
+    [1610940417] PROP_GET    Publications()
+    [1610940418] FUNC        AddShapeRepresentation(iShapePathName, iShapeName, iRepBehavior, iContext)
+    [1610940419] FUNC        RemoveShapeRepresentation(iShapeName, iRepBehavior, iContext)
+    [1610940420] FUNC        HasShapeRepresentation(iShapeName, iRepBehavior, iContext)
+    [1610940421] FUNC        GetShapeRepresentation(iLoadIfNecessary, iShapeName, iRepBehavior, iContext)
+    [1610940422] FUNC        AddMasterShapeRepresentation(iShapePathName)
+    [1610940423] FUNC        RemoveMasterShapeRepresentation()
+    [1610940424] FUNC        HasAMasterShapeRepresentation()
+    [1610940425] FUNC        GetMasterShapeRepresentation(iLoadIfNecessary)
+    [1610940426] FUNC        GetMasterShapeRepresentationPathName()
+    [1610940427] PROP_GET    PartNumber()
+    [1610940427] PROP_PUT    PartNumber()
+    [1610940429] PROP_GET    Revision()
+    [1610940429] PROP_PUT    Revision()
+    [1610940431] PROP_GET    Definition()
+    [1610940431] PROP_PUT    Definition()
+    [1610940433] PROP_GET    Nomenclature()
+    [1610940433] PROP_PUT    Nomenclature()
+    [1610940435] PROP_GET    Source()
+    [1610940435] PROP_PUT    Source()
+    [1610940437] PROP_GET    DescriptionRef()
+    [1610940437] PROP_PUT    DescriptionRef()
+    [1610940439] PROP_GET    DescriptionInst()
+    [1610940439] PROP_PUT    DescriptionInst()
+    [1610940441] FUNC        Connections(iConnectionsType)
+    [1610940442] PROP_GET    Move()
+    [1610940443] PROP_GET    Position()
+    [1610940444] PROP_GET    Analyze()
+    [1610940445] FUNC        ExtractBOM(iFileType, iFile)
+    [1610940446] FUNC        Update()
+    [1610940447] PROP_GET    ReferenceProduct()
+    [1610940448] PROP_GET    Parameters()
+    [1610940449] PROP_GET    UserRefProperties()
+    [1610940450] PROP_GET    Relations()
+    [1610940451] FUNC        CreateReferenceFromName(iLabel)
+    [1610940452] FUNC        ApplyWorkMode(newMode)
+    [1610940453] FUNC        ActivateDefaultShape()
+    [1610940454] FUNC        DesactivateDefaultShape()
+    [1610940455] FUNC        ActivateShape(ShapeName)
+    [1610940456] FUNC        DesactivateShape(ShapeName)
+    [1610940457] FUNC        GetNumberOfShapes()
+    [1610940458] FUNC        GetAllShapesNames(olistshape)
+    [1610940459] FUNC        GetActiveShapeName()
+    [1610940460] FUNC        GetDefaultShapeName()
+    [1610940461] FUNC        GetShapePathName(iShapeName)
+    [1610940462] FUNC        GetTechnologicalObject(iApplicationType)
+    [1611005952] PROP_GET    Type()
+    [1611005953] PROP_GET    RootType()
+    [1611005954] PROP_GET    ElectricalChildren()
+    [1611005955] PROP_GET    ConnectedElectricalObjects()
+    [1611005956] PROP_GET    ElectricalParent()
+
+== #4 DISPATCH: ConnectedElectricalObjects
+    iid={9194D2E8-BD84-11D5-9F1A-00D0B7512520}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Item(iIndex)
+
+== #5 DISPATCH: ElectricalWireRouting
+    iid={98F2DF50-EFC2-0000-0280-020CC2000000}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1611005952] FUNC        RouteAllSignals(iBundleDocumentFilename)
+    [1611005953] FUNC        ExportWireRoute(iFilePath)
+
+== #6 DISPATCH: ElectricalLibrary
+    iid={3BC60E3E-DA3B-11D3-BB2A-006094EB7CE7}  funcs=23  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1611005952] FUNC        CreateWiresIntoCatalog(iInitData, iCatalogFilename)
+
+== #7 ALIAS: CATIAConnectedElectricalObjects
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #8 ALIAS: CATIAElectricalAttributeAccess
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #9 ALIAS: CATIAElectricalChildren
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #10 ALIAS: CATIAElectricalLibrary
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #11 ALIAS: CATIAElectricalObject
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #12 ALIAS: CATIAElectricalWireRouting
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #13 ALIAS: CATIAEleSpaceReservationExchange
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #14 ENUM: foo_ElectricalInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_ElectricalInterfaces
+        foo_ElectricalInterfaces = 0
+
+== #15 MODULE: IID_ElectricalInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=7  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_ElectricalAttributeAccess
+    [var 1073741826] IID_SpaceReservationExchange
+    [var 1073741827] IID_ElectricalChildren
+    [var 1073741828] IID_ConnectedElectricalObjects
+    [var 1073741829] IID_ElectricalObject
+    [var 1073741830] IID_ElectricalWireRouting
+    [var 1073741831] IID_ElectricalLibrary

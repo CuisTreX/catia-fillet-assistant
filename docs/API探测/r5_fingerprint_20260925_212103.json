@@ -1,0 +1,936 @@
+{
+  "timestamp": "2026-09-25T21:21:02",
+  "edges": [
+    {
+      "index": 1,
+      "type": "RectilinearMonoDimFeatEdge",
+      "display": "Selection_WireREdge:(Wire:(Brp:(Sketch.1;4);None:(Limits1:()",
+      "raw": {
+        "Length": 60.0,
+        "Area": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Perimeter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Radius": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Angle": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetCOG": "<err (-2147467263, '尚未实现', (None, None, None, 0, None))>",
+        "GetCenter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetDirection": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "GetAxis": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetPoint": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "points_12": [
+          [
+            0.0,
+            60.0,
+            0.0
+          ],
+          [
+            0.0,
+            30.0,
+            0.0
+          ]
+        ],
+        "points_12_polyline": 30.0,
+        "points_60": [
+          [
+            0.0,
+            60.0,
+            0.0
+          ],
+          [
+            0.0,
+            30.0,
+            0.0
+          ]
+        ],
+        "points_60_polyline": 30.0,
+        "GeometryName": "10"
+      }
+    },
+    {
+      "index": 2,
+      "type": "RectilinearMonoDimFeatEdge",
+      "display": "Selection_WireREdge:(Wire:(Brp:(Sketch.1;3);None:(Limits1:()",
+      "raw": {
+        "Length": 100.0,
+        "Area": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Perimeter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Radius": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Angle": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetCOG": "<err (-2147467263, '尚未实现', (None, None, None, 0, None))>",
+        "GetCenter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetDirection": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "GetAxis": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetPoint": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "points_12": [
+          [
+            100.0,
+            60.0,
+            0.0
+          ],
+          [
+            50.0,
+            60.0,
+            0.0
+          ],
+          [
+            0.0,
+            60.0,
+            0.0
+          ]
+        ],
+        "points_12_polyline": 100.0,
+        "points_60": [
+          [
+            100.0,
+            60.0,
+            0.0
+          ],
+          [
+            50.0,
+            60.0,
+            0.0
+          ],
+          [
+            0.0,
+            60.0,
+            0.0
+          ]
+        ],
+        "points_60_polyline": 100.0,
+        "GeometryName": "10"
+      }
+    },
+    {
+      "index": 3,
+      "type": "RectilinearMonoDimFeatEdge",
+      "display": "Selection_WireREdge:(Wire:(Brp:(Sketch.1;2);None:(Limits1:()",
+      "raw": {
+        "Length": 60.0,
+        "Area": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Perimeter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Radius": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Angle": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetCOG": "<err (-2147467263, '尚未实现', (None, None, None, 0, None))>",
+        "GetCenter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetDirection": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "GetAxis": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetPoint": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "points_12": [
+          [
+            100.0,
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            30.0,
+            0.0
+          ],
+          [
+            100.0,
+            60.0,
+            0.0
+          ]
+        ],
+        "points_12_polyline": 60.0,
+        "points_60": [
+          [
+            100.0,
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            30.0,
+            0.0
+          ],
+          [
+            100.0,
+            60.0,
+            0.0
+          ]
+        ],
+        "points_60_polyline": 60.0,
+        "GeometryName": "10"
+      }
+    },
+    {
+      "index": 4,
+      "type": "RectilinearMonoDimFeatEdge",
+      "display": "Selection_WireREdge:(Wire:(Brp:(Sketch.1;1);None:(Limits1:()",
+      "raw": {
+        "Length": 100.0,
+        "Area": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Perimeter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Radius": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Angle": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetCOG": "<err (-2147467263, '尚未实现', (None, None, None, 0, None))>",
+        "GetCenter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetDirection": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "GetAxis": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetPoint": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "points_12": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            50.0,
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "points_12_polyline": 100.0,
+        "points_60": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            50.0,
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "points_60_polyline": 100.0,
+        "GeometryName": "10"
+      }
+    },
+    {
+      "index": 5,
+      "type": "RectilinearTriDimFeatEdge",
+      "display": "Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;4))",
+      "raw": {
+        "Length": 60.0,
+        "Area": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Perimeter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Radius": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Angle": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetCOG": "<err (-2147467263, '尚未实现', (None, None, None, 0, None))>",
+        "GetCenter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetDirection": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "GetAxis": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetPoint": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "points_12": [
+          [
+            0.0,
+            60.0,
+            40.0
+          ],
+          [
+            0.0,
+            30.0,
+            40.0
+          ],
+          [
+            0.0,
+            0.0,
+            40.0
+          ]
+        ],
+        "points_12_polyline": 60.0,
+        "points_60": [
+          [
+            0.0,
+            60.0,
+            40.0
+          ],
+          [
+            0.0,
+            30.0,
+            40.0
+          ],
+          [
+            0.0,
+            0.0,
+            40.0
+          ]
+        ],
+        "points_60_polyline": 60.0,
+        "GeometryName": "10"
+      }
+    },
+    {
+      "index": 6,
+      "type": "RectilinearTriDimFeatEdge",
+      "display": "Selection_REdge:(Edge:(Face:(Brp:(Pad.1;1);None:();Cf11:());",
+      "raw": {
+        "Length": 60.0,
+        "Area": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Perimeter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Radius": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Angle": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetCOG": "<err (-2147467263, '尚未实现', (None, None, None, 0, None))>",
+        "GetCenter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetDirection": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "GetAxis": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetPoint": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "points_12": [
+          [
+            0.0,
+            60.0,
+            0.0
+          ],
+          [
+            0.0,
+            30.0,
+            0.0
+          ]
+        ],
+        "points_12_polyline": 30.0,
+        "points_60": [
+          [
+            0.0,
+            60.0,
+            0.0
+          ],
+          [
+            0.0,
+            30.0,
+            0.0
+          ]
+        ],
+        "points_60_polyline": 30.0,
+        "GeometryName": "10"
+      }
+    },
+    {
+      "index": 7,
+      "type": "RectilinearTriDimFeatEdge",
+      "display": "Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;3))",
+      "raw": {
+        "Length": 100.0,
+        "Area": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Perimeter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Radius": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Angle": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetCOG": "<err (-2147467263, '尚未实现', (None, None, None, 0, None))>",
+        "GetCenter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetDirection": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "GetAxis": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetPoint": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "points_12": [
+          [
+            100.0,
+            60.0,
+            40.0
+          ],
+          [
+            50.0,
+            60.0,
+            40.0
+          ],
+          [
+            0.0,
+            60.0,
+            40.0
+          ]
+        ],
+        "points_12_polyline": 100.0,
+        "points_60": [
+          [
+            100.0,
+            60.0,
+            40.0
+          ],
+          [
+            50.0,
+            60.0,
+            40.0
+          ],
+          [
+            0.0,
+            60.0,
+            40.0
+          ]
+        ],
+        "points_60_polyline": 100.0,
+        "GeometryName": "10"
+      }
+    },
+    {
+      "index": 8,
+      "type": "RectilinearTriDimFeatEdge",
+      "display": "Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;4))",
+      "raw": {
+        "Length": 40.0,
+        "Area": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Perimeter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Radius": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Angle": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetCOG": "<err (-2147467263, '尚未实现', (None, None, None, 0, None))>",
+        "GetCenter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetDirection": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "GetAxis": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetPoint": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "points_12": [
+          [
+            0.0,
+            60.0,
+            0.0
+          ],
+          [
+            0.0,
+            60.0,
+            20.0
+          ],
+          [
+            0.0,
+            60.0,
+            40.0
+          ]
+        ],
+        "points_12_polyline": 40.0,
+        "points_60": [
+          [
+            0.0,
+            60.0,
+            0.0
+          ],
+          [
+            0.0,
+            60.0,
+            20.0
+          ],
+          [
+            0.0,
+            60.0,
+            40.0
+          ]
+        ],
+        "points_60_polyline": 40.0,
+        "GeometryName": "10"
+      }
+    },
+    {
+      "index": 9,
+      "type": "RectilinearTriDimFeatEdge",
+      "display": "Selection_REdge:(Edge:(Face:(Brp:(Pad.1;1);None:();Cf11:());",
+      "raw": {
+        "Length": 100.0,
+        "Area": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Perimeter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Radius": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Angle": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetCOG": "<err (-2147467263, '尚未实现', (None, None, None, 0, None))>",
+        "GetCenter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetDirection": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "GetAxis": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetPoint": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "points_12": [
+          [
+            100.0,
+            60.0,
+            0.0
+          ],
+          [
+            50.0,
+            60.0,
+            0.0
+          ],
+          [
+            0.0,
+            60.0,
+            0.0
+          ]
+        ],
+        "points_12_polyline": 100.0,
+        "points_60": [
+          [
+            100.0,
+            60.0,
+            0.0
+          ],
+          [
+            50.0,
+            60.0,
+            0.0
+          ],
+          [
+            0.0,
+            60.0,
+            0.0
+          ]
+        ],
+        "points_60_polyline": 100.0,
+        "GeometryName": "10"
+      }
+    },
+    {
+      "index": 10,
+      "type": "RectilinearTriDimFeatEdge",
+      "display": "Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;2))",
+      "raw": {
+        "Length": 60.0,
+        "Area": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Perimeter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Radius": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Angle": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetCOG": "<err (-2147467263, '尚未实现', (None, None, None, 0, None))>",
+        "GetCenter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetDirection": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "GetAxis": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetPoint": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "points_12": [
+          [
+            100.0,
+            0.0,
+            40.0
+          ],
+          [
+            100.0,
+            30.0,
+            40.0
+          ],
+          [
+            100.0,
+            60.0,
+            40.0
+          ]
+        ],
+        "points_12_polyline": 60.0,
+        "points_60": [
+          [
+            100.0,
+            0.0,
+            40.0
+          ],
+          [
+            100.0,
+            30.0,
+            40.0
+          ],
+          [
+            100.0,
+            60.0,
+            40.0
+          ]
+        ],
+        "points_60_polyline": 60.0,
+        "GeometryName": "10"
+      }
+    },
+    {
+      "index": 11,
+      "type": "RectilinearTriDimFeatEdge",
+      "display": "Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;3))",
+      "raw": {
+        "Length": 40.0,
+        "Area": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Perimeter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Radius": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Angle": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetCOG": "<err (-2147467263, '尚未实现', (None, None, None, 0, None))>",
+        "GetCenter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetDirection": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "GetAxis": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetPoint": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "points_12": [
+          [
+            100.0,
+            60.0,
+            0.0
+          ],
+          [
+            100.0,
+            60.0,
+            20.0
+          ],
+          [
+            100.0,
+            60.0,
+            40.0
+          ]
+        ],
+        "points_12_polyline": 40.0,
+        "points_60": [
+          [
+            100.0,
+            60.0,
+            0.0
+          ],
+          [
+            100.0,
+            60.0,
+            20.0
+          ],
+          [
+            100.0,
+            60.0,
+            40.0
+          ]
+        ],
+        "points_60_polyline": 40.0,
+        "GeometryName": "10"
+      }
+    },
+    {
+      "index": 12,
+      "type": "RectilinearTriDimFeatEdge",
+      "display": "Selection_REdge:(Edge:(Face:(Brp:(Pad.1;1);None:();Cf11:());",
+      "raw": {
+        "Length": 60.0,
+        "Area": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Perimeter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Radius": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Angle": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetCOG": "<err (-2147467263, '尚未实现', (None, None, None, 0, None))>",
+        "GetCenter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetDirection": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "GetAxis": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetPoint": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "points_12": [
+          [
+            100.0,
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            30.0,
+            0.0
+          ],
+          [
+            100.0,
+            60.0,
+            0.0
+          ]
+        ],
+        "points_12_polyline": 60.0,
+        "points_60": [
+          [
+            100.0,
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            30.0,
+            0.0
+          ],
+          [
+            100.0,
+            60.0,
+            0.0
+          ]
+        ],
+        "points_60_polyline": 60.0,
+        "GeometryName": "10"
+      }
+    },
+    {
+      "index": 13,
+      "type": "RectilinearTriDimFeatEdge",
+      "display": "Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;1))",
+      "raw": {
+        "Length": 100.0,
+        "Area": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Perimeter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Radius": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Angle": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetCOG": "<err (-2147467263, '尚未实现', (None, None, None, 0, None))>",
+        "GetCenter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetDirection": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "GetAxis": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetPoint": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "points_12": [
+          [
+            0.0,
+            0.0,
+            40.0
+          ],
+          [
+            50.0,
+            0.0,
+            40.0
+          ],
+          [
+            100.0,
+            0.0,
+            40.0
+          ]
+        ],
+        "points_12_polyline": 100.0,
+        "points_60": [
+          [
+            0.0,
+            0.0,
+            40.0
+          ],
+          [
+            50.0,
+            0.0,
+            40.0
+          ],
+          [
+            100.0,
+            0.0,
+            40.0
+          ]
+        ],
+        "points_60_polyline": 100.0,
+        "GeometryName": "10"
+      }
+    },
+    {
+      "index": 14,
+      "type": "RectilinearTriDimFeatEdge",
+      "display": "Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;2))",
+      "raw": {
+        "Length": 40.0,
+        "Area": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Perimeter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Radius": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Angle": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetCOG": "<err (-2147467263, '尚未实现', (None, None, None, 0, None))>",
+        "GetCenter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetDirection": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "GetAxis": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetPoint": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "points_12": [
+          [
+            100.0,
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            0.0,
+            20.0
+          ],
+          [
+            100.0,
+            0.0,
+            40.0
+          ]
+        ],
+        "points_12_polyline": 40.0,
+        "points_60": [
+          [
+            100.0,
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            0.0,
+            20.0
+          ],
+          [
+            100.0,
+            0.0,
+            40.0
+          ]
+        ],
+        "points_60_polyline": 40.0,
+        "GeometryName": "10"
+      }
+    },
+    {
+      "index": 15,
+      "type": "RectilinearTriDimFeatEdge",
+      "display": "Selection_REdge:(Edge:(Face:(Brp:(Pad.1;1);None:();Cf11:());",
+      "raw": {
+        "Length": 100.0,
+        "Area": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Perimeter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Radius": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Angle": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetCOG": "<err (-2147467263, '尚未实现', (None, None, None, 0, None))>",
+        "GetCenter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetDirection": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "GetAxis": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetPoint": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "points_12": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            50.0,
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "points_12_polyline": 100.0,
+        "points_60": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            50.0,
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "points_60_polyline": 100.0,
+        "GeometryName": "10"
+      }
+    },
+    {
+      "index": 16,
+      "type": "RectilinearTriDimFeatEdge",
+      "display": "Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;1))",
+      "raw": {
+        "Length": 40.0,
+        "Area": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Perimeter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Radius": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "Angle": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetCOG": "<err (-2147467263, '尚未实现', (None, None, None, 0, None))>",
+        "GetCenter": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetDirection": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "GetAxis": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "GetPoint": "<err (-2147467259, '未指定的错误', (None, None, None, 0, None))>",
+        "points_12": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            20.0
+          ],
+          [
+            0.0,
+            0.0,
+            40.0
+          ]
+        ],
+        "points_12_polyline": 40.0,
+        "points_60": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            20.0
+          ],
+          [
+            0.0,
+            0.0,
+            40.0
+          ]
+        ],
+        "points_60_polyline": 40.0,
+        "GeometryName": "10"
+      }
+    }
+  ],
+  "planes": [
+    {
+      "label": "X = 50.00 的中面（法向 X）",
+      "ratio": 0.8333333333333334,
+      "matched": 10,
+      "total": 12,
+      "mean_error": 5.000000000000001
+    },
+    {
+      "label": "Y = 30.00 的中面（法向 Y）",
+      "ratio": 0.9166666666666666,
+      "matched": 11,
+      "total": 12,
+      "mean_error": 3.333333333333336
+    },
+    {
+      "label": "Z = 20.00 的中面（法向 Z）",
+      "ratio": 0.8333333333333334,
+      "matched": 10,
+      "total": 12,
+      "mean_error": 5.000000000000003
+    }
+  ]
+}

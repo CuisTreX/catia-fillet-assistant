@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-09-25T22:05:47",
+  "steps": [
+    {
+      "name": "scan",
+      "edges": 36,
+      "seconds": 0.774
+    },
+    {
+      "name": "selection_restore",
+      "before": [
+        "Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;4)));None:();Cf11:());Face:(Brp:(Pad.1;2);None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.3_ResultOUT;Z0;G3563)"
+      ],
+      "after": [
+        "Selection_REdge:(Edge:(Face:(Brp:(Pad.1;0:(Brp:(Sketch.1;4)));None:();Cf11:());Face:(Brp:(Pad.1;2);None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.3_ResultOUT;Z0;G3563)"
+      ],
+      "ok": true
+    },
+    {
+      "name": "pair",
+      "planes_seconds": 1.463,
+      "pair_seconds": 2.554,
+      "state": "SYMMETRY_FOUND",
+      "candidates": 1
+    },
+    {
+      "name": "fillet_after_clear",
+      "ok": true,
+      "seconds": 0.185,
+      "message": "已生成倒圆角 倒圆角.1（半径 5，2 条边）"
+    },
+    {
+      "name": "after_clear",
+      "items": []
+    },
+    {
+      "name": "rescan",
+      "edges": 42,
+      "seconds": 0.901
+    }
+  ],
+  "results": [
+    {
+      "name": "扫描后选择集被还原（不再整圈变红）",
+      "ok": true
+    },
+    {
+      "name": "一次配对耗时可接受（< 3s）",
+      "ok": true
+    },
+    {
+      "name": "配对给出结论（不瞎等）",
+      "ok": true
+    },
+    {
+      "name": "清空选择集后仍能用扫到的引用建圆角",
+      "ok": true
+    },
+    {
+      "name": "动作结束后选择集为空（无残留高亮）",
+      "ok": true
+    },
+    {
+      "name": "复扫耗时可接受（< 3s）",
+      "ok": true
+    }
+  ]
+}

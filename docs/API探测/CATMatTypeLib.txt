@@ -1,0 +1,315 @@
+# D:\Programs\CATIA\win_b64\code\bin\CATMatTypeLib.tlb
+# 库名: CATMat
+# 说明: CATIA V5 CATMatInterfaces Object Library
+# 属性: (IID('{4D3F28C0-7790-11D6-8056-0030F113D1BF}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: PositionedMaterial
+    iid={A6727E46-2052-0000-0280-030C8D000000}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Material()
+    [1610940417] PROP_GET    ApplicationMode()
+    [1610940418] PROP_GET    InheritanceMode()
+    [1610940418] PROP_PUT    InheritanceMode()
+
+== #1 DISPATCH: Material
+    iid={8B628440-77A8-11D6-8056-0030F113D1BF}  funcs=31  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    RenderingMaterial()
+    [1610940417] FUNC        ExistRenderingData()
+    [1610940418] FUNC        CreateRenderingData()
+    [1610940419] FUNC        CopyRenderingDataFrom(iRenderingMaterial)
+    [1610940420] FUNC        GetIcon(iPath)
+    [1610940421] FUNC        PutIcon(iPath)
+    [1610940422] PROP_GET    AnalysisMaterial()
+    [1610940423] FUNC        ExistAnalysisData()
+    [1610940424] FUNC        CreateAnalysisData(iLabel)
+
+== #2 DISPATCH: AnalysisMaterial
+    iid={FFE59733-E681-4979-A759-7B2DCDC58B07}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetValue(iLabel)
+    [1610940417] FUNC        PutValue(iLabel, iValue)
+    [1610940418] FUNC        GetType()
+
+== #3 DISPATCH: MaterialManager
+    iid={AB79A853-15CE-0000-0280-021513000000}  funcs=33  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        ApplyMaterialOnProduct(iProduct, iMaterial, iLinkMode)
+    [1610940417] FUNC        ApplyMaterialOnPart(iPart, iMaterial, iLinkMode)
+    [1610940418] FUNC        ApplyMaterialOnBody(iBody, iMaterial, iLinkMode)
+    [1610940419] FUNC        ApplyMaterialOnHybridBody(iHybridBody, iMaterial, iLinkMode)
+    [1610940420] FUNC        GetMaterialOnProduct(iProduct, oMaterial)
+    [1610940421] FUNC        GetMaterialOnPart(iPart, oMaterial)
+    [1610940422] FUNC        GetMaterialOnBody(iBody, oMaterial)
+    [1610940423] FUNC        GetMaterialOnHybridBody(iHybridBody, oMaterial)
+    [1610940424] FUNC        ReplaceMaterialLinks(iMaterial1, iMaterial2)
+    [1610940425] FUNC        ApplyMaterialOnUserMaterial(iUserMaterial, iMaterial, iLinkMode)
+    [1610940426] FUNC        GetMaterialOnUserMaterial(iUserMaterial, oMaterial)
+
+== #4 DISPATCH: MaterialFamily
+    iid={C68B5E40-779D-11D6-8056-0030F113D1BF}  funcs=23  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Materials()
+
+== #5 DISPATCH: Materials
+    iid={AA941CA0-77A7-11D6-8056-0030F113D1BF}  funcs=27  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Item(iIndex)
+    [1610940417] FUNC        Add()
+    [1610940418] FUNC        Remove(iIndex)
+    [1610940419] FUNC        SortedItem(iIndex, iMode)
+
+== #6 DISPATCH: MaterialFamilies
+    iid={DC6564B0-779B-11D6-8056-0030F113D1BF}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Item(iIndex)
+    [1610940417] FUNC        Add()
+    [1610940418] FUNC        Remove(iIndex)
+
+== #7 DISPATCH: MaterialDocument
+    iid={112B5590-7792-11D6-8056-0030F113D1BF}  funcs=47  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    FullName()
+    [1610940417] PROP_GET    Path()
+    [1610940418] PROP_GET    ReadOnly()
+    [1610940419] PROP_GET    Saved()
+    [1610940420] PROP_GET    SeeHiddenElements()
+    [1610940420] PROP_PUT    SeeHiddenElements()
+    [1610940422] PROP_GET    Cameras()
+    [1610940423] PROP_GET    Selection()
+    [1610940424] PROP_GET    CurrentLayer()
+    [1610940424] PROP_PUT    CurrentLayer()
+    [1610940426] PROP_GET    CurrentFilter()
+    [1610940426] PROP_PUT    CurrentFilter()
+    [1610940428] FUNC        CreateFilter(iFilterName, iFilterDefinition)
+    [1610940429] FUNC        RemoveFilter(iFilterName)
+    [1610940430] FUNC        Indicate2D(iMessage, ioDocumentWindowLocation)
+    [1610940431] FUNC        Indicate3D(iPlanarGeometricObject, iMessage, ioWindowLocation2D, ioWindowLocation3D)
+    [1610940432] FUNC        CreateReferenceFromName(iLabel)
+    [1610940433] FUNC        NewWindow()
+    [1610940434] FUNC        Activate()
+    [1610940435] FUNC        Save()
+    [1610940436] FUNC        SaveAs(fileName)
+    [1610940437] FUNC        ExportData(fileName, format)
+    [1610940438] FUNC        Close()
+    [1610940439] FUNC        GetWorkbench(workbenchName)
+    [1611005952] PROP_GET    Families()
+
+== #8 ALIAS: CATIAAnalysisMaterial
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #9 ALIAS: CATIAMaterial
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #10 ALIAS: CATIAMaterialDocument
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #11 ALIAS: CATIAMaterialFamilies
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #12 ALIAS: CATIAMaterialFamily
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #13 ALIAS: CATIAMaterialManager
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #14 ALIAS: CATIAMaterials
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #15 ALIAS: CATIAPositionedMaterial
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #16 ENUM: foo_CATMatInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_CATMatInterfaces
+        foo_CATMatInterfaces = 0
+
+== #17 MODULE: IID_CATMatInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=8  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_PositionedMaterial
+    [var 1073741826] IID_MaterialManager
+    [var 1073741827] IID_MaterialFamily
+    [var 1073741828] IID_Material
+    [var 1073741829] IID_AnalysisMaterial
+    [var 1073741830] IID_Materials
+    [var 1073741831] IID_MaterialFamilies
+    [var 1073741832] IID_MaterialDocument

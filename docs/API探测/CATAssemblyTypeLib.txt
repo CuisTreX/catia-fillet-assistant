@@ -1,0 +1,525 @@
+# D:\Programs\CATIA\win_b64\code\bin\CATAssemblyTypeLib.tlb
+# 库名: CATAssemblyTypeLib
+# 说明: CATIA V5 CATAssemblyInterfaces Object Library
+# 属性: (IID('{8D5B5690-9551-11D4-9349-006094EB72E6}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: AsmUpgradeToolBoxExt
+    iid={4C235C50-7DF2-11D6-8051-0010B5FA1031}  funcs=18  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] FUNC        ToolBox()
+
+== #1 DISPATCH: AsmUpgradeToolBox
+    iid={B0814115-8916-11D6-807A-0010B5D45472}  funcs=18  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] FUNC        AsmUpgrade(iProduct)
+
+== #2 DISPATCH: AssemblyFeature
+    iid={749CB904-9543-11D4-9349-006094EB72E6}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        AddAffectedComponent(iComponent)
+    [1610940417] FUNC        RemoveAffectedComponent(iComponent)
+    [1610940418] FUNC        ListAffectedComponents(oListOfComponents)
+    [1610940419] FUNC        AffectedComponentsCount()
+
+== #3 DISPATCH: AssemblySplit
+    iid={9466BF38-9871-11D4-934A-006094EB72E6}  funcs=31  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        AddAffectedComponent(iComponent)
+    [1610940417] FUNC        RemoveAffectedComponent(iComponent)
+    [1610940418] FUNC        ListAffectedComponents(oListOfComponents)
+    [1610940419] FUNC        AffectedComponentsCount()
+    [1611005952] PROP_GET    SplittingSide()
+    [1611005952] PROP_PUT    SplittingSide()
+    [1611005954] PROP_GET    SplittingElement()
+    [1611005955] PROP_GET    SplittingComponent()
+    [1611005956] FUNC        ModifySplittingElement(iSplittingElement, iSplittingElemComp)
+
+== #4 ENUM: CatSplitSide
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catPositiveSide
+    [var 1073741825] catNegativeSide
+        catPositiveSide = 0
+        catNegativeSide = 1
+
+== #5 DISPATCH: AssemblyPocket
+    iid={B9F71F6E-9F87-11D4-A388-00D0B7AC57A4}  funcs=39  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        AddAffectedComponent(iComponent)
+    [1610940417] FUNC        RemoveAffectedComponent(iComponent)
+    [1610940418] FUNC        ListAffectedComponents(oListOfComponents)
+    [1610940419] FUNC        AffectedComponentsCount()
+    [1611005952] PROP_GET    DirectionType()
+    [1611005952] PROP_PUT    DirectionType()
+    [1611005954] PROP_GET    DirectionOrientation()
+    [1611005954] PROP_PUT    DirectionOrientation()
+    [1611005956] PROP_GET    IsSymmetric()
+    [1611005956] PROP_PUT    IsSymmetric()
+    [1611005958] PROP_GET    FirstLimit()
+    [1611005959] PROP_GET    SecondLimit()
+    [1611005960] PROP_GET    Sketch()
+    [1611005961] PROP_GET    SketchComponent()
+    [1611005962] FUNC        GetDirection(ioDirection)
+    [1611005963] FUNC        SetDirection(iLine, iLineComp)
+    [1611005964] FUNC        ReverseInnerSide()
+
+== #6 ENUM: CatPrismExtrusionDirection
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catNormalToSketchDirection
+    [var 1073741825] catNotNormalToSketchDirection
+        catNormalToSketchDirection = 0
+        catNotNormalToSketchDirection = 1
+
+== #7 ENUM: CatPrismOrientation
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catRegularOrientation
+    [var 1073741825] catInverseOrientation
+        catRegularOrientation = 0
+        catInverseOrientation = 1
+
+== #8 DISPATCH: AssemblyHole
+    iid={960D9D4A-A370-11D4-A388-00D0B7AC57A4}  funcs=43  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        AddAffectedComponent(iComponent)
+    [1610940417] FUNC        RemoveAffectedComponent(iComponent)
+    [1610940418] FUNC        ListAffectedComponents(oListOfComponents)
+    [1610940419] FUNC        AffectedComponentsCount()
+    [1611005952] PROP_GET    Type()
+    [1611005952] PROP_PUT    Type()
+    [1611005954] PROP_GET    Diameter()
+    [1611005955] PROP_GET    HeadDiameter()
+    [1611005956] PROP_GET    HeadDepth()
+    [1611005957] PROP_GET    HeadAngle()
+    [1611005958] PROP_GET    AnchorMode()
+    [1611005958] PROP_PUT    AnchorMode()
+    [1611005960] PROP_GET    BottomType()
+    [1611005960] PROP_PUT    BottomType()
+    [1611005962] PROP_GET    BottomAngle()
+    [1611005963] PROP_GET    BottomLimit()
+    [1611005964] PROP_GET    Sketch()
+    [1611005965] PROP_GET    SketchComponent()
+    [1611005966] FUNC        GetOrigin(ioOrigin)
+    [1611005967] FUNC        GetDirection(ioDirection)
+    [1611005968] FUNC        SetDirection(iLine, iLineComp)
+
+== #9 ENUM: CatHoleType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=5  impltypes=0
+    [var 1073741824] catSimpleHole
+    [var 1073741825] catTaperedHole
+    [var 1073741826] catCounterboredHole
+    [var 1073741827] catCountersunkHole
+    [var 1073741828] catCounterdrilledHole
+        catSimpleHole = 0
+        catTaperedHole = 1
+        catCounterboredHole = 2
+        catCountersunkHole = 3
+        catCounterdrilledHole = 4
+
+== #10 ENUM: CatHoleAnchorMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catExtremPointHoleAnchor
+    [var 1073741825] catMiddlePointHoleAnchor
+        catExtremPointHoleAnchor = 0
+        catMiddlePointHoleAnchor = 1
+
+== #11 ENUM: CatHoleBottomType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] catFlatHoleBottom
+    [var 1073741825] catVHoleBottom
+    [var 1073741826] catTrimmedHoleBottom
+        catFlatHoleBottom = 0
+        catVHoleBottom = 1
+        catTrimmedHoleBottom = 2
+
+== #12 DISPATCH: AssemblyBoolean
+    iid={5F28214A-9B82-11D4-A388-00D0B7AC57A4}  funcs=28  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        AddAffectedComponent(iComponent)
+    [1610940417] FUNC        RemoveAffectedComponent(iComponent)
+    [1610940418] FUNC        ListAffectedComponents(oListOfComponents)
+    [1610940419] FUNC        AffectedComponentsCount()
+    [1611005952] PROP_GET    Body()
+    [1611005953] PROP_GET    BodyComponent()
+
+== #13 DISPATCH: AssemblyFeatures
+    iid={504F8DFA-953F-11D4-9349-006094EB72E6}  funcs=30  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        AddAssemblySplit(iSplittingElement, iSplittingElemComp, iSplitSide, iComponent)
+    [1610940417] FUNC        AddAssemblyRemove(iBody, iBodyComp, iComponent)
+    [1610940418] FUNC        AddAssemblyAdd(iBody, iBodyComp, iComponent)
+    [1610940419] FUNC        AddAssemblyPocket(iSketch, iSketchComp, iDepth, iComponent)
+    [1610940420] FUNC        AddAssemblyHole(iSketch, iSketchComp, iDepth, iComponent)
+    [1610940421] FUNC        Item(iIndex)
+    [1610940422] FUNC        Remove(iIndex)
+
+== #14 DISPATCH: AsmGeneralSettingAtt
+    iid={C29FF54D-93EE-45E4-9B74-3440DD07967B}  funcs=43  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    AutoUpdateMode()
+    [1611005952] PROP_PUT    AutoUpdateMode()
+    [1611005954] FUNC        GetAutoUpdateModeInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetAutoUpdateModeLock(iLocked)
+    [1611005956] PROP_GET    UpdateStatusMode()
+    [1611005956] PROP_PUT    UpdateStatusMode()
+    [1611005958] FUNC        GetUpdateStatusModeInfo(AdminLevel, oLocked)
+    [1611005959] FUNC        SetUpdateStatusModeLock(iLocked)
+    [1611005960] PROP_GET    AutoSwitchToDesignMode()
+    [1611005960] PROP_PUT    AutoSwitchToDesignMode()
+    [1611005962] FUNC        GetAutoSwitchToDesignModeInfo(AdminLevel, oLocked)
+    [1611005963] FUNC        SetAutoSwitchToDesignModeLock(iLocked)
+    [1611005964] PROP_GET    MoveWithFixTExtendMode()
+    [1611005964] PROP_PUT    MoveWithFixTExtendMode()
+    [1611005966] FUNC        GetMoveWithFixTExtendModeInfo(AdminLevel, oLocked)
+    [1611005967] FUNC        SetMoveWithFixTExtendModeLock(iLocked)
+
+== #15 ENUM: CatAsmUpdateMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catManualUpdate
+    [var 1073741825] catAutomaticUpdate
+        catManualUpdate = 0
+        catAutomaticUpdate = 1
+
+== #16 ENUM: CatAsmUpdateStatusComputeMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catManualCompute
+    [var 1073741825] catAutomaticCompute
+        catManualCompute = 0
+        catAutomaticCompute = 1
+
+== #17 ENUM: CatAsmAutoSwitchToDesignMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catAutoSwitchAvailable
+    [var 1073741825] catAutoSwitchUnavailable
+        catAutoSwitchAvailable = 0
+        catAutoSwitchUnavailable = 1
+
+== #18 ENUM: CatAsmExtendMoveToFixT
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] catNeverExtendMoveToFixT
+    [var 1073741825] catAskIfExtendMoveToFixT
+    [var 1073741826] catAlwaysExtendMoveToFixT
+        catNeverExtendMoveToFixT = 0
+        catAskIfExtendMoveToFixT = 1
+        catAlwaysExtendMoveToFixT = 2
+
+== #19 DISPATCH: AsmConstraintSettingAtt
+    iid={59EDDE0C-0AFF-42F9-AB20-48830CAFEE2A}  funcs=43  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    PasteComponentMode()
+    [1611005952] PROP_PUT    PasteComponentMode()
+    [1611005954] FUNC        GetPasteComponentModeInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetPasteComponentModeLock(iLocked)
+    [1611005956] PROP_GET    ConstraintCreationMode()
+    [1611005956] PROP_PUT    ConstraintCreationMode()
+    [1611005958] FUNC        GetConstraintCreationModeInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetConstraintCreationModeLock(iLocked)
+    [1611005960] PROP_PUT    RedundancyMode()
+    [1611005960] PROP_GET    RedundancyMode()
+    [1611005962] PROP_GET    QuickConstraintMode()
+    [1611005962] PROP_PUT    QuickConstraintMode()
+    [1611005964] FUNC        GetQuickConstraintOrderedList()
+    [1611005965] FUNC        SetQuickConstraintOrderedList(iList)
+    [1611005966] FUNC        GetQuickConstraintModeInfo(ioAdminLevel, ioLocked)
+    [1611005967] FUNC        SetQuickConstraintModeLock(iLocked)
+
+== #20 ENUM: CatAsmPasteComponentMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=4  impltypes=0
+    [var 1073741824] catPasteWithoutCsts
+    [var 1073741825] catPasteWithCstOnCopy
+    [var 1073741826] catPasteWithCstOnCut
+    [var 1073741827] catPasteWithCstOnCopyAndCut
+        catPasteWithoutCsts = 0
+        catPasteWithCstOnCopy = 1
+        catPasteWithCstOnCut = 2
+        catPasteWithCstOnCopyAndCut = 3
+
+== #21 ENUM: CatAsmConstraintCreationMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] catUseAnyGeometry
+    [var 1073741825] catUsePublishedGeometryChildLevel
+    [var 1073741826] catUsePublishedGeometryAnyLevel
+        catUseAnyGeometry = 0
+        catUsePublishedGeometryChildLevel = 1
+        catUsePublishedGeometryAnyLevel = 2
+
+== #22 ENUM: CatAsmRedundancyMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catUnChecked
+    [var 1073741825] catChecked
+        catUnChecked = 0
+        catChecked = 1
+
+== #23 ENUM: CatAsmQuickConstraintMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catSpecifiedOrder
+    [var 1073741825] catVerifiedConstraintFirst
+        catSpecifiedOrder = 0
+        catVerifiedConstraintFirst = 1
+
+== #24 ALIAS: CATIAAsmConstraintSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #25 ALIAS: CATIAAsmGeneralSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #26 ALIAS: CATIAAsmUpgradeToolBox
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #27 ALIAS: CATIAAsmUpgradeToolBoxExt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #28 ALIAS: CATIAAssemblyBoolean
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #29 ALIAS: CATIAAssemblyFeature
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #30 ALIAS: CATIAAssemblyFeatures
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #31 ALIAS: CATIAAssemblyHole
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #32 ALIAS: CATIAAssemblyPocket
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #33 ALIAS: CATIAAssemblySplit
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #34 MODULE: IID_CATAssemblyInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=10  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_AsmUpgradeToolBoxExt
+    [var 1073741826] IID_AsmUpgradeToolBox
+    [var 1073741827] IID_AssemblyFeature
+    [var 1073741828] IID_AssemblySplit
+    [var 1073741829] IID_AssemblyPocket
+    [var 1073741830] IID_AssemblyHole
+    [var 1073741831] IID_AssemblyBoolean
+    [var 1073741832] IID_AssemblyFeatures
+    [var 1073741833] IID_AsmGeneralSettingAtt
+    [var 1073741834] IID_AsmConstraintSettingAtt
+
+== #35 COCLASS: AsmUpgradeToolBoxObj
+    iid={5A2942EA-F2F6-11D4-A3AA-00D0B756AD5D}  funcs=0  vars=0  impltypes=1
+    implements[0] AsmUpgradeToolBox (DEFAULT)

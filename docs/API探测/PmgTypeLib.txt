@@ -1,0 +1,75 @@
+# D:\Programs\CATIA\win_b64\code\bin\PmgTypeLib.tlb
+# 库名: PRISMATICMACHINING
+# 说明: CATIA V5 PrismaticMachiningInterfaces Object Library
+# 属性: (IID('{BC56CA8C-B183-44D1-A01E-1461E3191FCA}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: ManufacturingPrismaticMachiningArea
+    iid={73986FE6-60FF-4D1C-A557-B87D578B65EE}  funcs=54  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetAGeometricAttribute(iAttribut)
+    [1611005952] PROP_GET    FeatType()
+    [1611005952] PROP_PUT    FeatType()
+    [1611005954] PROP_GET    FeatRemark()
+    [1611005954] PROP_PUT    FeatRemark()
+    [1611071488] PROP_GET    Freezed()
+    [1611071488] PROP_PUT    Freezed()
+    [1611071490] PROP_GET    VisibleInMfgView()
+    [1611071490] PROP_PUT    VisibleInMfgView()
+    [1611071492] FUNC        MachinableGeometryCount()
+    [1611071493] FUNC        ListMachinableGeometry(oListOfMachinableGeometry)
+    [1611071494] FUNC        AddMachinableGeometry(iMachinableGeometry)
+    [1611071495] FUNC        RemoveMachinableGeometry(iMachinableGeometry)
+    [1611071496] FUNC        ManufacturingActivityConnectedCount()
+    [1611071497] FUNC        ListManufacturingActivityConnected(oListOfManufacturingActivityConnected)
+    [1611137024] PROP_GET    Type()
+    [1611137024] PROP_PUT    Type()
+    [1611137026] PROP_GET    BottomType()
+    [1611137026] PROP_PUT    BottomType()
+    [1611137028] PROP_GET    TopType()
+    [1611137028] PROP_PUT    TopType()
+    [1611137030] PROP_GET    IslandsCount()
+    [1611137031] PROP_GET    ContoursCount()
+    [1611137032] FUNC        SetGeometry(iGeometryType, iReference, iProduct, iPosition)
+    [1611137033] FUNC        RemoveAllGeometry(iGeometryType)
+    [1611137034] FUNC        SetGeometries(iGeometryType, iMode, iGeometryNumber, iReference, iProduct, iPosition)
+    [1611137035] FUNC        GetContourSide(iContourNumber)
+    [1611137036] FUNC        SetContourSide(iContourNumber, iSide)
+    [1611137037] FUNC        GetGeometriesAquisitionMode(iGeometryType, iGeometryNumber)
+    [1611137038] FUNC        IsContourClosed(iContourNumber)
+    [1611137039] FUNC        SetOpenContourSide(iContourNumber, iPoint)
+    [1611137040] FUNC        SetClosedContourSide(iContourNumber, iSide)
+
+== #1 ALIAS: CATIAManufacturingPrismaticMachiningArea
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #2 ENUM: foo_PrismaticMachiningInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_PrismaticMachiningInterfaces
+        foo_PrismaticMachiningInterfaces = 0
+
+== #3 MODULE: IID_PrismaticMachiningInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=1  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_ManufacturingPrismaticMachiningArea

@@ -1,0 +1,602 @@
+# D:\Programs\CATIA\win_b64\code\bin\Layout2DTypeLib.tlb
+# 库名: LAYOUT2DITF
+# 说明: CATIA V5 Drafting2DLInterfaces Object Library
+# 属性: (IID('{4480F2EC-29DE-443A-A706-3587C3758350}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: Layout2DView
+    iid={637E34C4-6181-4062-9DEE-730EC9C416E5}  funcs=59  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Texts()
+    [1610940417] PROP_GET    Weldings()
+    [1610940418] PROP_GET    GeometricElements()
+    [1610940419] PROP_GET    Components()
+    [1610940420] PROP_GET    Tables()
+    [1610940421] PROP_GET    Threads()
+    [1610940422] PROP_GET    Dimensions()
+    [1610940423] PROP_GET    Factory2D()
+    [1610940424] PROP_GET    Pictures()
+    [1610940425] PROP_GET    Arrows()
+    [1610940426] PROP_GET    x()
+    [1610940426] PROP_PUT    x()
+    [1610940428] PROP_GET    y()
+    [1610940428] PROP_PUT    y()
+    [1610940430] PROP_GET    Angle()
+    [1610940430] PROP_PUT    Angle()
+    [1610940432] PROP_GET    ViewScale()
+    [1610940432] PROP_PUT    ViewScale()
+    [1610940434] PROP_GET    FrameVisualization()
+    [1610940434] PROP_PUT    FrameVisualization()
+    [1610940436] PROP_GET    ReferenceView()
+    [1610940436] PROP_PUT    ReferenceView()
+    [1610940438] PROP_GET    LockStatus()
+    [1610940438] PROP_PUT    LockStatus()
+    [1610940440] FUNC        AlignedWithReferenceView()
+    [1610940441] FUNC        UnAlignedWithReferenceView()
+    [1610940442] FUNC        Activate()
+    [1610940443] FUNC        GetViewName(iViewNamePrefix, iViewNameIdent, iViewNameSuffix)
+    [1610940444] FUNC        SetViewName(iViewNamePrefix, iViewNameIdent, iViewNameSuffix)
+    [1610940445] FUNC        Size(oValues)
+    [1610940446] FUNC        SaveEdition()
+    [1610940447] PROP_GET    VisuIn3D()
+    [1610940447] PROP_PUT    VisuIn3D()
+    [1610940449] PROP_GET    VisuBackground()
+    [1610940449] PROP_PUT    VisuBackground()
+    [1610940451] PROP_GET    Visu2DMode()
+    [1610940451] PROP_PUT    Visu2DMode()
+
+== #1 ENUM: CatVisuIn3DMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catShowAll
+    [var 1073741825] catHideAll
+        catShowAll = 0
+        catHideAll = 1
+
+== #2 ENUM: CatVisuBackgroundMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=5  impltypes=0
+    [var 1073741824] catNoBackground
+    [var 1073741825] catPick
+    [var 1073741826] catNoPick
+    [var 1073741827] catLowIntPick
+    [var 1073741828] catLowIntNoPick
+        catNoBackground = 0
+        catPick = 1
+        catNoPick = 2
+        catLowIntPick = 3
+        catLowIntNoPick = 4
+
+== #3 ENUM: CatView2DModeVisu
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catView2DModeNotActivated
+    [var 1073741825] catView2DModeNoShow
+        catView2DModeNotActivated = 0
+        catView2DModeNoShow = 1
+
+== #4 DISPATCH: Layout2DSheet
+    iid={2FD59737-26B3-44B1-962B-FF522173924A}  funcs=48  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Views()
+    [1610940417] PROP_GET    PageSetup()
+    [1610940418] PROP_GET    PrintArea()
+    [1610940419] PROP_GET    PaperWidth()
+    [1610940419] PROP_PUT    PaperWidth()
+    [1610940421] PROP_GET    PaperHeight()
+    [1610940421] PROP_PUT    PaperHeight()
+    [1610940423] PROP_GET    PaperSize()
+    [1610940423] PROP_PUT    PaperSize()
+    [1610940425] PROP_GET    PaperName()
+    [1610940425] PROP_PUT    PaperName()
+    [1610940427] PROP_GET    Orientation()
+    [1610940427] PROP_PUT    Orientation()
+    [1610940429] PROP_GET    SheetScale()
+    [1610940429] PROP_PUT    SheetScale()
+    [1610940431] PROP_GET    ProjectionMethod()
+    [1610940431] PROP_PUT    ProjectionMethod()
+    [1610940433] FUNC        Activate()
+    [1610940434] FUNC        IsDetail()
+    [1610940435] FUNC        PrintOut(iRenderingMode)
+    [1610940436] FUNC        PrintToFile(fileName, iRenderingMode)
+    [1610940437] FUNC        PrintOut2()
+    [1610940438] FUNC        PrintToFile2(fileName)
+    [1610940439] PROP_GET    VisuIn3D()
+    [1610940439] PROP_PUT    VisuIn3D()
+    [1610940441] FUNC        reorder_Views(iOrderedViews)
+
+== #5 DISPATCH: Layout2DViews
+    iid={C7DCAE5A-0EDE-4E83-9087-EC7C0E3CCB74}  funcs=31  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        AddPrimary(iX, iY)
+    [1610940417] FUNC        AddRelated(iReferenceView, iSide, iX, iY)
+    [1610940418] FUNC        AddAuxiliary(iReferenceView, iBCSegment, iXorient, iYorient, iSectionType, iX, iY)
+    [1610940419] FUNC        AddFrom3DPlane(iPlane, iViewType, iX, iY)
+    [1610940420] PROP_GET    ActiveView()
+    [1610940421] FUNC        Remove(iIndex)
+    [1610940422] FUNC        Item(iIndex)
+    [1610940423] FUNC        AddDetail(iDetailName)
+
+== #6 ENUM: CatViewSide
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=8  impltypes=0
+    [var 1073741824] catTopSide
+    [var 1073741825] catBottomSide
+    [var 1073741826] catLeftSide
+    [var 1073741827] catRightSide
+    [var 1073741828] catTLCorner
+    [var 1073741829] catTRCorner
+    [var 1073741830] catBLCorner
+    [var 1073741831] catBRCorner
+        catTopSide = 0
+        catBottomSide = 1
+        catLeftSide = 2
+        catRightSide = 3
+        catTLCorner = 4
+        catTRCorner = 5
+        catBLCorner = 6
+        catBRCorner = 7
+
+== #7 ENUM: CatViewType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] catAuxiliaryView
+    [var 1073741825] catSectionView
+    [var 1073741826] catSectionCutView
+        catAuxiliaryView = 0
+        catSectionView = 1
+        catSectionCutView = 2
+
+== #8 ENUM: CatPaperSize
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=14  impltypes=0
+    [var 1073741824] catPaperLetter
+    [var 1073741825] catPaperLegal
+    [var 1073741826] catPaperA0
+    [var 1073741827] catPaperA1
+    [var 1073741828] catPaperA2
+    [var 1073741829] catPaperA3
+    [var 1073741830] catPaperA4
+    [var 1073741831] catPaperA
+    [var 1073741832] catPaperB
+    [var 1073741833] catPaperC
+    [var 1073741834] catPaperD
+    [var 1073741835] catPaperE
+    [var 1073741836] catPaperF
+    [var 1073741837] catPaperUser
+        catPaperLetter = 0
+        catPaperLegal = 1
+        catPaperA0 = 2
+        catPaperA1 = 3
+        catPaperA2 = 4
+        catPaperA3 = 5
+        catPaperA4 = 6
+        catPaperA = 7
+        catPaperB = 8
+        catPaperC = 9
+        catPaperD = 10
+        catPaperE = 11
+        catPaperF = 12
+        catPaperUser = 13
+
+== #9 ENUM: CatPaperOrientation
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] catPaperPortrait
+    [var 1073741825] catPaperLandscape
+    [var 1073741826] catPaperBestFit
+        catPaperPortrait = 0
+        catPaperLandscape = 1
+        catPaperBestFit = 2
+
+== #10 ENUM: CatSheetProjectionMethod
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catFirstAngle
+    [var 1073741825] catThirdAngle
+        catFirstAngle = 0
+        catThirdAngle = 1
+
+== #11 ENUM: CatRenderingMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=23  impltypes=0
+    [var 1073741824] catRenderShading
+    [var 1073741825] catRenderShadingWithEdges
+    [var 1073741826] catRenderWireFrame
+    [var 1073741827] catRenderHiddenLinesRemoval
+    [var 1073741828] catRenderQuickHiddenLinesRemoval
+    [var 1073741829] catRenderMaterial
+    [var 1073741830] catRenderMaterialWithEdges
+    [var 1073741831] catRenderShadingWithEdgesAndHiddenEdges
+    [var 1073741832] catRenderShadingWithEdgesWithoutSmoothEdges
+    [var 1073741833] catRenderWireFrameWithoutSmoothEdgesWithoutVertices
+    [var 1073741834] catRenderWireFrameWithHalfSmoothEdgesWithoutVertices
+    [var 1073741835] catRenderShadingWithEdgesWithOutlines
+    [var 1073741836] catRenderQuickHiddenLinesRemovalWithoutVertices
+    [var 1073741837] catRenderQuickHiddenLinesRemovalWithHiddenEdgesWithOutlines
+    [var 1073741838] catRenderQuickHiddenLinesRemovalWithHiddenEdgesWithOutlinesWithoutVertices
+    [var 1073741839] catRenderWireFrameWithHalfSmoothEdgeWithOutlinesWithoutVertices
+    [var 1073741840] catRenderWireFrameWithOutlinesWithoutSmoothEdgesWithoutVertices
+    [var 1073741841] catRenderQuickHiddenLinesRemovalWithHiddenEdgesWithoutSmoothEdgesWithoutVertices
+    [var 1073741842] catRenderQuickHiddenLinesRemovalWithHiddenEdgesWithHalfSmoothEdgeWithoutVertices
+    [var 1073741843] catRenderQuickHiddenLinesRemovalWithoutSmoothEdgesWithoutVertices
+    [var 1073741844] catRenderQuickHiddenLinesRemovalWithHalfSmoothEdgeWithoutVertices
+    [var 1073741845] catRenderShadingWithEdgesWithHalfSmoothEdgeWithoutVertices
+    [var 1073741846] catRenderShadingWithEdgesWithHalfSmoothEdge
+        catRenderShading = 0
+        catRenderShadingWithEdges = 1
+        catRenderWireFrame = 2
+        catRenderHiddenLinesRemoval = 3
+        catRenderQuickHiddenLinesRemoval = 4
+        catRenderMaterial = 5
+        catRenderMaterialWithEdges = 6
+        catRenderShadingWithEdgesAndHiddenEdges = 7
+        catRenderShadingWithEdgesWithoutSmoothEdges = 8
+        catRenderWireFrameWithoutSmoothEdgesWithoutVertices = 9
+        catRenderWireFrameWithHalfSmoothEdgesWithoutVertices = 10
+        catRenderShadingWithEdgesWithOutlines = 11
+        catRenderQuickHiddenLinesRemovalWithoutVertices = 12
+        catRenderQuickHiddenLinesRemovalWithHiddenEdgesWithOutlines = 13
+        catRenderQuickHiddenLinesRemovalWithHiddenEdgesWithOutlinesWithoutVertices = 14
+        catRenderWireFrameWithHalfSmoothEdgeWithOutlinesWithoutVertices = 15
+        catRenderWireFrameWithOutlinesWithoutSmoothEdgesWithoutVertices = 16
+        catRenderQuickHiddenLinesRemovalWithHiddenEdgesWithoutSmoothEdgesWithoutVertices = 17
+        catRenderQuickHiddenLinesRemovalWithHiddenEdgesWithHalfSmoothEdgeWithoutVertices = 18
+        catRenderQuickHiddenLinesRemovalWithoutSmoothEdgesWithoutVertices = 19
+        catRenderQuickHiddenLinesRemovalWithHalfSmoothEdgeWithoutVertices = 20
+        catRenderShadingWithEdgesWithHalfSmoothEdgeWithoutVertices = 21
+        catRenderShadingWithEdgesWithHalfSmoothEdge = 22
+
+== #12 DISPATCH: Layout2DRoot
+    iid={8B2D7DD5-60B8-49B7-892E-F9BF22185865}  funcs=34  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Sheets()
+    [1610940417] PROP_GET    Relations()
+    [1610940418] PROP_GET    Parameters()
+    [1610940419] PROP_GET    ActiveSheet()
+    [1610940419] PROP_PUT    ActiveSheet()
+    [1610940421] PROP_GET    Standard()
+    [1610940421] PROP_PUT    Standard()
+    [1610940423] PROP_GET    VisuIn3D()
+    [1610940423] PROP_PUT    VisuIn3D()
+    [1610940425] PROP_GET    RenderingMode()
+    [1610940425] PROP_PUT    RenderingMode()
+    [1610940427] FUNC        reorder_Sheets(iOrderedSheets)
+
+== #13 DISPATCH: Layout2DSheets
+    iid={90DA545B-669A-46FE-AE06-F677D19C3171}  funcs=28  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Add(iLayoutSheetName)
+    [1610940417] FUNC        AddDetail(iLayoutSheetName)
+    [1610940418] PROP_GET    ActiveSheet()
+    [1610940419] FUNC        Remove(iIndex)
+    [1610940420] FUNC        Item(iIndex)
+
+== #14 ENUM: CatDrawingStandard
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] catANSI
+    [var 1073741825] catISO
+    [var 1073741826] catJIS
+        catANSI = 0
+        catISO = 1
+        catJIS = 2
+
+== #15 DISPATCH: Layout2DFactory
+    iid={7C769F52-1E39-4405-B08F-3D39C0944F63}  funcs=23  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Create2DLayout(iStandardName)
+
+== #16 DISPATCH: Layout2DSettingAtt
+    iid={239D20D8-5C92-41BC-90B4-60E0770C95AA}  funcs=119  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    HideIn3D()
+    [1611005952] PROP_PUT    HideIn3D()
+    [1611005954] FUNC        GetHideIn3DInfo(ioAdminLevel, ioLocked, oModified)
+    [1611005955] FUNC        SetHideIn3DLock(iLocked)
+    [1611005956] PROP_GET    ViewBackgroundMode()
+    [1611005956] PROP_PUT    ViewBackgroundMode()
+    [1611005958] FUNC        GetViewBackgroundModeInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetViewBackgroundModeLock(iLocked)
+    [1611005960] PROP_GET    ViewFilterCreationMode()
+    [1611005960] PROP_PUT    ViewFilterCreationMode()
+    [1611005962] FUNC        GetViewFilterCreationModeInfo(ioAdminLevel, ioLocked)
+    [1611005963] FUNC        SetViewFilterCreationModeLock(iLocked)
+    [1611005964] PROP_GET    DedicatedFilterType()
+    [1611005964] PROP_PUT    DedicatedFilterType()
+    [1611005966] FUNC        GetDedicatedFilterTypeInfo(ioAdminLevel, ioLocked)
+    [1611005967] FUNC        SetDedicatedFilterTypeLock(iLocked)
+    [1611005968] PROP_GET    EditDedicatedFilterDialogBox()
+    [1611005968] PROP_PUT    EditDedicatedFilterDialogBox()
+    [1611005970] FUNC        GetEditDedicatedFilterDialogBoxInfo(ioAdminLevel, ioLocked, oModified)
+    [1611005971] FUNC        SetEditDedicatedFilterDialogBoxLock(iLocked)
+    [1611005972] PROP_GET    ClippingFrame()
+    [1611005972] PROP_PUT    ClippingFrame()
+    [1611005974] FUNC        GetClippingFrameInfo(ioAdminLevel, ioLocked, oModified)
+    [1611005975] FUNC        SetClippingFrameLock(iLocked)
+    [1611005976] PROP_GET    ClippingFrameReframeOnMode()
+    [1611005976] PROP_PUT    ClippingFrameReframeOnMode()
+    [1611005978] FUNC        GetClippingFrameReframeOnModeInfo(ioAdminLevel, ioLocked)
+    [1611005979] FUNC        SetClippingFrameReframeOnModeLock(iLocked)
+    [1611005980] PROP_GET    BackClippingPlane()
+    [1611005980] PROP_PUT    BackClippingPlane()
+    [1611005982] FUNC        GetBackClippingPlaneInfo(ioAdminLevel, ioLocked, oModified)
+    [1611005983] FUNC        SetBackClippingPlaneLock(iLocked)
+    [1611005984] PROP_GET    PropagateHighlight()
+    [1611005984] PROP_PUT    PropagateHighlight()
+    [1611005986] FUNC        GetPropagateHighlightInfo(ioAdminLevel, ioLocked, oModified)
+    [1611005987] FUNC        SetPropagateHighlightLock(iLocked)
+    [1611005988] PROP_GET    DisplayBackAndCuttingPlane()
+    [1611005988] PROP_PUT    DisplayBackAndCuttingPlane()
+    [1611005990] FUNC        GetDisplayBackAndCuttingPlaneInfo(ioAdminLevel, ioLocked, oModified)
+    [1611005991] FUNC        SetDisplayBackAndCuttingPlaneLock(iLocked)
+    [1611005992] PROP_GET    Activate2DMode()
+    [1611005992] PROP_PUT    Activate2DMode()
+    [1611005994] FUNC        GetActivate2DModeInfo(ioAdminLevel, ioLocked, oModified)
+    [1611005995] FUNC        SetActivate2DModeLock(iLocked)
+    [1611005996] PROP_GET    DisplayClippingOutline()
+    [1611005996] PROP_PUT    DisplayClippingOutline()
+    [1611005998] FUNC        GetDisplayClippingOutlineInfo(ioAdminLevel, ioLocked, oModified)
+    [1611005999] FUNC        SetDisplayClippingOutlineLock(iLocked)
+    [1611006000] FUNC        GetClippingViewOutlineColor(oValueR, oValueG, oValueB)
+    [1611006001] FUNC        SetClippingViewOutlineColor(iValueR, iValueG, iValueB)
+    [1611006002] FUNC        GetClippingViewOutlineColorInfo(ioAdminLevel, ioLocked, oModified)
+    [1611006003] FUNC        SetClippingViewOutlineColorLock(iLocked)
+    [1611006004] PROP_GET    ClippingViewOutlineLinetype()
+    [1611006004] PROP_PUT    ClippingViewOutlineLinetype()
+    [1611006006] FUNC        GetClippingViewOutlineLinetypeInfo(ioAdminLevel, ioLocked, oModified)
+    [1611006007] FUNC        SetClippingViewOutlineLinetypeLock(iLocked)
+    [1611006008] PROP_GET    ClippingViewOutlineThickness()
+    [1611006008] PROP_PUT    ClippingViewOutlineThickness()
+    [1611006010] FUNC        GetClippingViewOutlineThicknessInfo(ioAdminLevel, ioLocked, oModified)
+    [1611006011] FUNC        SetClippingViewOutlineThicknessLock(iLocked)
+    [1611006012] PROP_GET    Boundaries2DLDisplay()
+    [1611006012] PROP_PUT    Boundaries2DLDisplay()
+    [1611006014] FUNC        GetBoundaries2DLDisplayInfo(ioAdminLevel, ioLocked, oModified)
+    [1611006015] FUNC        SetBoundaries2DLDisplayLock(iLocked)
+    [1611006016] FUNC        GetBoundaries2DLColor(oValueR, oValueG, oValueB)
+    [1611006017] FUNC        SetBoundaries2DLColor(iValueR, iValueG, iValueB)
+    [1611006018] FUNC        GetBoundaries2DLColorInfo(ioAdminLevel, ioLocked, oModified)
+    [1611006019] FUNC        SetBoundaries2DLColorLock(iLocked)
+    [1611006020] PROP_GET    Boundaries2DLLineType()
+    [1611006020] PROP_PUT    Boundaries2DLLineType()
+    [1611006022] FUNC        GetBoundaries2DLLineTypeInfo(ioAdminLevel, ioLocked, oModified)
+    [1611006023] FUNC        SetBoundaries2DLLineTypeLock(iLocked)
+    [1611006024] PROP_GET    Boundaries2DLThickness()
+    [1611006024] PROP_PUT    Boundaries2DLThickness()
+    [1611006026] FUNC        GetBoundaries2DLThicknessInfo(ioAdminLevel, ioLocked, oModified)
+    [1611006027] FUNC        SetBoundaries2DLThicknessLock(iLocked)
+    [1611006028] PROP_GET    CalloutCreationDialogBox()
+    [1611006028] PROP_PUT    CalloutCreationDialogBox()
+    [1611006030] FUNC        GetCalloutCreationDialogBoxInfo(ioAdminLevel, ioLocked, oModified)
+    [1611006031] FUNC        SetCalloutCreationDialogBoxLock(iLocked)
+    [1611006032] PROP_GET    CreateAssociativeUseEdges()
+    [1611006032] PROP_PUT    CreateAssociativeUseEdges()
+    [1611006034] FUNC        GetCreateAssociativeUseEdgesInfo(ioAdminLevel, ioLocked, oModified)
+    [1611006035] FUNC        SetCreateAssociativeUseEdgesLock(iLocked)
+    [1611006036] FUNC        GetProtectedElementsColor(oValueR, oValueG, oValueB)
+    [1611006037] FUNC        SetProtectedElementsColor(iValueR, iValueG, iValueB)
+    [1611006038] FUNC        GetProtectedElementsColorInfo(ioAdminLevel, ioLocked, oModified)
+    [1611006039] FUNC        SetProtectedElementsColorLock(iLocked)
+    [1611006040] PROP_GET    LayoutDefaultRenderStyle()
+    [1611006040] PROP_PUT    LayoutDefaultRenderStyle()
+    [1611006042] FUNC        GetLayoutDefaultRenderStyleInfo(ioAdminLevel, ioLocked, oModified)
+    [1611006043] FUNC        SetLayoutDefaultRenderStyleLock(iLocked)
+
+== #17 ENUM: CatViewBackgroundMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=5  impltypes=0
+    [var 1073741824] catStandard
+    [var 1073741825] catInvisible
+    [var 1073741826] catUnpickable
+    [var 1073741827] catLowIntensity
+    [var 1073741828] catUnpickableLowIntensity
+        catStandard = 0
+        catInvisible = 1
+        catUnpickable = 2
+        catLowIntensity = 3
+        catUnpickableLowIntensity = 4
+
+== #18 ENUM: CatViewFilterCreationMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] catDefaultFilter
+    [var 1073741825] catDisplayFilterDialogBox
+    [var 1073741826] catDedicatedFilter
+        catDefaultFilter = 0
+        catDisplayFilterDialogBox = 1
+        catDedicatedFilter = 2
+
+== #19 ENUM: CatDedicatedFilterType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catDisplayInBackground
+    [var 1073741825] catMaskInBackground
+        catDisplayInBackground = 0
+        catMaskInBackground = 1
+
+== #20 ENUM: CatClippingFrameReframeOnMode
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] catOnViewContent
+    [var 1073741825] catOnViewBackground
+        catOnViewContent = 0
+        catOnViewBackground = 1
+
+== #21 ALIAS: CATIALayout2DFactory
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #22 ALIAS: CATIALayout2DLayout
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #23 ALIAS: CATIA2DLSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #24 ALIAS: CATIALayout2DSheet
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #25 ALIAS: CATIALayout2DSheets
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #26 ALIAS: CATIALayout2DView
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #27 ALIAS: CATIALayout2DViews
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #28 MODULE: IID_Drafting2DLInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=7  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_Layout2DView
+    [var 1073741826] IID_Layout2DSheet
+    [var 1073741827] IID_Layout2DRoot
+    [var 1073741828] IID_Layout2DFactory
+    [var 1073741829] IID_Layout2DViews
+    [var 1073741830] IID_Layout2DSheets
+    [var 1073741831] IID_Layout2DSettingAtt

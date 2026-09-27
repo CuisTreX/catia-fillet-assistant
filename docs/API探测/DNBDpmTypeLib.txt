@@ -1,0 +1,97 @@
+# D:\Programs\CATIA\win_b64\code\bin\DNBDpmTypeLib.tlb
+# 库名: DNBDpmItf
+# 说明: CATIA V5 DNBDpmInterfaces Object Library
+# 属性: (IID('{344C5719-2624-440A-8C71-AF3DA6B691BE}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: MfgAssemblyFactory
+    iid={4F8FEE7A-C66F-4A37-B732-F598735E1088}  funcs=29  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        CreateMfgAssembly(iNameBSTR, iPartNumberBSTR, iType, oMfgAssembly)
+    [1610940417] FUNC        GetNumberOfMfgAssemblies()
+    [1610940418] FUNC        RetrieveMfgAssemblyAtIndex(iIndex)
+    [1610940419] FUNC        RetrieveMfgAssembly(iNameBSTR, oMfgAssemblies, oNumOfMfgAssemblies)
+    [1610940420] FUNC        RemoveMfgAssembly(iMfgAssembly)
+    [1610940421] FUNC        RetriveALLMfgAssy(iType, oAllMAs, oNumOfMfgAssemblies)
+    [1610940422] FUNC        GetNumberofALLMfgAssy(iType, oNumOfMfgAssemblies)
+
+== #1 ENUM: DNBIAMfgAssemblyType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=5  impltypes=0
+    [var 1073741824] manufacturingAssembly
+    [var 1073741825] manufacturingKit
+    [var 1073741826] assemblySpecTree
+    [var 1073741827] manufacturingOutput
+    [var 1073741828] notSpecified
+        manufacturingAssembly = 0
+        manufacturingKit = 1
+        assemblySpecTree = 2
+        manufacturingOutput = 3
+        notSpecified = 4
+
+== #2 DISPATCH: MfgAssembly
+    iid={AD0926A6-4778-4C7C-A501-6029B10BB15E}  funcs=31  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    MAName()
+    [1610940416] PROP_PUT    MAName()
+    [1610940418] PROP_GET    MAPartNumber()
+    [1610940418] PROP_PUT    MAPartNumber()
+    [1610940420] PROP_GET    MAType()
+    [1610940421] PROP_GET    Count()
+    [1610940422] FUNC        Item(iIndex)
+    [1610940423] FUNC        AddPart(iItem)
+    [1610940424] FUNC        RemovePart(iItem)
+
+== #3 ALIAS: DNBIAMfgAssembly
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #4 ALIAS: DNBIAMfgAssemblyFactory
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #5 MODULE: IID_DNBDpmInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=2  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_MfgAssemblyFactory
+    [var 1073741826] IID_MfgAssembly

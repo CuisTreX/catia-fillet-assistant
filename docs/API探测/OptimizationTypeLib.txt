@@ -1,0 +1,9 @@
+# D:\Programs\CATIA\win_b64\code\bin\OptimizationTypeLib.tlb
+# 库名: Optimization
+# 说明: CATIA V5 OptimizationInterfaces Object Library
+# 属性: (IID('{968217D4-DD77-11D3-859E-00108302131A}'), 0, 1, 0, 0, 8)
+
+== #0 ENUM: foo_OptimizationInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_OptimizationInterfaces
+        foo_OptimizationInterfaces = 0

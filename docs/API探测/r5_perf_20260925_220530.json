@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-09-25T22:05:21",
+  "steps": [
+    {
+      "name": "scan",
+      "edges": 33,
+      "seconds": 0.786
+    },
+    {
+      "name": "selection_restore",
+      "before": [
+        "Selection_REdge:(Edge:(Face:(Brp:((Brp:(Pad.3;1);Brp:(Pad.2;1);Brp:(Pad.1;1)));None:();Cf11:());Face:(Brp:((Brp:(Pad.2;0:(Brp:(Sketch.2;1)));Brp:(Pad.1;0:(Brp:(Sketch.1;1)))));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.3_ResultOUT;Z0;G3563)"
+      ],
+      "after": [
+        "Selection_REdge:(Edge:(Face:(Brp:((Brp:(Pad.3;1);Brp:(Pad.2;1);Brp:(Pad.1;1)));None:();Cf11:());Face:(Brp:((Brp:(Pad.2;0:(Brp:(Sketch.2;1)));Brp:(Pad.1;0:(Brp:(Sketch.1;1)))));None:();Cf11:());None:(Limits1:();Limits2:());Cf11:());Pad.3_ResultOUT;Z0;G3563)"
+      ],
+      "ok": true
+    },
+    {
+      "name": "pair",
+      "planes_seconds": 1.445,
+      "pair_seconds": 2.289,
+      "state": "NO_CONFIDENT_SYMMETRY",
+      "candidates": 0
+    },
+    {
+      "name": "after_clear",
+      "items": []
+    },
+    {
+      "name": "rescan",
+      "edges": 33,
+      "seconds": 0.936
+    }
+  ],
+  "results": [
+    {
+      "name": "扫描后选择集被还原（不再整圈变红）",
+      "ok": true
+    },
+    {
+      "name": "一次配对耗时可接受（< 3s）",
+      "ok": true
+    },
+    {
+      "name": "配对给出结论（不瞎等）",
+      "ok": true
+    },
+    {
+      "name": "清空选择集后仍能用扫到的引用建圆角",
+      "ok": false
+    },
+    {
+      "name": "动作结束后选择集为空（无残留高亮）",
+      "ok": true
+    },
+    {
+      "name": "复扫耗时可接受（< 3s）",
+      "ok": true
+    }
+  ]
+}

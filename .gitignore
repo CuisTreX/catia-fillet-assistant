@@ -1,0 +1,20 @@
+# 打包与构建产物
+build/
+dist/
+.pytest_cache/
+comtypes_gen/
+__pycache__/
+*.py[cod]
+
+# 运行产物
+logs/
+*.log
+*.signal
+.quit
+
+# 本机诊断信息
+取证报告.txt
+诊断报告.txt
+
+# 工作区协作文档
+对话记录.md

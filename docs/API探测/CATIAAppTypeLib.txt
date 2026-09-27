@@ -1,0 +1,138 @@
+# D:\Programs\CATIA\win_b64\code\bin\CATIAAppTypeLib.tlb
+# 库名: CATIA_APP_ITF
+# 说明: CATIA V5 ApplicationFrame Object Library
+# 属性: (IID('{3D8D0A2A-F2B0-11D4-A3AA-00D0B756AD5D}'), 0, 1, 0, 0, 12)
+
+== #0 DISPATCH: CATIAVBAHostingApplication
+    iid={0663D094-471D-11D2-9AA3-00A024941EF0}  funcs=18  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        InitInstance(iAppObject, iHostCallack, iAppName, iTypelibPath, iHostWindow)
+    [1610743809] PROP_GET    Running()
+    [1610743810] FUNC        WmEnable(iEnabled)
+    [1610743811] FUNC        WmActivate(iWParam)
+    [1610743812] FUNC        ShowIDE()
+    [1610743813] FUNC        DisableIDE(iDisabled)
+    [1610743814] FUNC        InsertCode(iText)
+    [1610743815] FUNC        CreateContainer(iProjectPath, iRealPath, iProjectName, iTypeLibsPaths)
+    [1610743816] FUNC        OpenContainer(iProjectPath, iRealPath, iIsFileReadOnly)
+    [1610743817] FUNC        Quit()
+    [1610743818] FUNC        IsAlive()
+
+== #1 DISPATCH: CATIAHostCallback
+    iid={47D94BAE-4009-4162-87FD-EFA8BC7D9A44}  funcs=13  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        OnBeforeRun()
+    [1610743809] FUNC        OnAfterRun()
+    [1610743810] FUNC        OnBeforePause()
+    [1610743811] FUNC        OnAfterPause()
+    [1610743812] FUNC        ShowMacroLibraries()
+    [1610743813] FUNC        InsertObjectResolution()
+
+== #2 ALIAS: UINT_PTR
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #3 DISPATCH: CATIAVBAContainer
+    iid={4E96295D-3D4A-4AA7-8F9F-164AEF3CEE30}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        GetName()
+    [1610743809] FUNC        IsReadOnly()
+    [1610743810] FUNC        ProgramCount()
+    [1610743811] FUNC        GetScriptProgramName(iIndex)
+    [1610743812] FUNC        GetScriptProgramFromIndex(iIndex)
+    [1610743813] FUNC        GetScriptProgramFromName(iScriptName)
+    [1610743814] FUNC        RemoveScriptProgram(iIndex)
+    [1610743815] FUNC        RenameScriptProgram(iIndex, iNewScriptName)
+    [1610743816] FUNC        CreateScriptProgram(iScriptName)
+    [1610743817] FUNC        Save()
+    [1610743818] FUNC        IsZombied()
+    [1610743819] FUNC        SetZombied(iZombied)
+    [1610743820] FUNC        FormCount()
+    [1610743821] FUNC        GetFormName(iIndex)
+    [1610743822] FUNC        GetFormFromIndex(iIndex)
+    [1610743823] FUNC        GetFormFromName(iFormName)
+    [1610743824] FUNC        RemoveForm(iIndex)
+    [1610743825] FUNC        RenameForm(iIndex, iNewFormName)
+
+== #4 DISPATCH: CATIAVBAProgram
+    iid={3A9E52FD-79E9-46F6-9C13-BEC9F687257E}  funcs=15  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        GetName()
+    [1610743809] FUNC        IsReadOnly()
+    [1610743810] FUNC        GetScriptText()
+    [1610743811] FUNC        SetScriptText(iScriptText)
+    [1610743812] FUNC        IsZombied()
+    [1610743813] FUNC        GetIDispatch()
+    [1610743814] FUNC        Run(iFunctionName, iParams, oReturnValue, oErrorSource, oErrorDescription)
+    [1610743815] FUNC        ShowCode()
+
+== #5 DISPATCH: CATIAVBAForm
+    iid={02F6DFC1-B69C-431C-9E27-85A6A112F851}  funcs=11  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        GetName()
+    [1610743809] FUNC        Display()
+    [1610743810] FUNC        IsReadOnly()
+    [1610743811] FUNC        IsZombied()
+
+== #6 DISPATCH: _CATIAApp
+    iid={621052BE-F2A9-11D4-A3AA-00D0B756AD5D}  funcs=10  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] PROP_GET    CATIA()
+    [1610743809] PROP_GET    DELMIA()
+    [1610743810] PROP_GET    DMU()
+
+== #7 ALIAS: _CATIAVBAHostingApplication
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #8 ALIAS: CATIAApp
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #9 COCLASS: CATIAAppObj
+    iid={5A29422A-F2B0-11D4-A3AA-00D0B756AD5D}  funcs=0  vars=0  impltypes=1
+    implements[0] _CATIAApp (DEFAULT)
+
+== #10 COCLASS: CATIAVBAHostingApplicationImpl
+    iid={0663D095-471D-11D2-9AA3-00A024941EF0}  funcs=0  vars=0  impltypes=2
+    implements[0] CATIAVBAHostingApplication (DEFAULT)
+    implements[1] _CATIAApp (0)

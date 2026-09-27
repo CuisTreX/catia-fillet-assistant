@@ -1,0 +1,340 @@
+# D:\Programs\CATIA\win_b64\code\bin\DNBMHIItfTypeLib.tlb
+# 库名: DNBMHIItf
+# 说明: CATIA V5 DNBMHIInterfaces Object Library
+# 属性: (IID('{F0095CB7-ED36-4DC5-8D36-7BE80D1EAAF8}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: MHISaveAccess
+    iid={89F7AE80-8203-4FE2-9F39-14723326D280}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        SaveToPPRHub(iDetailingName, iOverwriteDetailing)
+    [1610940417] FUNC        GetLoadParameters()
+    [1610940418] FUNC        GetDetailingNames(oCurrentlyLoadedDetailing)
+
+== #1 DISPATCH: MHILoadParameters
+    iid={2551C841-E234-4888-91EE-EEB185308A56}  funcs=36  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        GetSelectedObjectID()
+    [1610940417] FUNC        GetBranchIDs()
+    [1610940418] FUNC        GetDetailingID()
+    [1610940419] FUNC        GetProductBOMID()
+    [1610940420] FUNC        GetResourceTreeID()
+    [1610940421] FUNC        GetProcessTreeID()
+    [1610940422] FUNC        SetSelectedObjectID(iSelectedObjectID)
+    [1610940423] FUNC        SetBranchIDs(iListBranchIDs)
+    [1610940424] FUNC        SetDetailingID(iDetailingID)
+    [1610940425] FUNC        SetProductBOMID(iProductBOMID)
+    [1610940426] FUNC        SetResourceTreeID(iResourceTreeID)
+    [1610940427] FUNC        SetProcessTreeID(iProcessTreeID)
+    [1610940428] FUNC        SetFilters(iFilters)
+    [1610940429] FUNC        GetFilters()
+
+== #2 DISPATCH: MHIReloadAccess
+    iid={9C662E03-96F2-4AFD-8ACA-56205CC2FC94}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        SetFilters(iFilters)
+    [1610940417] FUNC        ReloadFromPPRHub()
+
+== #3 DISPATCH: MHIQueryServices
+    iid={85E94E2D-EB51-4E02-8EF2-FFD78E7929DA}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Find(iObjectType, iAttributeNameList, iAttributeValueList)
+    [1610940417] FUNC        GetRelatedObjects(iObjectID, iRelationName)
+    [1610940418] FUNC        GetType(iListIDs)
+
+== #4 ENUM: DNBMHIObjType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=5  impltypes=0
+    [var 1073741824] DNBMHIObjType_PROCESS
+    [var 1073741825] DNBMHIObjType_RESOURCE
+    [var 1073741826] DNBMHIObjType_PRODUCT
+    [var 1073741827] DNBMHIObjType_MANUFACTURING_ASSEMBLY
+    [var 1073741828] DNBMHIObjType_MANUFACTURING_KITS
+        DNBMHIObjType_PROCESS = 0
+        DNBMHIObjType_RESOURCE = 1
+        DNBMHIObjType_PRODUCT = 2
+        DNBMHIObjType_MANUFACTURING_ASSEMBLY = 3
+        DNBMHIObjType_MANUFACTURING_KITS = 4
+
+== #5 DISPATCH: MHIPlanningContext
+    iid={EA2F265F-966D-4A3E-A625-0F23F8E29693}  funcs=30  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        LoadPlanningContext(iLoadOption)
+    [1610940417] FUNC        SpecifyLoadVolume(iOperator, iClearence, iXmin, iXmax, iYmin, iYmax, iZmin, iZmax)
+    [1610940418] FUNC        SpecifyReferenceObjects(iReferenceObjectIDs)
+    [1610940419] FUNC        SetNewDocumentLoadMode(iNewDocLoadMode)
+    [1610940420] FUNC        SetLoadParameters(iLoadParameters)
+    [1610940421] FUNC        IsContextLoadedFromParent()
+    [1610940422] FUNC        DisableSaveOfContext(iDisableContextSave)
+    [1610940423] FUNC        CreateContextDoc(oErrorMessages)
+
+== #6 ENUM: DNBMHIPlanningContextLoadOption
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=4  impltypes=0
+    [var 1073741824] DNBMHIPlanningContextLoadOption_ANY
+    [var 1073741825] DNBMHIPlanningContextLoadOption_ROLLUP_CGR
+    [var 1073741826] DNBMHIPlanningContextLoadOption_OBJECTS
+    [var 1073741827] DNBMHIPlanningContextLoadOption_NEW_VOLUME
+        DNBMHIPlanningContextLoadOption_ANY = 0
+        DNBMHIPlanningContextLoadOption_ROLLUP_CGR = 1
+        DNBMHIPlanningContextLoadOption_OBJECTS = 2
+        DNBMHIPlanningContextLoadOption_NEW_VOLUME = 3
+
+== #7 ENUM: DNBMHIVolumeBoundaryOperator
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=4  impltypes=0
+    [var 1073741824] DNBMHIVolumeBoundaryOperator_FULLY_IN
+    [var 1073741825] DNBMHIVolumeBoundaryOperator_FULLY_OUT
+    [var 1073741826] DNBMHIVolumeBoundaryOperator_PARTLY_IN
+    [var 1073741827] DNBMHIVolumeBoundaryOperator_PARTLY_OUT
+        DNBMHIVolumeBoundaryOperator_FULLY_IN = 0
+        DNBMHIVolumeBoundaryOperator_FULLY_OUT = 1
+        DNBMHIVolumeBoundaryOperator_PARTLY_IN = 2
+        DNBMHIVolumeBoundaryOperator_PARTLY_OUT = 3
+
+== #8 DISPATCH: MHIOpenAccess
+    iid={0A8422C7-72E4-42B3-9967-AB7E25EF4864}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        ConnectToPPRHub(iUsername, iPassword)
+    [1610940417] FUNC        CreateLoadParameters()
+    [1610940418] FUNC        LoadFromPPRHub(iLoadParameters, iCreateDefaultWindow, iIsReadOnly, oErrorMessages)
+
+== #9 DISPATCH: MHIObjectServices
+    iid={FB8491F3-4A90-4C5E-ABCA-B20A2CA52956}  funcs=23  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Insert(iListObjectIDs, iObjectType, iInsertType)
+
+== #10 ENUM: DNBMHIInsertType
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=2  impltypes=0
+    [var 1073741824] DNBMHIInsertType_HIERARCHY
+    [var 1073741825] DNBMHIInsertType_FLAT_LIST
+        DNBMHIInsertType_HIERARCHY = 0
+        DNBMHIInsertType_FLAT_LIST = 1
+
+== #11 DISPATCH: MHIContext
+    iid={4353CDA3-C3E5-449D-8E59-56DBEE74320A}  funcs=29  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        LoadContext(iContextName, iLoadOption)
+    [1610940417] FUNC        CreateUserContext(iRefProcessID, iContextName, iUserCtxDescription, iListContextObjectIDs)
+    [1610940418] FUNC        SetNewDocumentLoadMode(iNewDocLoadMode)
+    [1610940419] FUNC        SetLoadParameters(iLoadParameters)
+    [1610940420] FUNC        IsContextLoadedFromParent()
+    [1610940421] FUNC        DisableSaveOfContext(iDisableContextSave)
+    [1610940422] FUNC        CreateContextDoc(oErrorMessages)
+
+== #12 ENUM: DNBMHIContextLoadOption
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=3  impltypes=0
+    [var 1073741824] DNBMHIContextLoadOption_ANY
+    [var 1073741825] DNBMHIContextLoadOption_ROLLUP_CGR
+    [var 1073741826] DNBMHIContextLoadOption_OBJECTS
+        DNBMHIContextLoadOption_ANY = 0
+        DNBMHIContextLoadOption_ROLLUP_CGR = 1
+        DNBMHIContextLoadOption_OBJECTS = 2
+
+== #13 ALIAS: DNBIAMHIContext
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #14 ALIAS: DNBIAMHILoadParameters
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #15 ALIAS: DNBIAMHIObjectServices
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #16 ALIAS: DNBIAMHIOpenAccess
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #17 ALIAS: DNBIAMHIPlanningContext
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #18 ALIAS: DNBIAMHIQueryServices
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #19 ALIAS: DNBIAMHIReloadAccess
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #20 ALIAS: DNBIAMHISaveAccess
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #21 MODULE: IID_DNBMHIInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=8  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_MHISaveAccess
+    [var 1073741826] IID_MHIReloadAccess
+    [var 1073741827] IID_MHIQueryServices
+    [var 1073741828] IID_MHIPlanningContext
+    [var 1073741829] IID_MHIOpenAccess
+    [var 1073741830] IID_MHIObjectServices
+    [var 1073741831] IID_MHILoadParameters
+    [var 1073741832] IID_MHIContext

@@ -1,0 +1,168 @@
+# D:\Programs\CATIA\win_b64\code\bin\BehaviorTypeLib.tlb
+# 库名: BehaviorTypeLib
+# 说明: CATIA V5 CATBehaviorInterfaces Object Library
+# 属性: (IID('{14F198C2-0761-11D1-A5B1-00A0C9469177}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: Behavior
+    iid={FCBDCAAE-2946-11D3-B051-F06094EB7DE3}  funcs=30  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Behaviors()
+    [1610940417] FUNC        TestInput(pName)
+    [1610940418] FUNC        GetInput(pName)
+    [1610940419] FUNC        TestOutput(pName)
+    [1610940420] FUNC        GetOutput(pName)
+    [1610940421] FUNC        PutOutput(pName, oValue)
+    [1610940422] FUNC        Activate()
+    [1610940423] FUNC        Deactivate()
+
+== #1 DISPATCH: Behaviors
+    iid={7ACD9BE6-3CBE-11D3-B051-F06094EB7DE3}  funcs=24  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Item(iIndex)
+
+== #2 DISPATCH: BehaviorVBScript
+    iid={FCCCCAAE-2846-12D3-B051-F06074EB7DE3}  funcs=37  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Behaviors()
+    [1610940417] FUNC        TestInput(pName)
+    [1610940418] FUNC        GetInput(pName)
+    [1610940419] FUNC        TestOutput(pName)
+    [1610940420] FUNC        GetOutput(pName)
+    [1610940421] FUNC        PutOutput(pName, oValue)
+    [1610940422] FUNC        Activate()
+    [1610940423] FUNC        Deactivate()
+    [1611005952] FUNC        TestInternal(pName)
+    [1611005953] FUNC        GetInternal(pName)
+    [1611005954] FUNC        PutInternal(pName, oValue)
+    [1611005955] FUNC        Start()
+    [1611005956] FUNC        Done()
+    [1611005957] FUNC        Suspend()
+    [1611005958] FUNC        Cancel()
+
+== #3 DISPATCH: BehaviorExtension
+    iid={FEBDCAAE-2936-11B3-B051-F06094EB7CD3}  funcs=32  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    Behaviors()
+    [1610940417] FUNC        TestInput(pName)
+    [1610940418] FUNC        GetInput(pName)
+    [1610940419] FUNC        TestOutput(pName)
+    [1610940420] FUNC        GetOutput(pName)
+    [1610940421] FUNC        PutOutput(pName, oValue)
+    [1610940422] FUNC        Activate()
+    [1610940423] FUNC        Deactivate()
+    [1611005952] PROP_GET    ExtensionClass()
+    [1611005953] FUNC        SelectBehavior(BehaviorName)
+
+== #4 ALIAS: CATIABehavior
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #5 ALIAS: CATIABehaviorExtension
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #6 ALIAS: CATIABehaviorVBScript
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #7 ALIAS: CATIABehaviors
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #8 ENUM: foo_CATBehaviorInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_CATBehaviorInterfaces
+        foo_CATBehaviorInterfaces = 0
+
+== #9 MODULE: IID_CATBehaviorInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=4  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_Behavior
+    [var 1073741826] IID_BehaviorVBScript
+    [var 1073741827] IID_BehaviorExtension
+    [var 1073741828] IID_Behaviors

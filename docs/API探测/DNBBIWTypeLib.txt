@@ -1,0 +1,157 @@
+# D:\Programs\CATIA\win_b64\code\bin\DNBBIWTypeLib.tlb
+# 库名: DNBBIW
+# 说明: CATIA V5 DNBDpmBIWInterfaces Object Library
+# 属性: (IID('{A6BF295D-4BEF-0000-020A-6E0A4F000000}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: BIWActivityStation
+    iid={A6BF58AA-0557-0000-020A-6E0A4F000000}  funcs=30  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    GoalNumberPointFasteners()
+    [1610940416] PROP_PUT    GoalNumberPointFasteners()
+    [1610940418] PROP_GET    GoalLengthCurveFasteners()
+    [1610940418] PROP_PUT    GoalLengthCurveFasteners()
+    [1610940420] PROP_GET    EstimatedInvestmentCost()
+    [1610940420] PROP_PUT    EstimatedInvestmentCost()
+    [1610940422] PROP_GET    MaxAllowableCycleTime()
+    [1610940422] PROP_PUT    MaxAllowableCycleTime()
+
+== #1 DISPATCH: BIWActivityPointFastening
+    iid={A6BF262B-BBED-0000-020A-6E0A4F000000}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    TimePerFastening()
+    [1610940416] PROP_PUT    TimePerFastening()
+    [1610940418] PROP_GET    NumberSpecifiedPointFasteners()
+    [1610940418] PROP_PUT    NumberSpecifiedPointFasteners()
+
+== #2 DISPATCH: BIWActivityGrouping
+    iid={A6BF2204-9E63-0000-020A-6E0A4F000000}  funcs=30  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    GoalNumberPointFasteners()
+    [1610940416] PROP_PUT    GoalNumberPointFasteners()
+    [1610940418] PROP_GET    GoalLengthCurveFasteners()
+    [1610940418] PROP_PUT    GoalLengthCurveFasteners()
+    [1610940420] PROP_GET    GoalInvestmentCost()
+    [1610940420] PROP_PUT    GoalInvestmentCost()
+    [1610940422] PROP_GET    MaxAllowableCycleTime()
+    [1610940422] PROP_PUT    MaxAllowableCycleTime()
+
+== #3 DISPATCH: BIWActivityCurveFastening
+    iid={A6BF2773-8336-0000-020A-6E0A4F000000}  funcs=26  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    CurveFastenerProductionRate()
+    [1610940416] PROP_PUT    CurveFastenerProductionRate()
+    [1610940418] PROP_GET    LengthSpecifiedCurveFasteners()
+    [1610940418] PROP_PUT    LengthSpecifiedCurveFasteners()
+
+== #4 ALIAS: DELMIABIWActivityCurveFastening
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #5 ALIAS: DELMIABIWActivityGrouping
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #6 ALIAS: DELMIABIWActivityPointFastening
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #7 ALIAS: DELMIABIWActivityStation
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #8 ENUM: foo_DNBDpmBIWInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_DNBDpmBIWInterfaces
+        foo_DNBDpmBIWInterfaces = 0
+
+== #9 MODULE: IID_DNBDpmBIWInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=4  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_BIWActivityStation
+    [var 1073741826] IID_BIWActivityPointFastening
+    [var 1073741827] IID_BIWActivityGrouping
+    [var 1073741828] IID_BIWActivityCurveFastening

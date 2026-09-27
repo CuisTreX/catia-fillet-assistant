@@ -1,0 +1,169 @@
+# D:\Programs\CATIA\win_b64\code\bin\DNBStateTypeLib.tlb
+# 库名: DNBState
+# 说明: CATIA V5 DNBStateInterfaces Object Library
+# 属性: (IID('{655A0376-C6BD-4B8F-9763-AFDDA406B423}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: DNB3DStateManagement
+    iid={943459AA-635B-4FF3-89FE-2A398B5CD481}  funcs=31  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Create3DState(iStateName, iObject, iListDefn)
+    [1610940417] FUNC        Delete3DState(iState)
+    [1610940418] FUNC        ListAll3DStates()
+    [1610940419] FUNC        GetNumberOf3DStates()
+    [1610940420] FUNC        ListAll3DStatesOnObject(iObj, oListStates)
+    [1610940421] FUNC        GetNumberOf3DStatesOnObject(iObj)
+    [1610940422] FUNC        Get3DState(iObject, iStateName)
+    [1610940423] FUNC        List3DStatesInActivity(iProcess, iConditionType, oStates)
+    [1610940424] FUNC        GetNumberof3DStatesInActivity(iProcess, iConditionType)
+
+== #1 DISPATCH: DNB3DState
+    iid={FDA2CB53-E01A-4473-9A66-6B28BE30ADC2}  funcs=37  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] PROP_GET    StateName()
+    [1610940416] PROP_PUT    StateName()
+    [1610940418] FUNC        Add3DState(iState)
+    [1610940419] FUNC        Add3DPosition(iPosition)
+    [1610940420] FUNC        Remove3DState(iState)
+    [1610940421] FUNC        Remove3DPosition(iPosition)
+    [1610940422] FUNC        Assign3DState(iProcess, iCondition)
+    [1610940423] FUNC        Unassign3DState(iProcess)
+    [1610940424] FUNC        GetChildren(iType, oChildrenArray)
+    [1610940425] FUNC        GetNumberOfChildren(iType)
+    [1610940426] FUNC        GetRelatedObject()
+    [1610940427] FUNC        GetRelatedActivities(iConditionType, oActivitiesArray)
+    [1610940428] FUNC        GetNumberofRelatedActivities(iConditionType)
+    [1610940429] FUNC        GetConditionName(iRelatedActivity)
+    [1610940430] FUNC        GetParent()
+
+== #2 DISPATCH: DNB3DStates
+    iid={1DC87D59-C3EB-4611-B236-0CF874DFA9BE}  funcs=25  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] FUNC        GetItem(IDName)
+    [1610874883] PROP_GET    Name()
+    [1610874884] PROP_GET    Count()
+    [    -4] PROP_GET    _NewEnum()
+    [1610940416] FUNC        Item(iIndex)
+    [1610940417] PROP_GET    StatesCount()
+
+== #3 DISPATCH: StateViewerSettingAtt
+    iid={8617237E-7580-476B-95E1-2056C06928E6}  funcs=31  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    CSPFilter()
+    [1611005952] PROP_PUT    CSPFilter()
+    [1611005954] FUNC        GetCSPFilterInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetCSPFilterLock(iLocked)
+
+== #4 ALIAS: DNBIA3DState
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #5 ALIAS: DNBIA3DStateManagement
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #6 ALIAS: DNBIA3DStates
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #7 ALIAS: DNBIAStateViewerSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #8 ENUM: foo_DNBStateInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_DNBStateInterfaces
+        foo_DNBStateInterfaces = 0
+
+== #9 MODULE: IID_DNBStateInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=4  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_DNB3DStateManagement
+    [var 1073741826] IID_DNB3DState
+    [var 1073741827] IID_DNB3DStates
+    [var 1073741828] IID_StateViewerSettingAtt

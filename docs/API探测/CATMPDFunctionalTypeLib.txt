@@ -1,0 +1,9 @@
+# D:\Programs\CATIA\win_b64\code\bin\CATMPDFunctionalTypeLib.tlb
+# 库名: CATMPDFunctional
+# 说明: CATIA V5 CATMPDFunctionalInterfaces Object Library
+# 属性: (IID('{3D732BD2-C9FB-4931-B59B-842C889D35FB}'), 0, 1, 0, 0, 8)
+
+== #0 ENUM: foo_CATMPDFunctionalInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_CATMPDFunctionalInterfaces
+        foo_CATMPDFunctionalInterfaces = 0

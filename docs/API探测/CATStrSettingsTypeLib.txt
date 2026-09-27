@@ -1,0 +1,232 @@
+# D:\Programs\CATIA\win_b64\code\bin\CATStrSettingsTypeLib.tlb
+# 库名: CATStrSettingsTypeLib
+# 说明: CATIA V5 StructureInterfaces Object Library
+# 属性: (IID('{8AD08B63-AF05-4E2D-A550-2C53FC1EE4D2}'), 0, 1, 0, 0, 8)
+
+== #0 DISPATCH: TypeESSObjectSettingAtt
+    iid={DB4899BE-8E8B-448F-A4DD-3B530833C67F}  funcs=35  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    MemberTypes()
+    [1611005952] PROP_PUT    MemberTypes()
+    [1611005954] FUNC        GetMemberTypesInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetMemberTypesLock(iLocked)
+    [1611005956] PROP_GET    PlateTypes()
+    [1611005956] PROP_PUT    PlateTypes()
+    [1611005958] FUNC        GetPlateTypesInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetPlateTypesLock(iLocked)
+
+== #1 DISPATCH: PathESSRessourcesSettingAtt
+    iid={9C53C189-55B3-48F9-807B-0611E0D179B1}  funcs=39  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    SectionsCatalogPath()
+    [1611005952] PROP_PUT    SectionsCatalogPath()
+    [1611005954] FUNC        GetSectionsCatalogPathInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetSectionsCatalogPathLock(iLocked)
+    [1611005956] PROP_GET    ResolvedSectionsPath()
+    [1611005956] PROP_PUT    ResolvedSectionsPath()
+    [1611005958] FUNC        GetResolvedSectionsPathInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetResolvedSectionsPathLock(iLocked)
+    [1611005960] PROP_GET    ThicknessListPath()
+    [1611005960] PROP_PUT    ThicknessListPath()
+    [1611005962] FUNC        GetThicknessListPathInfo(ioAdminLevel, ioLocked)
+    [1611005963] FUNC        SetThicknessListPathLock(iLocked)
+
+== #2 DISPATCH: MaterialESSObjectSettingAtt
+    iid={48026C06-59A1-4FED-96FB-2F5A9E5FAB7D}  funcs=35  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] PROP_GET    MemberMaterial()
+    [1611005952] PROP_PUT    MemberMaterial()
+    [1611005954] FUNC        GetMemberMaterialInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetMemberMaterialLock(iLocked)
+    [1611005956] PROP_GET    PlateMaterial()
+    [1611005956] PROP_PUT    PlateMaterial()
+    [1611005958] FUNC        GetPlateMaterialInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetPlateMaterialLock(iLocked)
+
+== #3 DISPATCH: ColorSTDObjectSettingAtt
+    iid={35FFD1E4-0C69-402F-AD6E-5C199FDC9F2D}  funcs=35  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] FUNC        GetShapeColor(oShapeColorR, oShapeColorG, oShapeColorB)
+    [1611005953] FUNC        SetShapeColor(iShapeColorR, iShapeColorG, iShapeColorB)
+    [1611005954] FUNC        GetShapeColorInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetShapeColorLock(iLocked)
+    [1611005956] FUNC        GetPlateColor(oPlateColorR, oPlateColorG, oPlateColorB)
+    [1611005957] FUNC        SetPlateColor(iPlateColorR, iPlateColorG, iPlateColorB)
+    [1611005958] FUNC        GetPlateColorInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetPlateColorLock(iLocked)
+
+== #4 DISPATCH: ColorESSObjectSettingAtt
+    iid={25F95D6F-4334-43D6-A4D1-7E07022FA5F5}  funcs=35  vars=0  impltypes=1
+    implements[0] IDispatch (0)
+    [1610612736] FUNC        QueryInterface(riid, ppvObj)
+    [1610612737] FUNC        AddRef()
+    [1610612738] FUNC        Release()
+    [1610678272] FUNC        GetTypeInfoCount(pctinfo)
+    [1610678273] FUNC        GetTypeInfo(itinfo, lcid, pptinfo)
+    [1610678274] FUNC        GetIDsOfNames(riid, rgszNames, cNames, lcid, rgdispid)
+    [1610678275] FUNC        Invoke(dispidMember, riid, lcid, wFlags, pdispparams, pvarResult, pexcepinfo, puArgErr)
+    [1610743808] FUNC        Destructor()
+    [1610743809] FUNC        GetMetaObject()
+    [1610743810] FUNC        IsA()
+    [1610743811] FUNC        IsAKindOf()
+    [1610743812] FUNC        GetImpl()
+    [1610743813] FUNC        SetImpl()
+    [1610743814] FUNC        IsNull()
+    [1610743815] FUNC        IsEqual()
+    [1610743816] FUNC        SurChargeQI()
+    [1610743817] FUNC        ChangeComponentState()
+    [1610874880] PROP_GET    Application()
+    [1610874881] PROP_GET    Parent()
+    [1610874882] PROP_GET    Name()
+    [1610874882] PROP_PUT    Name()
+    [1610874884] FUNC        GetItem(IDName)
+    [1610940416] FUNC        Commit()
+    [1610940417] FUNC        Rollback()
+    [1610940418] FUNC        ResetToAdminValues()
+    [1610940419] FUNC        ResetToAdminValuesByName(iAttList)
+    [1610940420] FUNC        SaveRepository()
+    [1611005952] FUNC        GetMemberColor(oMemberColorR, oMemberColorG, oMemberColorB)
+    [1611005953] FUNC        SetMemberColor(iMemberColorR, iMemberColorG, iMemberColorB)
+    [1611005954] FUNC        GetMemberColorInfo(ioAdminLevel, ioLocked)
+    [1611005955] FUNC        SetMemberColorLock(iLocked)
+    [1611005956] FUNC        GetPlateColor(oPlateColorR, oPlateColorG, oPlateColorB)
+    [1611005957] FUNC        SetPlateColor(iPlateColorR, iPlateColorG, iPlateColorB)
+    [1611005958] FUNC        GetPlateColorInfo(ioAdminLevel, ioLocked)
+    [1611005959] FUNC        SetPlateColorLock(iLocked)
+
+== #5 ALIAS: CATIAColorESSObjectSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #6 ALIAS: CATIAColorSTDObjectSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #7 ALIAS: CATIAMaterialESSObjectSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #8 ALIAS: CATIAPathESSRessourcesSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #9 ALIAS: CATIATypeESSObjectSettingAtt
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=0  impltypes=0
+
+== #10 ENUM: foo_StructureInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=0  vars=1  impltypes=0
+    [var 1073741824] foo_StructureInterfaces
+        foo_StructureInterfaces = 0
+
+== #11 MODULE: IID_StructureInterfaces
+    iid={00000000-0000-0000-0000-000000000000}  funcs=1  vars=5  impltypes=0
+    [1610612736] FUNC        foo()
+    [var 1073741825] IID_TypeESSObjectSettingAtt
+    [var 1073741826] IID_PathESSRessourcesSettingAtt
+    [var 1073741827] IID_MaterialESSObjectSettingAtt
+    [var 1073741828] IID_ColorSTDObjectSettingAtt
+    [var 1073741829] IID_ColorESSObjectSettingAtt
