@@ -15,7 +15,7 @@
 
 ```text
 1) 双击「安装环境-Win7-Python38.bat」  ← 用 Python 3.8 建独立 venv
-                                         （D:\Programs\CodexTools\catia-fillet-assistant-win7）
+                                         （F:\CodeX\04-Codex工作区\tools\catia-fillet-assistant-win7）
 2) 双击「打包便携版-Win7.bat」         ← PyInstaller 4.10 出包：
                                          dist\CATIA倒圆角助手-便携版-v*\
                                          dist\CATIA倒圆角助手-文件夹模式-v*\

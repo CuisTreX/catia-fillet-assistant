@@ -2,7 +2,7 @@
 chcp 65001 >nul
 setlocal
 rem Win7 打包：必须用 Python 3.8 的 venv + PyInstaller 4.10，打出来的 exe 才能在 Win7 上跑
-set "VENV_PY=D:\Programs\CodexTools\catia-fillet-assistant-win7\venv\Scripts\python.exe"
+set "VENV_PY=F:\CodeX\04-Codex������\tools\catia-fillet-assistant-win7\venv\Scripts\python.exe"
 set "HERE=%~dp0"
 
 if not exist "%VENV_PY%" (

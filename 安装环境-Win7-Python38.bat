@@ -5,7 +5,7 @@ rem ============================================================================
 rem  Win7 专用安装脚本：用 Python 3.8 建一个**独立** venv（不影响现有的 3.13 环境）
 rem  原因：Python 3.9+ 的 exe 在 Win7 上跑不起来，必须用 3.8.x
 rem ============================================================================
-set "TARGET_DIR=D:\Programs\CodexTools\catia-fillet-assistant-win7"
+set "TARGET_DIR=F:\CodeX\04-Codex������\tools\catia-fillet-assistant-win7"
 set "VENV_PY=%TARGET_DIR%\venv\Scripts\python.exe"
 set "HERE=%~dp0"
 

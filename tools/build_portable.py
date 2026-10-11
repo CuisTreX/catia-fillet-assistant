@@ -1,7 +1,7 @@
 """打包「便携版」：单文件 exe + 配置文件 + 启动/诊断脚本 + 中文说明。
 
 用法（在项目目录下）：
-    D:\\Programs\\CodexTools\\catia-fillet-assistant\\venv\\Scripts\\python.exe tools\\build_portable.py
+    F:\\CodeX\\04-Codex工作区\\tools\\catia-fillet-assistant\\venv\\Scripts\\python.exe tools\\build_portable.py
 
 产物：
     dist\\CATIA倒圆角助手-便携版\\

@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 >nul
 setlocal
-set "TARGET_DIR=D:\Programs\CodexTools\catia-fillet-assistant"
+set "TARGET_DIR=F:\CodeX\04-Codex¹¤×÷Çø\tools\catia-fillet-assistant"
 set "VENV_PY=%TARGET_DIR%\venv\Scripts\python.exe"
 
 if not exist "%TARGET_DIR%" mkdir "%TARGET_DIR%"

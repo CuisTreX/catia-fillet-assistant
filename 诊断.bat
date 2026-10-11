@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 >nul
 setlocal
-set "VENV_PY=D:\Programs\CodexTools\catia-fillet-assistant\venv\Scripts\python.exe"
+set "VENV_PY=F:\CodeX\04-Codex¹¤×÷Çø\tools\catia-fillet-assistant\venv\Scripts\python.exe"
 set "HERE=%~dp0"
 
 if not exist "%VENV_PY%" (
